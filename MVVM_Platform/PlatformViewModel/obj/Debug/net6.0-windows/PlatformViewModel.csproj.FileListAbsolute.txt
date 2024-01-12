@@ -1,0 +1,15 @@
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\bin\Debug\net6.0-windows\PlatformViewModel.deps.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\bin\Debug\net6.0-windows\PlatformViewModel.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\bin\Debug\net6.0-windows\PlatformViewModel.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\obj\Debug\net6.0-windows\PlatformViewModel.csproj.AssemblyReference.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\obj\Debug\net6.0-windows\PlatformViewModel.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\obj\Debug\net6.0-windows\PlatformViewModel.AssemblyInfoInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\obj\Debug\net6.0-windows\PlatformViewModel.AssemblyInfo.cs
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\obj\Debug\net6.0-windows\PlatformViewModel.csproj.CoreCompileInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\obj\Debug\net6.0-windows\PlatformViewModel.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\obj\Debug\net6.0-windows\refint\PlatformViewModel.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\obj\Debug\net6.0-windows\PlatformViewModel.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\obj\Debug\net6.0-windows\ref\PlatformViewModel.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\bin\Debug\net6.0-windows\PlatformModel.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\bin\Debug\net6.0-windows\PlatformModel.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\obj\Debug\net6.0-windows\PlatformViewModel.csproj.CopyComplete

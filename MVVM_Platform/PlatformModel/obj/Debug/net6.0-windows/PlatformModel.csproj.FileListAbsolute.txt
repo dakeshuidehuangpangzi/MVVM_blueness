@@ -1,0 +1,12 @@
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\bin\Debug\net6.0-windows\PlatformModel.deps.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\bin\Debug\net6.0-windows\PlatformModel.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\bin\Debug\net6.0-windows\PlatformModel.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\obj\Debug\net6.0-windows\PlatformModel.csproj.AssemblyReference.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\obj\Debug\net6.0-windows\PlatformModel.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\obj\Debug\net6.0-windows\PlatformModel.AssemblyInfoInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\obj\Debug\net6.0-windows\PlatformModel.AssemblyInfo.cs
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\obj\Debug\net6.0-windows\PlatformModel.csproj.CoreCompileInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\obj\Debug\net6.0-windows\PlatformModel.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\obj\Debug\net6.0-windows\refint\PlatformModel.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\obj\Debug\net6.0-windows\PlatformModel.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\obj\Debug\net6.0-windows\ref\PlatformModel.dll
