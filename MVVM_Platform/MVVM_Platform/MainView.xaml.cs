@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using PlatformViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +29,18 @@ namespace MVVM_Platform
 
 
             InitializeComponent();
+            this.DataContext = App.Current.Services.GetService<MainViewModel>();
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+
+        private void Hidden_Click(object sender, RoutedEventArgs e)
+        {
         }
     }
 }

@@ -7,10 +7,60 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ComponentConfigView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page\MonitorPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page\HistoryPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page\ManualOperationPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page\ReportPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page\AlarmPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page\TrendPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page\SettingsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="ComponentConfigView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page\MonitorPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page\HistoryPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page\ManualOperationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page\ReportPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page\AlarmPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="LoginView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page\TrendPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page\SettingsPage.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

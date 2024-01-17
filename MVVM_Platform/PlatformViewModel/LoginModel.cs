@@ -18,7 +18,7 @@ namespace PlatformViewModel
         [RelayCommand]
         public void Login( object obj)
         {
-            (obj as Window).DialogResult = false;
+            (obj as Window).DialogResult = true;
         }
     }
 }

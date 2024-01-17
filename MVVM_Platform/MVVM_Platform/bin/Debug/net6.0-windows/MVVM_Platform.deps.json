@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "MVVM_Platform/1.0.0": {
         "dependencies": {
+          "Assets": "1.0.0",
           "PlatformView": "1.0.0",
           "PlatformViewModel": "1.0.0"
         },
@@ -42,7 +43,15 @@
           }
         }
       },
+      "Assets/1.0.0": {
+        "runtime": {
+          "Assets.dll": {}
+        }
+      },
       "PlatformModel/1.0.0": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2"
+        },
         "runtime": {
           "PlatformModel.dll": {}
         }
@@ -90,6 +99,11 @@
       "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
       "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Assets/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "PlatformModel/1.0.0": {
       "type": "project",

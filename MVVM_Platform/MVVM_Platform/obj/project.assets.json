@@ -53,9 +53,25 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Assets/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Assets.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assets.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "PlatformModel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.2.2"
+        },
         "compile": {
           "bin/placeholder/PlatformModel.dll": {}
         },
@@ -195,6 +211,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Assets/1.0.0": {
+      "type": "project",
+      "path": "../Assets/Assets.csproj",
+      "msbuildProject": "../Assets/Assets.csproj"
+    },
     "PlatformModel/1.0.0": {
       "type": "project",
       "path": "../PlatformModel/PlatformModel.csproj",
@@ -213,6 +234,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "Assets >= 1.0.0",
       "PlatformView >= 1.0.0",
       "PlatformViewModel >= 1.0.0"
     ]
@@ -251,6 +273,9 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
+            "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Assets\\Assets.csproj": {
+              "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Assets\\Assets.csproj"
+            },
             "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\PlatformViewModel.csproj": {
               "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\PlatformViewModel.csproj"
             },

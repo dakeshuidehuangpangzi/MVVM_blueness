@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\digital_display.ttf" />
+    <None Remove="Fonts\iconfont.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\digital_display.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\iconfont.ttf" />
+  </ItemGroup>
+
+</Project>

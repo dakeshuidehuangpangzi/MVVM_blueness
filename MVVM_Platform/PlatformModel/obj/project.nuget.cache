@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jrKHXmoIvtN15z/V95DmGm2XoYNcMvhCFqU0nel86awvntBLgegzkugC7QzMfYzBSXEZzFLumQGSRxyyQgse3Q==",
+  "dgSpecHash": "luDq4h4l4PanEHiAqFl83XCJJEDSgkOIb+gzWvYQv3vGbkx5hqKrQZy+7+x3Os26DFoIp3fboOd9gimlFQsP7g==",
   "success": true,
   "projectFilePath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformModel\\PlatformModel.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\黄胖子\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512"
+  ],
   "logs": []
 }

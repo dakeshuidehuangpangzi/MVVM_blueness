@@ -4,5 +4,7 @@
              xmlns:local="clr-namespace:MVVM_Platform"
              StartupUri="MainView.xaml">
     <Application.Resources>
+        <FontFamily x:Key="Iconfont">pack://application:,,,/Assets;component/Fonts/#iconfont</FontFamily>
+        
     </Application.Resources>
 </Application>

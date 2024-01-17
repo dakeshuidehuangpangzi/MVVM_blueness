@@ -9,10 +9,66 @@
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
         Name="win"
-        Title="LoginView" Height="450" Width="250">
+        Title="登录界面" Height="450" Width="250">
     <WindowChrome.WindowChrome>
         <WindowChrome GlassFrameThickness="1"/>
     </WindowChrome.WindowChrome>
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <Style TargetType="Button" x:Key="NormalButtonStyle">
+                        <Setter Property="Effect">
+                            <Setter.Value>
+                                <DropShadowEffect BlurRadius="10" Color="#333" ShadowDepth="0" Opacity="0.1"/>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border BorderBrush="#16a1ff" CornerRadius="9" 
+                                            BorderThickness="1"
+                                            ClipToBounds="True">
+                                        <Border.Background>
+                                            <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                                                <GradientStop Color="#16a1ff" Offset="0.3"/>
+                                                <GradientStop Color="#01c8fe" Offset="1"/>
+
+                                            </LinearGradientBrush>
+                                        </Border.Background>
+                                        <Grid>
+                                            <Border CornerRadius="5">
+                                                <Border.Background>
+                                                    <RadialGradientBrush Center="0,1" GradientOrigin="0,1" RadiusX="0.4" RadiusY="0.8">
+                                                        <GradientStop Color="#88b4fee7" Offset="0.2"/>
+                                                        <GradientStop Color="Transparent" Offset="1"/>
+                                                    </RadialGradientBrush>
+                                                </Border.Background>
+                                            </Border>
+                                            <Border CornerRadius="4" Background="{TemplateBinding Background}"/>
+                                            <Border Background="#11000000" CornerRadius="5" Visibility="Collapsed" Name="mask"/>
+
+                                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                        </Grid>
+
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="mask" Property="Visibility" Value="Visible"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>                    
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
     <Grid ClipToBounds="True">
         <Ellipse Width="300" Height="600" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,-200,-200,0">
             <Ellipse.Fill>
@@ -45,8 +101,10 @@
                     VerticalContentAlignment="Center"/>
             <TextBox Text="{Binding User.Password}" Grid.Row="4" 
                      VerticalContentAlignment="Center"/>
-            <Button Content="登   录" Grid.Row="6"  Command="{Binding LoginCommand}"
-                    CommandParameter="{Binding ElementName=win}"/>
+            <Button Content="登   录" Grid.Row="6" 
+                    Command="{Binding LoginCommand}"
+                    CommandParameter="{Binding ElementName=win}"
+                    Style="{StaticResource NormalButtonStyle}"/>
         </Grid>
     </Grid>
 </Window>

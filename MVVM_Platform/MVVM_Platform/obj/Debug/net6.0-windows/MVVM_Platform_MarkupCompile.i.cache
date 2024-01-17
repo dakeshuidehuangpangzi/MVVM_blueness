@@ -9,12 +9,12 @@ MVVM_Platform
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\App.xaml
+10991627010
 
-3853604363
+15-570331217
+201-660292236
+ComponentConfigView.xaml;LoginView.xaml;MainView.xaml;Page\AlarmPage.xaml;Page\HistoryPage.xaml;Page\ManualOperationPage.xaml;Page\MonitorPage.xaml;Page\ReportPage.xaml;Page\SettingsPage.xaml;Page\TrendPage.xaml;
 
-6-641826146
-200-406165692
-App.xaml;LoginView.xaml;MainView.xaml;
-
-True
+False
 

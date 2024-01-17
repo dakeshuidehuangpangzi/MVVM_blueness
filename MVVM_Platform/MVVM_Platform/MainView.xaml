@@ -5,8 +5,114 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MVVM_Platform"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        ResizeMode="NoResize"
+        FontFamily="Microsoft YaHei" FontSize="12" FontWeight="ExtraLight"
+        WindowStartupLocation="CenterScreen" Background="#f1f5fd"
+        Title="MainWindow" Height="800" Width="1200" >
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="1"/>
+    </WindowChrome.WindowChrome>
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Assets;component/Styles/ButtonStyles.xaml"/>
+                <ResourceDictionary>
+                    <Style x:Key="MenuButtonStyle" TargetType="RadioButton">
+                        <Setter Property="Margin" Value="5"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="RadioButton">
+                                    <Border x:Name="root" Background="Transparent"  BorderThickness="1" CornerRadius="8">
+                                        <Grid >
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition />
+                                                <RowDefinition Height="24"/>
+                                            </Grid.RowDefinitions>
+                                            <TextBlock Text="{Binding MenuIcon}"
+                                                        VerticalAlignment="Center" HorizontalAlignment="Center"
+                                                       FontFamily="{StaticResource  Iconfont}" FontSize="28"
+                                                       Margin="0,8,0,0"
+                                                       Foreground="#66000000" Name="icon" Opacity="0.7"/>
+                                            <TextBlock Text="{Binding MenuHeader}"
+                                                        VerticalAlignment="Center" HorizontalAlignment="Center"
+                                                       Foreground="#99000000" Name="header" Grid.Row="1" FontSize="11"/>
+                                        </Grid>
 
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsChecked" Value="True">
+                                            <Setter Property="Background" Value="#2216a1ff" TargetName="root"/>
+                                            <Setter Property="BorderBrush" Value="#4416a1ff" TargetName="root"/>
+                                            <Setter Property="Foreground" TargetName="icon" Value="orange"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.Effect>
+            <BlurEffect Radius="0"/>
+        </Grid.Effect>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.ColumnSpan="2">
+            <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                <Button Content="&#xe7e6;"  Height="30" Width="40" Margin="20,0,0,0" 
+                        Foreground="#555" Click="Hidden_Click" 
+                         HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Center"
+                        Style="{StaticResource WindowControlButtonStyle}" FontFamily="{StaticResource Iconfont}"/>
+                <Button Content="&#xe653;" Height="30" Width="40"  Click="Button_Click" 
+                        Foreground="#555" 
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Style="{StaticResource WindowControlButtonStyle}" FontFamily="{StaticResource Iconfont}"/>
+            </StackPanel>
+        </Grid>
+        
+        <Border Grid.Row="1" >
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Color="Transparent" Offset="0.1"/>
+                    <GradientStop Color="#1116a1ff" Offset="0.2"/>
+                    <GradientStop Color="#1116a1ff" Offset="0.5"/>
+                    <GradientStop Color="Transparent" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Color="Transparent" Offset="0"/>
+                    <GradientStop Color="Gold" Offset="0.3"/>
+                    <GradientStop Color="Transparent" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <ItemsControl ItemsSource="{Binding Menus}" VerticalAlignment="Center" Margin="0,0,0,100">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <RadioButton IsChecked="{Binding IsSelected}" GroupName="menu" 
+                                 Style="{StaticResource MenuButtonStyle}"
+                                     Command="{Binding DataContext.ShowPageCommand ,RelativeSource={RelativeSource AncestorType=Window}}"
+                                     CommandParameter="{Binding}"
+                                 />
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </Border>
+
+        <Grid Grid.Column="1" Grid.Row="1" >
+            <UserControl   Content="{Binding ViewContent}" Margin="0,5"/>
+        </Grid>
     </Grid>
 </Window>
