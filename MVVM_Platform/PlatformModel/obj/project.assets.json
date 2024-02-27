@@ -17,6 +17,19 @@
         "build": {
           "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
+      },
+      "Assets/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Assets.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assets.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -51,10 +64,16 @@
         "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
         "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
       ]
+    },
+    "Assets/1.0.0": {
+      "type": "project",
+      "path": "../Assets/Assets.csproj",
+      "msbuildProject": "../Assets/Assets.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "Assets >= 1.0.0",
       "CommunityToolkit.Mvvm >= 8.2.2"
     ]
   },
@@ -91,7 +110,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Assets\\Assets.csproj": {
+              "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Assets\\Assets.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

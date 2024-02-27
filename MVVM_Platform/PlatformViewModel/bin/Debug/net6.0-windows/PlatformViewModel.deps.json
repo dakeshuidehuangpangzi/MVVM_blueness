@@ -43,8 +43,14 @@
           }
         }
       },
+      "Assets/1.0.0": {
+        "runtime": {
+          "Assets.dll": {}
+        }
+      },
       "PlatformModel/1.0.0": {
         "dependencies": {
+          "Assets": "1.0.0",
           "CommunityToolkit.Mvvm": "8.2.2"
         },
         "runtime": {
@@ -79,6 +85,11 @@
       "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
       "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Assets/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "PlatformModel/1.0.0": {
       "type": "project",

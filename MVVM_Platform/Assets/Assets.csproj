@@ -18,4 +18,8 @@
     <Resource Include="Fonts\iconfont.ttf" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="AllEnum\" />
+  </ItemGroup>
+
 </Project>

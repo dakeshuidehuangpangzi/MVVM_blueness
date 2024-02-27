@@ -9,6 +9,7 @@
       "MVVM_Platform/1.0.0": {
         "dependencies": {
           "Assets": "1.0.0",
+          "CommunityToolkit.Mvvm": "8.2.2",
           "PlatformView": "1.0.0",
           "PlatformViewModel": "1.0.0"
         },
@@ -50,6 +51,7 @@
       },
       "PlatformModel/1.0.0": {
         "dependencies": {
+          "Assets": "1.0.0",
           "CommunityToolkit.Mvvm": "8.2.2"
         },
         "runtime": {

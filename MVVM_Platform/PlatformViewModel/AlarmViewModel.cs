@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 
 namespace PlatformViewModel
 {
-    internal class AlarmViewModel : ObservableObject
+    public partial class AlarmViewModel : ObservableObject
     {
+        [ObservableProperty]
+        private string ? alarmName = "报警界面";
     }
 }

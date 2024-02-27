@@ -70,6 +70,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Assets": "1.0.0",
           "CommunityToolkit.Mvvm": "8.2.2"
         },
         "compile": {
@@ -235,6 +236,7 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "Assets >= 1.0.0",
+      "CommunityToolkit.Mvvm >= 8.2.2",
       "PlatformView >= 1.0.0",
       "PlatformViewModel >= 1.0.0"
     ]
@@ -294,6 +296,12 @@
     "frameworks": {
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

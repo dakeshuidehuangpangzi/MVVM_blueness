@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PlatformViewModel
 {
-    internal class HistoryViewModel : ObservableObject
+    public partial class HistoryViewModel : ObservableObject
     {
     }
 }

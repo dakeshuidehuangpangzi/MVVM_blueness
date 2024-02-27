@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PlatformViewModel
 {
-    internal class SettingViewModel : ObservableObject
+    public partial class SettingViewModel : ObservableObject
     {
     }
 }

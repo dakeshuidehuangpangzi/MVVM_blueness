@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PlatformViewModel
 {
-    internal class TrendViewModel : ObservableObject
+    public partial class TrendViewModel : ObservableObject
     {
     }
 }
