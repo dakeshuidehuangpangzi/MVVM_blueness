@@ -1,0 +1,12 @@
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IDAL\bin\Debug\net6.0\IDAL.deps.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IDAL\bin\Debug\net6.0\IDAL.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IDAL\bin\Debug\net6.0\IDAL.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IDAL\obj\Debug\net6.0\IDAL.csproj.AssemblyReference.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IDAL\obj\Debug\net6.0\IDAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IDAL\obj\Debug\net6.0\IDAL.AssemblyInfoInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IDAL\obj\Debug\net6.0\IDAL.AssemblyInfo.cs
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IDAL\obj\Debug\net6.0\IDAL.csproj.CoreCompileInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IDAL\obj\Debug\net6.0\IDAL.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IDAL\obj\Debug\net6.0\refint\IDAL.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IDAL\obj\Debug\net6.0\IDAL.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IDAL\obj\Debug\net6.0\ref\IDAL.dll

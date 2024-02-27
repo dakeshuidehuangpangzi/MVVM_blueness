@@ -1,0 +1,12 @@
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Entity\bin\Debug\net6.0\Entity.deps.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Entity\bin\Debug\net6.0\Entity.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Entity\bin\Debug\net6.0\Entity.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Entity\obj\Debug\net6.0\Entity.csproj.AssemblyReference.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Entity\obj\Debug\net6.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Entity\obj\Debug\net6.0\Entity.AssemblyInfoInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Entity\obj\Debug\net6.0\Entity.AssemblyInfo.cs
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Entity\obj\Debug\net6.0\Entity.csproj.CoreCompileInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Entity\obj\Debug\net6.0\Entity.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Entity\obj\Debug\net6.0\refint\Entity.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Entity\obj\Debug\net6.0\Entity.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Entity\obj\Debug\net6.0\ref\Entity.dll
