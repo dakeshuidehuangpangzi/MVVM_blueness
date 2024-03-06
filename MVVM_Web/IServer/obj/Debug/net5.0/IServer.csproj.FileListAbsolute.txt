@@ -1,0 +1,5 @@
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IServer\obj\Debug\net5.0\IServer.csproj.AssemblyReference.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IServer\obj\Debug\net5.0\IServer.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IServer\obj\Debug\net5.0\IServer.AssemblyInfoInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IServer\obj\Debug\net5.0\IServer.AssemblyInfo.cs
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IServer\obj\Debug\net5.0\IServer.csproj.CoreCompileInputs.cache

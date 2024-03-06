@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MVVM_Web.props" />
+</Project>

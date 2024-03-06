@@ -1,0 +1,14 @@
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\bin\Debug\net7.0\EfCoreTest.deps.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\bin\Debug\net7.0\EfCoreTest.runtimeconfig.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\bin\Debug\net7.0\EfCoreTest.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\bin\Debug\net7.0\EfCoreTest.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCoreTest.csproj.AssemblyReference.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCoreTest.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCoreTest.AssemblyInfoInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCoreTest.AssemblyInfo.cs
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCoreTest.csproj.CoreCompileInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCoreTest.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\refint\EfCoreTest.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCoreTest.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCoreTest.genruntimeconfig.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\ref\EfCoreTest.dll

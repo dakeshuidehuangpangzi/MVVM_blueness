@@ -1,0 +1,492 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\MVVM_Web\\MVVM_Web.csproj": {}
+  },
+  "projects": {
+    "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\黄胖子\\.nuget\\packages\\",
+        "outputPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\黄胖子\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\NetGit": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IDAL\\IDAL.csproj": {
+                "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IDAL\\IDAL.csproj"
+              },
+              "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\Models.csproj": {
+                "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\Models.csproj"
+              },
+              "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server.EFCore\\EFCore.csproj": {
+                "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server.EFCore\\EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IDAL\\IDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IDAL\\IDAL.csproj",
+        "projectName": "IDAL",
+        "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IDAL\\IDAL.csproj",
+        "packagesPath": "C:\\Users\\黄胖子\\.nuget\\packages\\",
+        "outputPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\黄胖子\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\NetGit": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server.EFCore\\EFCore.csproj": {
+                "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server.EFCore\\EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IServer\\IServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IServer\\IServer.csproj",
+        "projectName": "IServer",
+        "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IServer\\IServer.csproj",
+        "packagesPath": "C:\\Users\\黄胖子\\.nuget\\packages\\",
+        "outputPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\黄胖子\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\NetGit": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\Models.csproj": {
+                "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\黄胖子\\.nuget\\packages\\",
+        "outputPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\黄胖子\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\NetGit": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\MVVM_Web\\MVVM_Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\MVVM_Web\\MVVM_Web.csproj",
+        "projectName": "MVVM_Web",
+        "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\MVVM_Web\\MVVM_Web.csproj",
+        "packagesPath": "C:\\Users\\黄胖子\\.nuget\\packages\\",
+        "outputPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\MVVM_Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\黄胖子\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "D:\\NetGit": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\DAL\\DAL.csproj": {
+                "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\DAL\\DAL.csproj"
+              },
+              "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IServer\\IServer.csproj": {
+                "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IServer\\IServer.csproj"
+              },
+              "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server\\Server.csproj": {
+                "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server\\Server.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server.EFCore\\EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server.EFCore\\EFCore.csproj",
+        "projectName": "EFCore",
+        "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server.EFCore\\EFCore.csproj",
+        "packagesPath": "C:\\Users\\黄胖子\\.nuget\\packages\\",
+        "outputPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\黄胖子\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\NetGit": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server\\Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server\\Server.csproj",
+        "projectName": "Server",
+        "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server\\Server.csproj",
+        "packagesPath": "C:\\Users\\黄胖子\\.nuget\\packages\\",
+        "outputPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\黄胖子\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\NetGit": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IDAL\\IDAL.csproj": {
+                "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IDAL\\IDAL.csproj"
+              },
+              "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IServer\\IServer.csproj": {
+                "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IServer\\IServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

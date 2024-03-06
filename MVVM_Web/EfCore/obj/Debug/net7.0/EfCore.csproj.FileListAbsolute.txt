@@ -1,0 +1,14 @@
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\bin\Debug\net7.0\EfCore.deps.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\bin\Debug\net7.0\EfCore.runtimeconfig.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\bin\Debug\net7.0\EfCore.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\bin\Debug\net7.0\EfCore.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCore.csproj.AssemblyReference.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCore.AssemblyInfoInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCore.AssemblyInfo.cs
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCore.csproj.CoreCompileInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCore.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\refint\EfCore.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCore.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\EfCore.genruntimeconfig.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\EfCore\obj\Debug\net7.0\ref\EfCore.dll
