@@ -1,4 +1,8 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using BLL;
+using DAL;
+using IBLL;
+using IDAL;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +15,7 @@ namespace PlatformViewModel
     public class ViewModelLocator
     {
       
-
-        public  static IServiceProvider ConfigureServices()
+        public  static ServiceCollection ConfigureServices()
         {
             var services = new ServiceCollection();
 
@@ -24,7 +27,10 @@ namespace PlatformViewModel
             services.AddTransient<MonitorViewModel>();
             services.AddTransient<SettingViewModel>();
             services.AddTransient<TrendViewModel>();
-            return services.BuildServiceProvider();
+            services.AddTransient<ILoginBLL,LoginBLL>();
+            services.AddTransient<ILoginDal, LoginDal>();
+
+            return services;
         }
 
     }
