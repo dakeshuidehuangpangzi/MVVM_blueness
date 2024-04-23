@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.Extensions.DependencyInjection;
+using PlatformViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,7 @@ namespace MVVM_Platform
         public MonitorPage()
         {
             InitializeComponent();
+            this.DataContext = App.Current.Services.GetService<MonitorViewModel>();
         }
     }
 }

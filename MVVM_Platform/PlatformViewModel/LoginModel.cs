@@ -5,10 +5,13 @@ using PlatformModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Threading;
+using CommunicationComponent;
+using BLL;
 
 namespace PlatformViewModel
 {
@@ -17,8 +20,12 @@ namespace PlatformViewModel
         [ObservableProperty]
         UserModel user=new UserModel();
         ILoginBLL _loginBLL;
+
         [ObservableProperty]
         string errorMessage;
+
+        [ObservableProperty]
+        public bool isLogin = true;
 
         [ObservableProperty]
         public Dispatcher mainDisPacher;
@@ -28,6 +35,11 @@ namespace PlatformViewModel
         {
             _loginBLL=loginBLL;
             mainDisPacher = dispatcher;//实例线程调度
+            AbsUnit socket =new SocketUnit("127.0.0.1,502");
+            //socket.Connect();
+            socket = new SerialUnit("10,19200,8,0,1");
+            socket.Connect();
+
         }
 
         [RelayCommand]
@@ -44,6 +56,7 @@ namespace PlatformViewModel
                 ErrorMessage = "密码不能为空"; 
                 return;
             }
+            isLogin=false;
             Task.Run(async() => {
                 try
                 {
@@ -57,6 +70,10 @@ namespace PlatformViewModel
                 catch (Exception ex)
                 {
                     ErrorMessage = ex.Message;
+                }
+                finally
+                {
+                    isLogin = true;
                 }
 
             });

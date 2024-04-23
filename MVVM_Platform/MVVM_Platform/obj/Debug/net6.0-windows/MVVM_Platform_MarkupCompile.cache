@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\App.xaml
-10-786218098
+111660051970
 
-131951490699
-209255220906
-ComponentConfigView.xaml;Page\AlarmPage.xaml;Page\HistoryPage.xaml;Page\ManualOperationPage.xaml;Page\MonitorPage.xaml;Page\ReportPage.xaml;Page\SettingsPage.xaml;Page\TrendPage.xaml;Views\LoginView.xaml;Views\MainView.xaml;
+14-404439301
+212-2133685242
+ComponentConfigView.xaml;Dialog\WaringDialog.xaml;Page\AlarmPage.xaml;Page\HistoryPage.xaml;Page\ManualOperationPage.xaml;Page\MonitorPage.xaml;Page\ReportPage.xaml;Page\SettingsPage.xaml;Page\TrendPage.xaml;Views\LoginView.xaml;Views\MainView.xaml;
 
 False
 

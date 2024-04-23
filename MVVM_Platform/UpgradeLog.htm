@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+ <html xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><meta content="en-us" http-equiv="Content-Language" /><meta content="text/html; charset=utf-16" http-equiv="Content-Type" /><title _locID="ConversionReport0">
+          迁移报告
+        </title><style> 
+                    /* Body style, for the entire document */
+                    body
+                    {
+                        background: #F3F3F4;
+                        color: #1E1E1F;
+                        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    /* Header1 style, used for the main title */
+                    h1
+                    {
+                        padding: 10px 0px 10px 10px;
+                        font-size: 21pt;
+                        background-color: #E2E2E2;
+                        border-bottom: 1px #C1C1C2 solid; 
+                        color: #201F20;
+                        margin: 0;
+                        font-weight: normal;
+                    }
+
+                    /* Header2 style, used for "Overview" and other sections */
+                    h2
+                    {
+                        font-size: 18pt;
+                        font-weight: normal;
+                        padding: 15px 0 5px 0;
+                        margin: 0;
+                    }
+
+                    /* Header3 style, used for sub-sections, such as project name */
+                    h3
+                    {
+                        font-weight: normal;
+                        font-size: 15pt;
+                        margin: 0;
+                        padding: 15px 0 5px 0;
+                        background-color: transparent;
+                    }
+
+                    /* Color all hyperlinks one color */
+                    a
+                    {
+                        color: #1382CE;
+                    }
+
+                    /* Table styles */ 
+                    table
+                    {
+                        border-spacing: 0 0;
+                        border-collapse: collapse;
+                        font-size: 10pt;
+                    }
+
+                    table th
+                    {
+                        background: #E7E7E8;
+                        text-align: left;
+                        text-decoration: none;
+                        font-weight: normal;
+                        padding: 3px 6px 3px 6px;
+                    }
+
+                    table td
+                    {
+                        vertical-align: top;
+                        padding: 3px 6px 5px 5px;
+                        margin: 0px;
+                        border: 1px solid #E7E7E8;
+                        background: #F7F7F8;
+                    }
+
+                    /* Local link is a style for hyperlinks that link to file:/// content, there are lots so color them as 'normal' text until the user mouse overs */
+                    .localLink
+                    {
+                        color: #1E1E1F;
+                        background: #EEEEED;
+                        text-decoration: none;
+                    }
+
+                    .localLink:hover
+                    {
+                        color: #1382CE;
+                        background: #FFFF99;
+                        text-decoration: none;
+                    }
+
+                    /* Center text, used in the over views cells that contain message level counts */ 
+                    .textCentered
+                    {
+                        text-align: center;
+                    }
+
+                    /* The message cells in message tables should take up all avaliable space */
+                    .messageCell
+                    {
+                        width: 100%;
+                    }
+
+                    /* Padding around the content after the h1 */ 
+                    #content 
+                    {
+	                    padding: 0px 12px 12px 12px; 
+                    }
+
+                    /* The overview table expands to width, with a max width of 97% */ 
+                    #overview table
+                    {
+                        width: auto;
+                        max-width: 75%; 
+                    }
+
+                    /* The messages tables are always 97% width */
+                    #messages table
+                    {
+                        width: 97%;
+                    }
+
+                    /* All Icons */
+                    .IconSuccessEncoded, .IconInfoEncoded, .IconWarningEncoded, .IconErrorEncoded
+                    {
+                        min-width:18px;
+                        min-height:18px; 
+                        background-repeat:no-repeat;
+                        background-position:center;
+                    }
+
+                    /* Success icon encoded */
+                    .IconSuccessEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconSuccess#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABcElEQVR4Xq2TsUsCURzHv15g8ZJcBWlyiYYgCIWcb9DFRRwMW5TA2c0/QEFwFkxxUQdxVlBwCYWOi6IhWgQhBLHJUCkhLr/BW8S7gvrAg+N+v8/v+x68Z8MGy+XSCyABQAXgBgHGALoASkIIDWSLeLBetdHryMjd5IxQPWT4rn1c/P7+xxp72Cs9m5SZ0Bq2vPnbPFafK2zDvmNHypdC0BPkLlQhxJsCAhQoZwdZU5mwxh720qGo8MzTxTTKZDPCx2HoVzp6lz0Q9tKhyx0kGs8Ny+TkWRKk8lCROwEduhyg9l/6lunOPSfmH3NUH6uQ0KHLAe7JYvJjevm+DAMGJHToKtigE+vwvIidxLamb8IBY9e+C5LiXREkfho3TSd06HJA13/oh6T51MTsfQbHrsMynQ5dDihFjiK8JJAU9AKIWTp76dCVN7HWHrajmUEGvyF9nkbAE6gLIS7kTUyuf2gscLoJrElZo/Mvj+nPz/kLTmfnEwP3tB0AAAAASUVORK5CYII=);
+                    }
+
+                    /* Information icon encoded */
+                    .IconInfoEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconInformation#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHElEQVR4Xs2TsUoDQRRF7wwoziokjZUKadInhdhukR9YP8DMX1hYW+QvdsXa/QHBbcXC7W0CamWTQnclFutceIQJwwaWNLlwm5k5d94M76mmaeCrrmsLYOocY12FcxZFUeozCqKqqgYA8uevv1H6VuPxcwlfk5N92KHBxfFeCSAxxswlYAW/Xr989x/mv9gkhtyMDhcAxgzRsp7flj8B/HF1RsMXq+NZMkopaHe7lbKxQUEIGbKsYNoGn969060hZBkQex/W8oRQwsQaW2o3Ago2SVcJUzAgY3N0lTCZZm+zPS8HB51gMmS1DEYyOz9acKO1D8JWTlafKIMxdhvlfdyT94Vv5h7P8Ky7nQzACmhvKq3zk3PjW9asz9D/1oigecsioooAAAAASUVORK5CYII=);
+                    }
+
+                    /* Warning icon encoded */
+                    .IconWarningEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconWarning#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAx0lEQVR4XpWSMQ7CMAxFf4xAyBMLCxMrO8dhaBcuwdCJS3RJBw7SA/QGTCxdWJgiQYWKXJWKIXHIlyw5lqr34tQgEOdcBsCOx5yZK3hCCKdYXneQkh4pEfqzLfu+wVDSyyzFoJjfz9NB+pAF+eizx2Vruts0k15mPgvS6GYvpVtQhB61IB/dk6AF6fS4Ben0uIX5odtFe8Q/eW1KvFeH4e8khT6+gm5B+t3juyDt7n0jpe+CANTd+oTUjN/U3yVaABnSUjFz/gFq44JaVSCXeQAAAABJRU5ErkJggg==);
+                    }
+
+                    /* Error icon encoded */
+                    .IconErrorEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconError#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABQElEQVR4XqWTvUoEQRCE6wYPZUA80AfwAQz23uCMjA7MDRQEIzPBVEyNTQUFIw00vcQTTMzuAh/AxEQQT8HF/3G/oGGnEUGuoNnd6qoZuqltyKEsyzVJq5I6rnUp6SjGeGhESikzzlc1eL7opfuVbrqbU1Zw9NCgtQMaZpY0eNnaaL2fHusvTK5vKu7sjSS1Y4y3QUA6K3e3Mau5UFDyMP7tYF9o8cAHZv68vipoIJg971PZIZ5HiwdvYGGvFVFHmGmZ2MxwmQYPXubPl9Up0tfoMQGetXd6mRbvhBw+boZ6WF7Mbv1+GsHRk0fQmPAH1GfmZirbCfDJ61tw3Px8/8pZsPAG4jlVhcPgZ7adwNWBB68lkRQWFiTgFlbnLY3DGGM7izIJIyT/jjIvEJw6fdJTc6krDzh6aMwMP9bvDH4ADSsa9uSWVJkAAAAASUVORK5CYII=);
+                    }
+                 </style><script type="text/javascript" language="javascript"> 
+          
+            // Startup 
+            // Hook up the the loaded event for the document/window, to linkify the document content
+            var startupFunction = function() { linkifyElement("messages"); };
+            
+            if(window.attachEvent)
+            {
+              window.attachEvent('onload', startupFunction);
+            }
+            else if (window.addEventListener) 
+            {
+              window.addEventListener('load', startupFunction, false);
+            }
+            else 
+            {
+              document.addEventListener('load', startupFunction, false);
+            } 
+            
+            // Toggles the visibility of table rows with the specified name 
+            function toggleTableRowsByName(name)
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  if(!!currentName && currentName.indexOf(name) == 0)
+                  {
+                      var isVisible = allRows[i].style.display == ''; 
+                      isVisible ? allRows[i].style.display = 'none' : allRows[i].style.display = '';
+                  }
+               }
+            }
+            
+            function scrollToFirstVisibleRow(name) 
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  var isVisible = allRows[i].style.display == ''; 
+                  if(!!currentName && currentName.indexOf(name) == 0 && isVisible)
+                  {
+                     allRows[i].scrollIntoView(true); 
+                     return true; 
+                  }
+               }
+               
+               return false;
+            }
+            
+            // Linkifies the specified text content, replaces candidate links with html links 
+            function linkify(text)
+            {
+                 if(!text || 0 === text.length)
+                 {
+                     return text; 
+                 }
+
+                 // Find http, https and ftp links and replace them with hyper links 
+                 var urlLink = /(http|https|ftp)\:\/\/[a-zA-Z0-9\-\.]+(:[a-zA-Z0-9]*)?\/?([a-zA-Z0-9\-\._\?\,\/\\\+&%\$#\=~;\{\}])*/gi;
+                 
+                 return text.replace(urlLink, '<a href="$&">$&</a>') ;
+            }
+            
+            // Linkifies the specified element by ID
+            function linkifyElement(id)
+            {
+                var element = document.getElementById(id);
+                if(!!element)
+                {
+                  element.innerHTML = linkify(element.innerHTML); 
+                }
+            }
+            
+            function ToggleMessageVisibility(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              toggleTableRowsByName("MessageRowClass" + projectName);
+              toggleTableRowsByName('MessageRowHeaderShow' + projectName);
+              toggleTableRowsByName('MessageRowHeaderHide' + projectName); 
+            }
+            
+            function ScrollToFirstVisibleMessage(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              // First try the 'Show messages' row
+              if(!scrollToFirstVisibleRow('MessageRowHeaderShow' + projectName))
+              {
+                // Failed to find a visible row for 'Show messages', try an actual message row 
+                scrollToFirstVisibleRow('MessageRowClass' + projectName); 
+              }
+            }
+           </script></head><body><h1 _locID="ConversionReport">
+          迁移报告 - </h1><div id="content"><h2 _locID="OverviewTitle">概述</h2><div id="overview"><table><tr><th></th><th _locID="ProjectTableHeader">项目</th><th _locID="PathTableHeader">路径</th><th _locID="ErrorsTableHeader">错误</th><th _locID="WarningsTableHeader">警告</th><th _locID="MessagesTableHeader">消息</th></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Assets">Assets</a></strong></td><td>Assets\Assets.csproj</td><td class="textCentered"><a href="#AssetsError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#BLL">BLL</a></strong></td><td>BLL\BLL.csproj</td><td class="textCentered"><a href="#BLLError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Common">Common</a></strong></td><td>Common\Common.csproj</td><td class="textCentered"><a href="#CommonError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#CommunicationComponent">CommunicationComponent</a></strong></td><td>CommunicationComponent\CommunicationComponent.csproj</td><td class="textCentered"><a href="#CommunicationComponentError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#DAL">DAL</a></strong></td><td>DAL\DAL.csproj</td><td class="textCentered"><a href="#DALError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Entity">Entity</a></strong></td><td>Entity\Entity.csproj</td><td class="textCentered"><a href="#EntityError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#IBLL">IBLL</a></strong></td><td>IBLL\IBLL.csproj</td><td class="textCentered"><a href="#IBLLError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#IDAL">IDAL</a></strong></td><td>IDAL\IDAL.csproj</td><td class="textCentered"><a href="#IDALError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#MVVM_Platform">MVVM_Platform</a></strong></td><td>MVVM_Platform\MVVM_Platform.csproj</td><td class="textCentered"><a href="#MVVM_PlatformError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#PlatformModel">PlatformModel</a></strong></td><td>PlatformModel\PlatformModel.csproj</td><td class="textCentered"><a href="#PlatformModelError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#PlatformView">PlatformView</a></strong></td><td>PlatformView\PlatformView.csproj</td><td class="textCentered"><a href="#PlatformViewError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#PlatformViewModel">PlatformViewModel</a></strong></td><td>PlatformViewModel\PlatformViewModel.csproj</td><td class="textCentered"><a href="#PlatformViewModelError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#UIControl">UIControl</a></strong></td><td>UIControl\UIControl.csproj</td><td class="textCentered"><a href="#UIControlError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#2.View">2.View</a></strong></td><td>2.View</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#3.ViewModels">3.ViewModels</a></strong></td><td>3.ViewModels</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#4.BLL">4.BLL</a></strong></td><td>4.BLL</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#5.DAL">5.DAL</a></strong></td><td>5.DAL</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#Solution"><span _locID="OverviewSolutionSpan">解决方案</span></a></strong></td><td>MVVM_Platform.sln</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('Solution'); return false;">1</a></td></tr></table></div><h2 _locID="SolutionAndProjectsTitle">解决方案和项目</h2><div id="messages"><a name="Assets" /><h3>Assets</h3><table><tr id="AssetsHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="ErrorRowClassAssets"><td class="IconErrorEncoded"><a name="AssetsError" /></td><td class="messageCell"><strong>Assets\Assets.csproj:
+        </strong><span>找不到此项目类型所基于的应用程序。有关更多信息，请尝试此链接: 9a19103f-16f7-4668-be54-9a1e7a4f7556</span></td></tr></table><a name="BLL" /><h3>BLL</h3><table><tr id="BLLHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="ErrorRowClassBLL"><td class="IconErrorEncoded"><a name="BLLError" /></td><td class="messageCell"><strong>BLL\BLL.csproj:
+        </strong><span>找不到此项目类型所基于的应用程序。有关更多信息，请尝试此链接: 9a19103f-16f7-4668-be54-9a1e7a4f7556</span></td></tr></table><a name="Common" /><h3>Common</h3><table><tr id="CommonHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="ErrorRowClassCommon"><td class="IconErrorEncoded"><a name="CommonError" /></td><td class="messageCell"><strong>Common\Common.csproj:
+        </strong><span>找不到此项目类型所基于的应用程序。有关更多信息，请尝试此链接: 9a19103f-16f7-4668-be54-9a1e7a4f7556</span></td></tr></table><a name="CommunicationComponent" /><h3>CommunicationComponent</h3><table><tr id="CommunicationComponentHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="ErrorRowClassCommunicationComponent"><td class="IconErrorEncoded"><a name="CommunicationComponentError" /></td><td class="messageCell"><strong>CommunicationComponent\CommunicationComponent.csproj:
+        </strong><span>找不到此项目类型所基于的应用程序。有关更多信息，请尝试此链接: fae04ec0-301f-11d3-bf4b-00c04f79efbc</span></td></tr></table><a name="DAL" /><h3>DAL</h3><table><tr id="DALHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="ErrorRowClassDAL"><td class="IconErrorEncoded"><a name="DALError" /></td><td class="messageCell"><strong>DAL\DAL.csproj:
+        </strong><span>找不到此项目类型所基于的应用程序。有关更多信息，请尝试此链接: 9a19103f-16f7-4668-be54-9a1e7a4f7556</span></td></tr></table><a name="Entity" /><h3>Entity</h3><table><tr id="EntityHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="ErrorRowClassEntity"><td class="IconErrorEncoded"><a name="EntityError" /></td><td class="messageCell"><strong>Entity\Entity.csproj:
+        </strong><span>找不到此项目类型所基于的应用程序。有关更多信息，请尝试此链接: 9a19103f-16f7-4668-be54-9a1e7a4f7556</span></td></tr></table><a name="IBLL" /><h3>IBLL</h3><table><tr id="IBLLHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="ErrorRowClassIBLL"><td class="IconErrorEncoded"><a name="IBLLError" /></td><td class="messageCell"><strong>IBLL\IBLL.csproj:
+        </strong><span>找不到此项目类型所基于的应用程序。有关更多信息，请尝试此链接: 9a19103f-16f7-4668-be54-9a1e7a4f7556</span></td></tr></table><a name="IDAL" /><h3>IDAL</h3><table><tr id="IDALHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="ErrorRowClassIDAL"><td class="IconErrorEncoded"><a name="IDALError" /></td><td class="messageCell"><strong>IDAL\IDAL.csproj:
+        </strong><span>找不到此项目类型所基于的应用程序。有关更多信息，请尝试此链接: 9a19103f-16f7-4668-be54-9a1e7a4f7556</span></td></tr></table><a name="MVVM_Platform" /><h3>MVVM_Platform</h3><table><tr id="MVVM_PlatformHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="ErrorRowClassMVVM_Platform"><td class="IconErrorEncoded"><a name="MVVM_PlatformError" /></td><td class="messageCell"><strong>MVVM_Platform\MVVM_Platform.csproj:
+        </strong><span>找不到此项目类型所基于的应用程序。有关更多信息，请尝试此链接: 9a19103f-16f7-4668-be54-9a1e7a4f7556</span></td></tr></table><a name="PlatformModel" /><h3>PlatformModel</h3><table><tr id="PlatformModelHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="ErrorRowClassPlatformModel"><td class="IconErrorEncoded"><a name="PlatformModelError" /></td><td class="messageCell"><strong>PlatformModel\PlatformModel.csproj:
+        </strong><span>找不到此项目类型所基于的应用程序。有关更多信息，请尝试此链接: 9a19103f-16f7-4668-be54-9a1e7a4f7556</span></td></tr></table><a name="PlatformView" /><h3>PlatformView</h3><table><tr id="PlatformViewHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="ErrorRowClassPlatformView"><td class="IconErrorEncoded"><a name="PlatformViewError" /></td><td class="messageCell"><strong>PlatformView\PlatformView.csproj:
+        </strong><span>找不到此项目类型所基于的应用程序。有关更多信息，请尝试此链接: 9a19103f-16f7-4668-be54-9a1e7a4f7556</span></td></tr></table><a name="PlatformViewModel" /><h3>PlatformViewModel</h3><table><tr id="PlatformViewModelHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="ErrorRowClassPlatformViewModel"><td class="IconErrorEncoded"><a name="PlatformViewModelError" /></td><td class="messageCell"><strong>PlatformViewModel\PlatformViewModel.csproj:
+        </strong><span>找不到此项目类型所基于的应用程序。有关更多信息，请尝试此链接: 9a19103f-16f7-4668-be54-9a1e7a4f7556</span></td></tr></table><a name="UIControl" /><h3>UIControl</h3><table><tr id="UIControlHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="ErrorRowClassUIControl"><td class="IconErrorEncoded"><a name="UIControlError" /></td><td class="messageCell"><strong>UIControl\UIControl.csproj:
+        </strong><span>找不到此项目类型所基于的应用程序。有关更多信息，请尝试此链接: 9a19103f-16f7-4668-be54-9a1e7a4f7556</span></td></tr></table><a name="2.View" /><h3>2.View</h3><table><tr id="2.ViewHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">2.View 未记录任何消息。
+                  </td></tr></table><a name="3.ViewModels" /><h3>3.ViewModels</h3><table><tr id="3.ViewModelsHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">3.ViewModels 未记录任何消息。
+                  </td></tr></table><a name="4.BLL" /><h3>4.BLL</h3><table><tr id="4.BLLHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">4.BLL 未记录任何消息。
+                  </td></tr></table><a name="5.DAL" /><h3>5.DAL</h3><table><tr id="5.DALHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">5.DAL 未记录任何消息。
+                  </td></tr></table><a name="Solution" /><h3 _locID="ProjectDisplayNameHeader">解决方案</h3><table><tr id="SolutionHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">消息</th></tr><tr name="MessageRowHeaderShowSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          显示 1 其他消息
+        </a></td></tr><tr name="MessageRowClassSolution" style="display: none"><td class="IconInfoEncoded"><a name="SolutionMessage" /></td><td class="messageCell"><strong>MVVM_Platform.sln:
+        </strong><span>解决方案文件不需要迁移。</span></td></tr><tr style="display: none" name="MessageRowHeaderHideSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          隐藏 1 其他消息
+        </a></td></tr></table></div></div></body></html>

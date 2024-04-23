@@ -11,16 +11,13 @@
     <ProjectReference Include="..\Assets\Assets.csproj" />
     <ProjectReference Include="..\PlatformViewModel\PlatformViewModel.csproj" />
     <ProjectReference Include="..\PlatformView\PlatformView.csproj" />
+    <ProjectReference Include="..\UIControl\UIControl.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Views\LoginView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Dialog\" />
   </ItemGroup>
 
   <ItemGroup>

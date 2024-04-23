@@ -25,6 +25,7 @@ namespace MVVM_Platform
         {
             InitializeComponent();
             this.DataContext = App.Current.Services.GetService<LoginModel>();
+            //this.DataContext = App.Current.Services.GetKeyedServices<LoginModel>( "123");
         }
     }
 }

@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ui="clr-namespace:UIControl;assembly=UIControl"
         xmlns:local="clr-namespace:MVVM_Platform"
         mc:Ignorable="d"
         d:DataContext="{d:DesignInstance Type= local:LoginView}"
@@ -30,12 +31,12 @@
                                 <ControlTemplate TargetType="Button">
                                     <Border BorderBrush="#16a1ff" CornerRadius="9" 
                                             BorderThickness="1"
-                                            ClipToBounds="True">
+                                            ClipToBounds="True"
+                                            x:Name="bor">
                                         <Border.Background>
                                             <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
                                                 <GradientStop Color="#16a1ff" Offset="0.3"/>
                                                 <GradientStop Color="#01c8fe" Offset="1"/>
-
                                             </LinearGradientBrush>
                                         </Border.Background>
                                         <Grid>
@@ -53,11 +54,13 @@
                                             <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
                                                               VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
                                         </Grid>
-
                                     </Border>
                                     <ControlTemplate.Triggers>
                                         <Trigger Property="IsMouseOver" Value="True">
                                             <Setter TargetName="mask" Property="Visibility" Value="Visible"/>
+                                        </Trigger>
+                                        <Trigger Property="IsEnabled" Value="False">
+                                            <Setter TargetName="bor" Property="Visibility" Value="Collapsed"/>
                                         </Trigger>
                                     </ControlTemplate.Triggers>
 
@@ -76,6 +79,7 @@
                         </Style.Triggers>
                     </Style>
                 </ResourceDictionary>
+                <ResourceDictionary Source="pack://application:,,,/UIControl;component/Style.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
@@ -105,6 +109,10 @@
                 <RowDefinition Height="30"/>
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <TextBox Text="{Binding User.UserName}" Grid.Row="3"  
@@ -112,11 +120,20 @@
             <TextBox Text="{Binding User.Password}" Grid.Row="4" 
                      VerticalContentAlignment="Center"/>
             <TextBlock Text="{Binding ErrorMessage}" Style="{StaticResource TextBlockStyle}"  Grid.Row="5"/>
-
+            <ui:Cylinder Content="登   录"
+                         Grid.Row="7"   
+                         FontSize="20"
+                         Foreground="Gray"/>
             <Button Content="登   录" Grid.Row="6" 
                     Command="{Binding LoginCommand}"
                     CommandParameter="{Binding ElementName=win}"
-                    Style="{StaticResource NormalButtonStyle}"/>
+                    Style="{StaticResource NormalButtonStyle}"
+                    IsEnabled="{Binding IsLogin}"/>
+
+            <Button Content="登 录"
+                    Grid.Row="8"
+                    Style="{StaticResource ButtonStyle}"
+                    />
         </Grid>
     </Grid>
 </Window>

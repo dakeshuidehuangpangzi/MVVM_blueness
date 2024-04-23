@@ -20,6 +20,7 @@ namespace PlatformViewModel
             var services = new ServiceCollection();
 
             services.AddTransient<LoginModel>();
+            //services.AddKeyedTransient<LoginModel>("123");
             services.AddTransient<MainViewModel>();
             services.AddTransient<AlarmViewModel>();
             services.AddTransient<HistoryViewModel>();
@@ -28,6 +29,7 @@ namespace PlatformViewModel
             services.AddTransient<SettingViewModel>();
             services.AddTransient<TrendViewModel>();
             services.AddTransient<ILoginBLL,LoginBLL>();
+
             services.AddTransient<ILoginDal, LoginDal>();
 
             return services;

@@ -1,0 +1,207 @@
+﻿<Window x:Class="Platform.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:local="clr-namespace:Platform"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        Title="MainWindow" Height="800" Width="1460">
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="20" ResizeBorderThickness="1"/>
+    </WindowChrome.WindowChrome>
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <ControlTemplate TargetType="ToggleButton" x:Key="ArrowButtonTemplate">
+                        <Grid Background="Transparent" Name="back">
+                            <TextBlock Text="&#xe81d;"  
+                           VerticalAlignment="Center" HorizontalAlignment="Center"
+                           RenderTransformOrigin="0.5,0.5" Name="arrow" Foreground="White">
+                            </TextBlock>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter TargetName="arrow" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <RotateTransform Angle="90"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="back" Property="Background" Value="#11000000"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                    <!--修改按钮的控制模板,只改了外形和鼠标悬停后，触发背景色修改-->
+                    <Style TargetType="Button" x:Key="TabCloseButtonStyle">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border VerticalAlignment="Center" HorizontalAlignment="Center" CornerRadius="3" Background="Transparent"
+                                Name="back">
+                                        <Path Data="M0 0 8 8M0 8 8 0" Margin="5"
+                                  Stroke="{TemplateBinding Foreground}" StrokeThickness="1"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#19000000" TargetName="back"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+
+                    <Style TargetType="TabItem">
+                        <Setter Property="Header" Value="{Binding DataContext.TitleName}"/>
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Setter Property="Margin" Value="2,0"/>
+                        <Setter Property="Foreground" Value="#444"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="TabItem">
+                                    <Grid Height="30" Background="{TemplateBinding Background}">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition />
+                                            <ColumnDefinition Width="20"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="{TemplateBinding Header}"  VerticalAlignment="Center" Margin="10,5,5,5"/>
+                                        <Grid Grid.Column="1" Visibility="Visible" x:Name="Close_Page" Background="{TemplateBinding Background}">
+                                            <Button Width="20"  Background="Transparent" Style="{StaticResource TabCloseButtonStyle }" Visibility="Collapsed" Name="close_btn" BorderBrush="Transparent"/>
+                                        </Grid>
+                                    </Grid>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsSelected" Value="True">
+                                            <Setter Property="Visibility" Value="Visible" TargetName="close_btn"/>
+                                        </Trigger>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Visibility" Value="Visible" TargetName="close_btn"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="Background" Value="#FF0ABEFF"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#EEE"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                   
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel>
+        <Grid DockPanel.Dock="Left" Width="180">
+            <Grid.Resources>
+                <Style TargetType="TreeViewItem">
+                    <Setter Property="IsExpanded" Value="{Binding IsExpanded,Mode=TwoWay}"/>
+                    <Setter Property="Background"  Value="Transparent"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="FontSize" Value="12"/>
+                    <Setter Property="BorderThickness" Value="2"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TreeViewItem">
+                                <Grid Background="BlanchedAlmond" Name="root">
+                                    <Grid.InputBindings>
+                                        <MouseBinding  MouseAction="LeftDoubleClick"
+                                                       Command="{Binding OpenViewCommand}"
+                                                       CommandParameter="{Binding}"/>
+                                    </Grid.InputBindings>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition MaxWidth="30"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" MinHeight="36"/>
+                                        <RowDefinition  />
+                                    </Grid.RowDefinitions>
+                                    <Border  x:Name="Bd"
+                                             Background="{TemplateBinding Background}"
+                                             CornerRadius="2" 
+                                             BorderBrush="{TemplateBinding BorderBrush}"
+                                             BorderThickness="{TemplateBinding BorderThickness}"
+                                             Grid.ColumnSpan="2"
+                                              Padding="{TemplateBinding Padding}">
+                                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                      VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                                       SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                                                      ContentSource="Header"
+                                                      />
+                                    </Border>
+                                    <!--增加这个是为了有鼠标悬浮效果和选中后切换背景-->
+                                    <ToggleButton x:Name="Expander" Grid.Column="1" ClickMode="Press"  />
+                                    <!--这个要有子节点才有效果-->
+                                    <ItemsPresenter x:Name="ItemsHost" Margin="18,0,0,0" Grid.ColumnSpan="2" Grid.Row="1" />
+
+                                </Grid>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" TargetName="Bd" Value="#C14FBEFF"/>
+                                    </Trigger>
+                                    <Trigger Property="IsExpanded" Value="false">
+                                        <Setter Property="Visibility" TargetName="ItemsHost" Value="Collapsed"/>
+                                    </Trigger>
+                                    <Trigger Property="HasItems" Value="false">
+                                        <Setter Property="Visibility" TargetName="Expander" Value="Hidden"/>
+                                    </Trigger>
+                                    <MultiTrigger>
+                                        <MultiTrigger.Conditions>
+                                            <Condition Property="IsSelected" Value="true"/>
+                                        </MultiTrigger.Conditions>
+                                        <Setter Property="Background" TargetName="Bd" Value="#FF0ABEFF"/>
+                                        <Setter Property="CornerRadius" TargetName="Bd" Value="10"/>
+                                        <Setter Property="Foreground" Value="#FFFFFFFF"/>
+                                        <Setter Property="Background" TargetName="root" Value="Transparent"/>
+                                    </MultiTrigger>
+
+                                </ControlTemplate.Triggers>
+
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Grid.Resources>
+            <Grid.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#c2e0fa" Offset="0"/>
+                    <GradientStop Color="#f1f5fd" Offset="20"/>
+                    <GradientStop Color="#c2e0fa" Offset="1"/>
+                    <GradientStop Color="#c2e0fa" Offset="4"/>
+
+                </RadialGradientBrush>
+            </Grid.Background>
+            <DockPanel>
+                <Grid DockPanel.Dock="Top" Height="80"/>
+                <TreeView DockPanel.Dock="Bottom"   ItemsSource="{Binding MenuItems}">
+                    <TreeView.ItemTemplate>
+                        <HierarchicalDataTemplate  ItemsSource="{Binding Items}">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="10"/>
+                                    <ColumnDefinition Width="*"/>   
+                                </Grid.ColumnDefinitions>
+                                <TextBlock x:Name="block" Text="-"/>
+                                <TextBlock Text="{Binding Name}" Foreground="Black" Margin="5,0,0,0" FontSize="13" Grid.Column="1"/>
+                            </Grid>
+                        </HierarchicalDataTemplate>
+                    </TreeView.ItemTemplate>
+                </TreeView>
+            </DockPanel>
+        </Grid>
+        <Grid DockPanel.Dock="Top"   Height="80" Background="Sienna">
+            
+        </Grid>
+        <TabControl DockPanel.Dock="Right"  prism:RegionManager.RegionName="MainViewRegionName"  Background="Transparent"/>
+    </DockPanel>
+</Window>
