@@ -6,8 +6,209 @@
              xmlns:local="clr-namespace:Platform.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-        <TextBlock Text="SettingsPage"/>
+    <UserControl.Resources>
+        <Style TargetType="ListBox">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="2"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+            <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled"/>
+            <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Disabled"/>
 
+            <Setter Property="ItemContainerStyle">
+                <Setter.Value>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ListBoxItem">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="25"/>
+                                            <RowDefinition Height="30"/>
+                                        </Grid.RowDefinitions>
+                                        <Border Grid.RowSpan="3" CornerRadius="3" BorderThickness="1" x:Name="Bd" BorderBrush="Black" Margin=" 2">
+                                        </Border>
+                                        <Label  Content="{Binding DeviceName}" FontSize="10"/>
+                                        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                                            <Label  Content="{Binding Device}" FontSize="10"/>
+                                            <Label  Content="{Binding Type}"  FontSize="10"/>
+                                        </StackPanel>
+
+                                    </Grid>
+
+                                    <!--<Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}">
+                                    </Border>-->
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" TargetName="Bd" Value="#C14FBEFF"/>
+                                        </Trigger>
+                                        <Trigger Property="IsSelected" Value="True">
+                                            <Setter Property="Background" TargetName="Bd" Value="aqua"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                    
+                </Setter.Value>
+
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Button Command="{Binding AddPlaformCommand}" Content="添加通讯设备" Margin="5,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"   Width="100" Height="30"/>
+            <Button Command="{Binding AddConfigCommand}" CommandParameter="{Binding SelectedItem, ElementName=lb}" Content="添加连接参数" Margin="5,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"   Width="100" Height="30"/>
+            <Button Command="{Binding DeleteConfigCommand}" Content="删除" Margin="5,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"   Width="100" Height="30"/>
+
+        </StackPanel>
+        <DockPanel Grid.Row="1">
+            <Grid DockPanel.Dock="Left" Width="200">
+                <ListBox ItemsSource="{Binding ListUnit}" x:Name="lb"></ListBox>
+            </Grid>
+            <Grid DockPanel.Dock="Right">
+                <!--<Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="     "/>
+                    <TextBlock Text="名称" Grid.Column="1"  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <TextBlock Text="数据类型" Grid.Column="2"  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <TextBlock Text="地址" Grid.Column="3"  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <TextBlock Text="所属设备" Grid.Column="4"  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <TextBlock Text="名称" Grid.Column="5"  VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Grid>-->
+                <DataGrid  Name="dg" Grid.Row="1" ItemsSource="{Binding ElementName=lb,Path=SelectedItem.Meter}" 
+                           AutoGenerateColumns="False"
+                           Margin="1,0,2,2">
+                    <DataGrid.ColumnHeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="White"/>
+                            <Setter Property="BorderBrush" Value="Black"/>
+                            <Setter Property="BorderThickness" Value="1"/>
+                            <Setter Property="Padding" Value="2"/>
+                            <Setter Property="Margin" Value="0,0,0,5"/>
+                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="DataGridColumnHeader">
+                                        <Border Background="{TemplateBinding Background}" 
+                                                BorderBrush="{TemplateBinding BorderBrush}"
+                                                CornerRadius="3"
+                                                BorderThickness="{TemplateBinding BorderThickness}" 
+                                                Padding="{TemplateBinding Padding}">
+                                            <ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </DataGrid.ColumnHeaderStyle>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="名称" Binding="{Binding AddressName}" Width="100" MinWidth="100"/>
+                        <DataGridComboBoxColumn Header="数据类型" Width="80" MinWidth="100"  SelectedValueBinding="{Binding Type}"/>
+                        <DataGridTemplateColumn Header="地址" Width="200" x:Name="address" MinWidth="100">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate >
+                                    <Border x:Name="bor" Width="{Binding ElementName=address,Path=ActualWidth}" Height="30" BorderThickness="1" BorderBrush="Black" >
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="50"/>
+                                            </Grid.ColumnDefinitions>
+                                            <TextBox Grid.Column="0" Text="{Binding MachineName}"  
+                                                     HorizontalContentAlignment="Left" VerticalContentAlignment="Center" />
+                                            <ToggleButton Grid.Column="1" x:Name="tog" />
+                                            <Popup  Placement="Bottom" Name="pop"
+                                                    HorizontalAlignment="Right" VerticalAlignment="Center" 
+                                                    IsOpen="{Binding ElementName=tog,Path=IsChecked}" >  
+                                                    <Border BorderThickness="1" BorderBrush="Black" CornerRadius="5">
+                                                        <Grid Background="White" Height="155" Width="300" >
+                                                            <Grid.RowDefinitions>
+                                                                <RowDefinition Height="*"/>
+                                                                <RowDefinition Height="30"/>
+                                                            </Grid.RowDefinitions>
+                                                            <Grid Grid.Row="0" Background="Gray">
+                                                                <Grid.ColumnDefinitions>
+                                                                    <ColumnDefinition Width="100"/>
+                                                                    <ColumnDefinition Width="*"/>
+                                                                </Grid.ColumnDefinitions>
+                                                                <Grid.RowDefinitions>
+                                                                    <RowDefinition Height="15"/>
+                                                                    <RowDefinition Height="25"/>
+                                                                    <RowDefinition Height="10"/>
+                                                                    <RowDefinition Height="25"/>
+                                                                    <RowDefinition Height="10"/>
+                                                                    <RowDefinition Height="25"/>
+                                                                    <RowDefinition Height="15"/>
+                                                                </Grid.RowDefinitions>
+                                                                <Label Grid.Row="1"  Content="标识符:" HorizontalAlignment="Right" />
+                                                                <ComboBox Grid.Row="1" Grid.Column="1" Margin="10,0,10,0"  />
+                                                                <Label Content="类型:" HorizontalAlignment="Right"   Grid.Row="3"/>
+                                                                <ComboBox  Grid.Column="3"  Grid.Row="3" Margin="10,0,10,0"/>
+                                                                <Label Content="地址:"  Grid.Row="5" HorizontalAlignment="Right" />
+                                                                <TextBox   Grid.Column="3"   Grid.Row="5" Margin="10,0,10,0"  />
+                                                            </Grid>
+
+                                                            <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                                                            <Button Content="V" Width="30" Height="25" Command="{Binding OKCommand}"  CommandParameter="{Binding}"/>
+                                                            <Button Content="X" Width="30" Height="25" Margin="10,0,10,0" Command="{Binding CloseCommand}" CommandParameter="{Binding}" />
+                                                            </StackPanel>
+                                                        </Grid>
+                                                    </Border>
+                                            </Popup>
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="注释" Binding="{Binding MachineName}" Width="300"/>
+                    </DataGrid.Columns>
+
+                </DataGrid>
+                <!--<ItemsControl  Grid.Row="1"   ItemsSource="{Binding ElementName=lb,Path=SelectedItem.Meter}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="{Binding Name}"  Grid.Column="1"/>
+                                <TextBlock Text="{Binding Name}"  Grid.Column="2"/>
+                                <ComboBox ItemsSource="{Binding AddressName}"  Grid.Column="3"  />
+                                <TextBlock Text="{Binding MachineName}"  Grid.Column="4"/>
+                                <TextBlock Text="{Binding MachineType}"  Grid.Column="5"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>-->
+
+                <!--<ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" >
+                </ScrollViewer>-->
+
+            </Grid>
+        </DockPanel>
     </Grid>
 </UserControl>

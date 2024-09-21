@@ -64,19 +64,27 @@
                         <Setter Property="Template">
                             <Setter.Value>
                                 <ControlTemplate TargetType="TabItem">
-                                    <Grid Height="30" Background="{TemplateBinding Background}">
+                                    <Grid Height="30" Background="{TemplateBinding Background}" Width="100">
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition />
                                             <ColumnDefinition Width="20"/>
                                         </Grid.ColumnDefinitions>
                                         <TextBlock Text="{TemplateBinding Header}"  VerticalAlignment="Center" Margin="10,5,5,5"/>
-                                        <Grid Grid.Column="1" Visibility="Visible" x:Name="Close_Page" Background="{TemplateBinding Background}">
-                                            <Button Width="20"  Background="Transparent" Style="{StaticResource TabCloseButtonStyle }" Visibility="Collapsed" Name="close_btn" BorderBrush="Transparent"/>
+                                        <Grid Grid.Column="1" Visibility="Collapsed" x:Name="Close_Page"
+                                              Background="{TemplateBinding Background}"
+                                              Width="30" Margin="0,0,3,0">
+                                            <Button  Background="Transparent" 
+                                                     Style="{StaticResource TabCloseButtonStyle }" 
+                                                    Visibility="Collapsed" Name="close_btn" 
+                                                        Foreground="{TemplateBinding Foreground}"
+                                                     BorderBrush="Transparent"/>
                                         </Grid>
                                     </Grid>
                                     <ControlTemplate.Triggers>
                                         <Trigger Property="IsSelected" Value="True">
                                             <Setter Property="Visibility" Value="Visible" TargetName="close_btn"/>
+                                            <Setter Property="Visibility" Value="Visible" TargetName="Close_Page"/>
+
                                         </Trigger>
                                         <Trigger Property="IsMouseOver" Value="True">
                                             <Setter Property="Visibility" Value="Visible" TargetName="close_btn"/>
@@ -136,11 +144,11 @@
                                         <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
                                                       VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
                                                        SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
-                                                      ContentSource="Header"
+                                                      ContentSource="Header" 
                                                       />
                                     </Border>
                                     <!--增加这个是为了有鼠标悬浮效果和选中后切换背景-->
-                                    <ToggleButton x:Name="Expander" Grid.Column="1" ClickMode="Press"  />
+                                    <ToggleButton x:Name="Expander" Grid.Column="1" ClickMode="Press"  Template="{StaticResource ArrowButtonTemplate}"/>
                                     <!--这个要有子节点才有效果-->
                                     <ItemsPresenter x:Name="ItemsHost" Margin="18,0,0,0" Grid.ColumnSpan="2" Grid.Row="1" />
 
@@ -181,6 +189,10 @@
 
                 </RadialGradientBrush>
             </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
             <DockPanel>
                 <Grid DockPanel.Dock="Top" Height="80"/>
                 <TreeView DockPanel.Dock="Bottom"   ItemsSource="{Binding MenuItems}">
@@ -198,10 +210,11 @@
                     </TreeView.ItemTemplate>
                 </TreeView>
             </DockPanel>
+            <ToggleButton Grid.Row="1"  Content="退出" Command="{Binding CloseCommand}"/>
         </Grid>
         <Grid DockPanel.Dock="Top"   Height="80" Background="Sienna">
             
         </Grid>
-        <TabControl DockPanel.Dock="Right"  prism:RegionManager.RegionName="MainViewRegionName"  Background="Transparent"/>
+        <ContentControl DockPanel.Dock="Right"  prism:RegionManager.RegionName="MainViewRegionName"  Background="Transparent"/>
     </DockPanel>
 </Window>

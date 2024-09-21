@@ -10,6 +10,15 @@
     <Compile Update="Views\AlarmPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\DialogWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Dialog\MeterConfigDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Dialog\MitsubishiConfigDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\HistoryPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -28,6 +37,15 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="Views\AlarmPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\DialogWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Dialog\MeterConfigDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Dialog\MitsubishiConfigDialog.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\HistoryPage.xaml">

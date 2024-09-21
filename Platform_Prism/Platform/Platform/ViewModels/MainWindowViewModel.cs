@@ -1,5 +1,7 @@
 ﻿using Entity;
 using Platform.Models;
+using PlcPlatform;
+using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Regions;
 using System;
@@ -8,6 +10,8 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Input;
 
 namespace Platform.ViewModels
 {
@@ -15,12 +19,16 @@ namespace Platform.ViewModels
     {
 
         public ObservableCollection<MenuItemModel> MenuItems { get; set; } = new ObservableCollection<MenuItemModel>();
+
         IRegionManager _regionManager = null;
+        public ICommand CloseCommand { get; set; }
+
 
         public MainWindowViewModel(IRegionManager regionManager)
         {
 
             _regionManager = regionManager;
+            CloseCommand=new DelegateCommand(()=>Application.Current.Shutdown());
             //先虚构几个选择
             MenuItems.Add(new MenuItemModel(_regionManager)
             {
@@ -58,6 +66,10 @@ namespace Platform.ViewModels
                 Icone = "\ue1355",
                 TargetViewName = "HistoryPage"
             });
+            //SocketUnit socket=new SocketUnit();
+            //var resutl= socket.Connect();
+            //if (!resutl.Started)
+            //    throw new Exception();
 
         }
     }

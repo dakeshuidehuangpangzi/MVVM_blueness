@@ -3,11 +3,45 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:hc="http://schemas.microsoft.com/xaml/behaviors"
              xmlns:local="clr-namespace:Platform.Views"
+             xmlns:hs="clr-namespace:HalconDotNet;assembly=halcondotnet"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-        <TextBlock Text="MonitorPage"/>
+    <hc:Interaction.Triggers>
+        <hc:EventTrigger EventName="Loaded">
+            <hc:InvokeCommandAction Command="{Binding CmdLoaded}" PassEventArgsToCommand="True"/>
+            <!--<hc:EventToCommand Command="{Binding CmdLoaded}" PassEventArgsToCommand="True"/>-->
+        </hc:EventTrigger>
 
+        <hc:EventTrigger EventName="SizeChanged">
+            <hc:InvokeCommandAction Command="{Binding CmdSizeChanged}"/>
+
+            <!--<hc:EventToCommand Command="{Binding CmdSizeChanged}"/>-->
+        </hc:EventTrigger>
+    </hc:Interaction.Triggers>
+    <Grid>
+        <!--<TextBlock Text="MonitorPage"/>-->
+       
+        <!--<halcon:HSmartWindowControlWPF Name="HalconWPF"/>-->
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+        <hs:HWindowControlWPF Name="HalconWPF" Visibility="Collapsed"/>
+        <hs:HSmartWindowControlWPF  Name="HsHalcon"   Grid.Column="0"/>
+        <!--<Button Grid.Column="1"  Click="Button_Click"/>-->
+        <StackPanel Grid.Column="2" Orientation="Vertical">
+            <Button Command="{Binding CmdOpenImage}">Open Image</Button>
+            <Button  Command="{Binding CmdButtonEvent}">Open Image</Button>
+            <Button Command="{Binding DrawCommand}" CommandParameter="">绘制矩形</Button>
+            <Button Command="{Binding DrawCommand}" CommandParameter="ELLIPSE">绘制椭圆形</Button>
+            <Button Command="{Binding DrawCommand}" CommandParameter="RECTANGLE2">绘制矩形</Button>
+            <Button Command="{Binding DrawCommand}" CommandParameter="CIRCLE">绘制圆形</Button>
+            <Button Command="{Binding CmdButtonEvent}" CommandParameter="Create">创建模板</Button>
+
+        </StackPanel>
     </Grid>
 </UserControl>

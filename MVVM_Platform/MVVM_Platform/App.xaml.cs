@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using PlatformViewModel;
+﻿using PlatformViewModel;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -16,9 +15,11 @@ namespace MVVM_Platform
     /// </summary>
     public partial class App : Application
     {
+        public  readonly NLog.Logger Logger ;
         public App()
         {
-            Services = ConfigureAllServices();            
+            Logger = NLog.LogManager.GetCurrentClassLogger();
+            Services = ConfigureAllServices();
         }
 
         public IServiceProvider ConfigureAllServices()
@@ -27,6 +28,7 @@ namespace MVVM_Platform
             ServiceCollection Service = ViewModelLocator.ConfigureServices();
             //注册主线程调度
             Service.AddTransient(typeof(Dispatcher), obj => Application.Current.Dispatcher);
+            Logger.Info("ConfigureAllServices");
             //注册所有的依赖对象
             return Service.BuildServiceProvider();
         }

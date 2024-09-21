@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "NLog/5.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.linux-arm.runtime.native.System.IO.Ports/6.0.0": {
         "type": "package",
         "runtimeTargets": {
@@ -89,6 +102,30 @@
     }
   },
   "libraries": {
+    "NLog/5.3.3": {
+      "sha512": "cy0+hlrUbYu+6mgUsILqCcqlJ2Csqyt2lm8y9T9kE8nhgwl8SvR+LM21QX4nmzFCPiowbrTFYxNF8+gWpy7/HQ==",
+      "type": "package",
+      "path": "nlog/5.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "N.png",
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/net46/NLog.dll",
+        "lib/net46/NLog.xml",
+        "lib/netstandard1.3/NLog.dll",
+        "lib/netstandard1.3/NLog.xml",
+        "lib/netstandard1.5/NLog.dll",
+        "lib/netstandard1.5/NLog.xml",
+        "lib/netstandard2.0/NLog.dll",
+        "lib/netstandard2.0/NLog.xml",
+        "nlog.5.3.3.nupkg.sha512",
+        "nlog.nuspec"
+      ]
+    },
     "runtime.linux-arm.runtime.native.System.IO.Ports/6.0.0": {
       "sha512": "75q52H7CSpgIoIDwXb9o833EvBZIXJ0mdPhz1E6jSisEXUBlSCPalC29cj3EXsjpuDwr0dj1LRXZepIQH/oL4Q==",
       "type": "package",
@@ -220,6 +257,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "NLog >= 5.3.3",
       "System.IO.Ports >= 6.0.0"
     ]
   },
@@ -269,6 +307,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "NLog": {
+            "target": "Package",
+            "version": "[5.3.3, )"
+          },
           "System.IO.Ports": {
             "target": "Package",
             "version": "[6.0.0, )"

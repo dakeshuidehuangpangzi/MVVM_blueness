@@ -5,14 +5,26 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.6.0" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.77" />
     <PackageReference Include="Prism.Unity" Version="8.1.97" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.5" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Entity\Entity.csproj" />
+    <ProjectReference Include="..\PlcPlatform\PlcPlatform.csproj" />
+    <ProjectReference Include="..\Wireless\Wireless.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="halcondotnet">
+      <HintPath>D:\Program Files\MVTec\HALCON-20.11-Steady\bin\dotnet35\halcondotnet.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

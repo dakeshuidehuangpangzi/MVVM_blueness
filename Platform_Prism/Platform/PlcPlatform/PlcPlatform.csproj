@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="wc32">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>afa8d8a6-847a-11d2-bcea-0060089830ad</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <Folder Include="Realize\Modbus\" />
+    <Folder Include="Realize\PLC\S7\" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="8.0.0" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <Reference Include="Kvaser.CanLib">
+      <HintPath>bin\Debug\net6.0\Kvaser.CanLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -5,7 +5,11 @@ VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform", "Platform\Platform.csproj", "{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{929FBA68-EA28-48F7-941D-812E3A691D9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "Entity\Entity.csproj", "{929FBA68-EA28-48F7-941D-812E3A691D9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlcPlatform", "PlcPlatform\PlcPlatform.csproj", "{F059BC7B-573F-426E-BBA4-3F6504306A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wireless", "Wireless\Wireless.csproj", "{3AF3EF0E-5EA1-44C1-8F96-EBC0D35710C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{929FBA68-EA28-48F7-941D-812E3A691D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{929FBA68-EA28-48F7-941D-812E3A691D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{929FBA68-EA28-48F7-941D-812E3A691D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F059BC7B-573F-426E-BBA4-3F6504306A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F059BC7B-573F-426E-BBA4-3F6504306A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F059BC7B-573F-426E-BBA4-3F6504306A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F059BC7B-573F-426E-BBA4-3F6504306A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF3EF0E-5EA1-44C1-8F96-EBC0D35710C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF3EF0E-5EA1-44C1-8F96-EBC0D35710C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF3EF0E-5EA1-44C1-8F96-EBC0D35710C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF3EF0E-5EA1-44C1-8F96-EBC0D35710C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,12 @@
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\bin\Debug\net6.0\Wireless.deps.json
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\bin\Debug\net6.0\Wireless.dll
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\bin\Debug\net6.0\Wireless.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\obj\Debug\net6.0\Wireless.csproj.AssemblyReference.cache
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\obj\Debug\net6.0\Wireless.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\obj\Debug\net6.0\Wireless.AssemblyInfoInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\obj\Debug\net6.0\Wireless.AssemblyInfo.cs
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\obj\Debug\net6.0\Wireless.csproj.CoreCompileInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\obj\Debug\net6.0\Wireless.dll
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\obj\Debug\net6.0\refint\Wireless.dll
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\obj\Debug\net6.0\Wireless.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\obj\Debug\net6.0\ref\Wireless.dll

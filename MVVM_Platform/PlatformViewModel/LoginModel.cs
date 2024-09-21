@@ -12,6 +12,7 @@ using System.Windows;
 using System.Windows.Threading;
 using CommunicationComponent;
 using BLL;
+using NLog;
 
 namespace PlatformViewModel
 {
@@ -30,7 +31,7 @@ namespace PlatformViewModel
         [ObservableProperty]
         public Dispatcher mainDisPacher;
 
-
+        Logger _Logger;
         public LoginModel(ILoginBLL loginBLL, Dispatcher dispatcher)
         {
             _loginBLL=loginBLL;

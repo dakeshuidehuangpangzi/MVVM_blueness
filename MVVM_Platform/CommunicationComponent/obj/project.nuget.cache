@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "buRWb7LKFO1/P4letZuc49rjnv71kPyx3Xu4visCJnrwIXXjXYjxkVnfEfwRxQwfWv/XBKEa/9N+tKocAZs27Q==",
+  "dgSpecHash": "MJg1ssW8AtoiI/JLPng8G00tTiDR4KEa9nGMsqLhk4yVlHE02/jMIbr0Xo9b0rJFmxuhRhZlI1WdvE2Af126mQ==",
   "success": true,
   "projectFilePath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\CommunicationComponent.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\黄胖子\\.nuget\\packages\\nlog\\5.3.3\\nlog.5.3.3.nupkg.sha512",
     "C:\\Users\\黄胖子\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
     "C:\\Users\\黄胖子\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
     "C:\\Users\\黄胖子\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",

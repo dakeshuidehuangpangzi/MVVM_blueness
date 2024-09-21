@@ -1,0 +1,15 @@
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\PlcPlatform\bin\Debug\net6.0\PlcPlatform.deps.json
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\PlcPlatform\bin\Debug\net6.0\PlcPlatform.dll
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\PlcPlatform\bin\Debug\net6.0\PlcPlatform.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\PlcPlatform\obj\Debug\net6.0\PlcPlatform.csproj.AssemblyReference.cache
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\PlcPlatform\obj\Debug\net6.0\PlcPlatform.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\PlcPlatform\obj\Debug\net6.0\PlcPlatform.AssemblyInfoInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\PlcPlatform\obj\Debug\net6.0\PlcPlatform.AssemblyInfo.cs
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\PlcPlatform\obj\Debug\net6.0\PlcPlatform.csproj.CoreCompileInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\PlcPlatform\obj\Debug\net6.0\PlcPlatform.dll
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\PlcPlatform\obj\Debug\net6.0\refint\PlcPlatform.dll
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\PlcPlatform\obj\Debug\net6.0\PlcPlatform.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\PlcPlatform\obj\Debug\net6.0\ref\PlcPlatform.dll
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\PlcPlatform\obj\Debug\net6.0\Interop.wc32.dll
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\PlcPlatform\obj\Debug\net6.0\PlcPlatform.csproj.ResolveComReference.cache
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\PlcPlatform\obj\Debug\net6.0\PlcPlatform.csproj.CopyComplete

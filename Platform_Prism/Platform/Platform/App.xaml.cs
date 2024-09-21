@@ -1,4 +1,7 @@
-﻿using Platform.Views;
+﻿using Platform.ViewModels.Dialog;
+using Platform.Views;
+using Platform.Views.Dialog;
+using PlcPlatform.Realize.Can;
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Unity;
@@ -9,6 +12,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using Wireless;
 
 namespace Platform
 {
@@ -24,11 +28,21 @@ namespace Platform
 
         protected override Window CreateShell()
         {
+            //Bluetooth bluetooth = new Bluetooth();
             return Container.Resolve<MainWindow>();
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+
+            containerRegistry.RegisterDialogWindow<DialogWindow>();//注册主弹窗窗体
+
+            containerRegistry.RegisterDialog<MitsubishiConfigDialog>();
+            containerRegistry.RegisterDialog<MeterConfigDialog>();
+
+
+
+
             containerRegistry.RegisterForNavigation<AlarmPage>();
             containerRegistry.RegisterForNavigation<HistoryPage>();
             containerRegistry.RegisterForNavigation<MonitorPage>();

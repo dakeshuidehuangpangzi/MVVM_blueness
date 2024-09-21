@@ -1,0 +1,1 @@
+2024-09-09 07:33:25.5137|INFO|MVVM_Platform.App|ConfigureAllServices

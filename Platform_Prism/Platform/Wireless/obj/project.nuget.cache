@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ozq/KVSqNRf3g/Z9rcfEWNlum3fC2Y/lx5WaZdbifDPWMcTpDhVX09tK3mBK6224ZlvlqLqHZOkuTDhlH6KcRA==",
+  "success": true,
+  "projectFilePath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Wireless\\Wireless.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\黄胖子\\.nuget\\packages\\inthehand.net.bluetooth\\4.1.44\\inthehand.net.bluetooth.4.1.44.nupkg.sha512",
+    "C:\\Users\\黄胖子\\.nuget\\packages\\inthehand.net.irda\\4.0.4\\inthehand.net.irda.4.0.4.nupkg.sha512",
+    "C:\\Users\\黄胖子\\.nuget\\packages\\inthehand.net.obex\\4.0.10\\inthehand.net.obex.4.0.10.nupkg.sha512",
+    "C:\\Users\\黄胖子\\.nuget\\packages\\linux.bluetooth\\5.66.0\\linux.bluetooth.5.66.0.nupkg.sha512",
+    "C:\\Users\\黄胖子\\.nuget\\packages\\tmds.dbus\\0.15.0\\tmds.dbus.0.15.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -115,7 +115,7 @@
 
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <TextBox Text="{Binding User.UserName}" Grid.Row="3"  
+            <TextBox Text="{Binding User.UserName}" d:Text="Administator" Grid.Row="3"
                     VerticalContentAlignment="Center"/>
             <TextBox Text="{Binding User.Password}" Grid.Row="4" 
                      VerticalContentAlignment="Center"/>

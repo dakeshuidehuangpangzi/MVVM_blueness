@@ -1,0 +1,269 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "InTheHand.Net.Bluetooth/4.1.44": {
+        "type": "package",
+        "dependencies": {
+          "Linux.Bluetooth": "5.66.0"
+        },
+        "compile": {
+          "lib/net6.0/InTheHand.Net.Bluetooth.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/InTheHand.Net.Bluetooth.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "InTheHand.Net.IrDA/4.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/InTheHand.Net.IrDA.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/InTheHand.Net.IrDA.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "InTheHand.Net.Obex/4.0.10": {
+        "type": "package",
+        "dependencies": {
+          "InTheHand.Net.Bluetooth": "4.1.44",
+          "InTheHand.Net.IrDA": "4.0.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/InTheHand.Net.Obex.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/InTheHand.Net.Obex.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Linux.Bluetooth/5.66.0": {
+        "type": "package",
+        "dependencies": {
+          "Tmds.DBus": "0.15.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Linux.Bluetooth.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Linux.Bluetooth.dll": {}
+        }
+      },
+      "Tmds.DBus/0.15.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Tmds.DBus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Tmds.DBus.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InTheHand.Net.Bluetooth/4.1.44": {
+      "sha512": "gRPCmVpYklhn/JkiJpoV2ZExw740csai+o+IgsUn/4igeMOO848uUIXTaN8UDSMGj69T9ZeLYCTYF/dHaJnteg==",
+      "type": "package",
+      "path": "inthehand.net.bluetooth/4.1.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "32feet-package-icon.png",
+        "README.md",
+        "inthehand.net.bluetooth.4.1.44.nupkg.sha512",
+        "inthehand.net.bluetooth.nuspec",
+        "lib/monoandroid10.0/InTheHand.Net.Bluetooth.dll",
+        "lib/monoandroid10.0/InTheHand.Net.Bluetooth.xml",
+        "lib/net462/InTheHand.Net.Bluetooth.dll",
+        "lib/net462/InTheHand.Net.Bluetooth.xml",
+        "lib/net6.0-windows10.0.19041/InTheHand.Net.Bluetooth.dll",
+        "lib/net6.0-windows10.0.19041/InTheHand.Net.Bluetooth.xml",
+        "lib/net6.0-windows7.0/InTheHand.Net.Bluetooth.dll",
+        "lib/net6.0-windows7.0/InTheHand.Net.Bluetooth.xml",
+        "lib/net6.0/InTheHand.Net.Bluetooth.dll",
+        "lib/net6.0/InTheHand.Net.Bluetooth.xml",
+        "lib/net7.0-android33.0/InTheHand.Net.Bluetooth.dll",
+        "lib/net7.0-android33.0/InTheHand.Net.Bluetooth.xml",
+        "lib/net7.0-ios16.1/InTheHand.Net.Bluetooth.dll",
+        "lib/net7.0-ios16.1/InTheHand.Net.Bluetooth.xml",
+        "lib/net7.0-windows10.0.19041/InTheHand.Net.Bluetooth.dll",
+        "lib/net7.0-windows10.0.19041/InTheHand.Net.Bluetooth.xml",
+        "lib/net7.0-windows7.0/InTheHand.Net.Bluetooth.dll",
+        "lib/net7.0-windows7.0/InTheHand.Net.Bluetooth.xml",
+        "lib/net7.0/InTheHand.Net.Bluetooth.dll",
+        "lib/net7.0/InTheHand.Net.Bluetooth.xml",
+        "lib/net8.0-android34.0/InTheHand.Net.Bluetooth.dll",
+        "lib/net8.0-android34.0/InTheHand.Net.Bluetooth.xml",
+        "lib/net8.0-ios17.2/InTheHand.Net.Bluetooth.dll",
+        "lib/net8.0-ios17.2/InTheHand.Net.Bluetooth.xml",
+        "lib/net8.0-windows10.0.19041/InTheHand.Net.Bluetooth.dll",
+        "lib/net8.0-windows10.0.19041/InTheHand.Net.Bluetooth.xml",
+        "lib/net8.0-windows7.0/InTheHand.Net.Bluetooth.dll",
+        "lib/net8.0-windows7.0/InTheHand.Net.Bluetooth.xml",
+        "lib/net8.0/InTheHand.Net.Bluetooth.dll",
+        "lib/net8.0/InTheHand.Net.Bluetooth.xml",
+        "lib/netstandard2.0/InTheHand.Net.Bluetooth.dll",
+        "lib/netstandard2.0/InTheHand.Net.Bluetooth.xml",
+        "lib/netstandard2.1/InTheHand.Net.Bluetooth.dll",
+        "lib/netstandard2.1/InTheHand.Net.Bluetooth.xml",
+        "lib/uap10.0.16299/InTheHand.Net.Bluetooth.dll",
+        "lib/uap10.0.16299/InTheHand.Net.Bluetooth.pri",
+        "lib/uap10.0.16299/InTheHand.Net.Bluetooth.xml",
+        "lib/xamarinios10/InTheHand.Net.Bluetooth.dll",
+        "lib/xamarinios10/InTheHand.Net.Bluetooth.xml"
+      ]
+    },
+    "InTheHand.Net.IrDA/4.0.4": {
+      "sha512": "zMWcSKNOI8WjybyvXtgY7nJEASK98ESLpmLpfguNtSMrWro80bJHDIyvB+7pXj2lW9FaDwyxbz7TMfQ8Gm2r+w==",
+      "type": "package",
+      "path": "inthehand.net.irda/4.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "32feet-package-icon.png",
+        "Readme.md",
+        "inthehand.net.irda.4.0.4.nupkg.sha512",
+        "inthehand.net.irda.nuspec",
+        "lib/netstandard2.0/InTheHand.Net.IrDA.dll",
+        "lib/netstandard2.0/InTheHand.Net.IrDA.xml"
+      ]
+    },
+    "InTheHand.Net.Obex/4.0.10": {
+      "sha512": "ZlKIRKjKO0oVS97B1e/aDsIhmVbxUI5Xg9LPwqhNA1EGMKjgdniZWDzsPtnERUIU4vmFqLv5BjlDjoff893aVw==",
+      "type": "package",
+      "path": "inthehand.net.obex/4.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "32feet-package-icon.png",
+        "inthehand.net.obex.4.0.10.nupkg.sha512",
+        "inthehand.net.obex.nuspec",
+        "lib/netstandard2.0/InTheHand.Net.Obex.dll",
+        "lib/netstandard2.0/InTheHand.Net.Obex.xml"
+      ]
+    },
+    "Linux.Bluetooth/5.66.0": {
+      "sha512": "psisT3X/CjSGdKCHLb2IzcYGFSCp8q/yZKJLp0X8Fzaeb0MQHkHURpzltBsDOXbuABZ2qWW1i3oaqfkCfTPxwg==",
+      "type": "package",
+      "path": "linux.bluetooth/5.66.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Linux.Bluetooth.dll",
+        "linux.bluetooth.5.66.0.nupkg.sha512",
+        "linux.bluetooth.nuspec"
+      ]
+    },
+    "Tmds.DBus/0.15.0": {
+      "sha512": "11BxHGh+8hwXNdcavX7BxNW5Qr6AC36ABYDcqvZ3bDS7alXI+O95/x0ExoVWWWxjAVTnvmDRtW1Nd3uObPIsVg==",
+      "type": "package",
+      "path": "tmds.dbus/0.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Tmds.DBus.dll",
+        "lib/net6.0/Tmds.DBus.xml",
+        "lib/netstandard2.0/Tmds.DBus.dll",
+        "lib/netstandard2.0/Tmds.DBus.xml",
+        "tmds.dbus.0.15.0.nupkg.sha512",
+        "tmds.dbus.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "InTheHand.Net.Bluetooth >= 4.1.44",
+      "InTheHand.Net.Obex >= 4.0.10"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\黄胖子\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Wireless\\Wireless.csproj",
+      "projectName": "Wireless",
+      "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Wireless\\Wireless.csproj",
+      "packagesPath": "C:\\Users\\黄胖子\\.nuget\\packages\\",
+      "outputPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Wireless\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\黄胖子\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\NetGit": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "InTheHand.Net.Bluetooth": {
+            "target": "Package",
+            "version": "[4.1.44, )"
+          },
+          "InTheHand.Net.Obex": {
+            "target": "Package",
+            "version": "[4.0.10, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

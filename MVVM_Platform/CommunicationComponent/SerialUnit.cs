@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO.Ports;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CommunicationComponent
+﻿namespace CommunicationComponent
 {
     public  class SerialUnit: AbsUnit
     {
@@ -40,9 +33,10 @@ namespace CommunicationComponent
             {
                 try
                 {
+                    if (serialPort==null) return new Result(false, "串口未初始化");
                     if (serialPort.IsOpen) return new Result(true,"串口已打开");
                     serialPort?.Close();
-                    serialPort.Open();
+                    serialPort .Open();
                     if (!serialPort.IsOpen) return new Result(false, "打开失败");
                     return new Result();
                 }

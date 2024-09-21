@@ -53,7 +53,7 @@ namespace MVVM_Platform {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MVVM_Platform;component/page/manualoperationpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MVVM_Platform;V1.0.0.0;component/page/manualoperationpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Page\ManualOperationPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

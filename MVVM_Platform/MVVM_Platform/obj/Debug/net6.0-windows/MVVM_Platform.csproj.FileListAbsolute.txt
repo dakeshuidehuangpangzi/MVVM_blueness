@@ -89,3 +89,5 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\CommunicationComponent.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\UIControl.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\UIControl.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\NLog.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\nlog.config

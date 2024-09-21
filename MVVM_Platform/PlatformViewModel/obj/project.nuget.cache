@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sXO3QBSGf0p/LeairQgI6UISUhpRZjBRhhRLGAvUiv9BbV8WsUGY+8Bs5ajCUE/Qu49+OuPEExuzVa24SRgzvA==",
+  "dgSpecHash": "CLGnJnGTL7ExxctpNZTcvSz4GUHDggKWhKkCRy4xjAiJCIg82XgeDbB04bBaPa4XqWcO8qM9rGsQf3iBvqYOZw==",
   "success": true,
   "projectFilePath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\PlatformViewModel.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\黄胖子\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\黄胖子\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\黄胖子\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\黄胖子\\.nuget\\packages\\nlog\\5.3.3\\nlog.5.3.3.nupkg.sha512",
     "C:\\Users\\黄胖子\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
     "C:\\Users\\黄胖子\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
     "C:\\Users\\黄胖子\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\6.0.0\\runtime.linux-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",

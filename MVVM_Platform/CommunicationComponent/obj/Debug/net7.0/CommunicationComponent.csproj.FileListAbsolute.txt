@@ -1,0 +1,12 @@
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\CommunicationComponent\bin\Debug\net7.0\CommunicationComponent.deps.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\CommunicationComponent\bin\Debug\net7.0\CommunicationComponent.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\CommunicationComponent\bin\Debug\net7.0\CommunicationComponent.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\CommunicationComponent\obj\Debug\net7.0\CommunicationComponent.csproj.AssemblyReference.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\CommunicationComponent\obj\Debug\net7.0\CommunicationComponent.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\CommunicationComponent\obj\Debug\net7.0\CommunicationComponent.AssemblyInfoInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\CommunicationComponent\obj\Debug\net7.0\CommunicationComponent.AssemblyInfo.cs
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\CommunicationComponent\obj\Debug\net7.0\CommunicationComponent.csproj.CoreCompileInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\CommunicationComponent\obj\Debug\net7.0\CommunicationComponent.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\CommunicationComponent\obj\Debug\net7.0\refint\CommunicationComponent.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\CommunicationComponent\obj\Debug\net7.0\CommunicationComponent.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\CommunicationComponent\obj\Debug\net7.0\ref\CommunicationComponent.dll

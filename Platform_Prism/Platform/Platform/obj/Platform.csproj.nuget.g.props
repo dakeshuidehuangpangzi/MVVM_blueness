@@ -14,6 +14,7 @@
     <SourceRoot Include="D:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_Xaml_Behaviors_Wpf Condition=" '$(PkgMicrosoft_Xaml_Behaviors_Wpf)' == '' ">C:\Users\黄胖子\.nuget\packages\microsoft.xaml.behaviors.wpf\1.1.31</PkgMicrosoft_Xaml_Behaviors_Wpf>
+    <PkgMicrosoft_Xaml_Behaviors_Wpf Condition=" '$(PkgMicrosoft_Xaml_Behaviors_Wpf)' == '' ">C:\Users\黄胖子\.nuget\packages\microsoft.xaml.behaviors.wpf\1.1.77</PkgMicrosoft_Xaml_Behaviors_Wpf>
+    <PkgExtended_Wpf_Toolkit Condition=" '$(PkgExtended_Wpf_Toolkit)' == '' ">C:\Users\黄胖子\.nuget\packages\extended.wpf.toolkit\4.6.0</PkgExtended_Wpf_Toolkit>
   </PropertyGroup>
 </Project>

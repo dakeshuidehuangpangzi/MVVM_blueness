@@ -89,6 +89,19 @@
           }
         }
       },
+      "NLog/5.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "runtime.linux-arm.runtime.native.System.IO.Ports/6.0.0": {
         "type": "package",
         "runtimeTargets": {
@@ -413,6 +426,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "NLog": "5.3.3",
           "System.IO.Ports": "6.0.0"
         },
         "compile": {
@@ -697,6 +711,30 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "NLog/5.3.3": {
+      "sha512": "cy0+hlrUbYu+6mgUsILqCcqlJ2Csqyt2lm8y9T9kE8nhgwl8SvR+LM21QX4nmzFCPiowbrTFYxNF8+gWpy7/HQ==",
+      "type": "package",
+      "path": "nlog/5.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "N.png",
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/net46/NLog.dll",
+        "lib/net46/NLog.xml",
+        "lib/netstandard1.3/NLog.dll",
+        "lib/netstandard1.3/NLog.xml",
+        "lib/netstandard1.5/NLog.dll",
+        "lib/netstandard1.5/NLog.xml",
+        "lib/netstandard2.0/NLog.dll",
+        "lib/netstandard2.0/NLog.xml",
+        "nlog.5.3.3.nupkg.sha512",
+        "nlog.nuspec"
       ]
     },
     "runtime.linux-arm.runtime.native.System.IO.Ports/6.0.0": {
@@ -1279,6 +1317,7 @@
     "net6.0-windows7.0": [
       "Assets >= 1.0.0",
       "CommunityToolkit.Mvvm >= 8.2.2",
+      "NLog >= 5.3.3",
       "PlatformView >= 1.0.0",
       "PlatformViewModel >= 1.0.0",
       "UIControl >= 1.0.0"
@@ -1346,6 +1385,10 @@
           "CommunityToolkit.Mvvm": {
             "target": "Package",
             "version": "[8.2.2, )"
+          },
+          "NLog": {
+            "target": "Package",
+            "version": "[5.3.3, )"
           }
         },
         "imports": [
