@@ -1,0 +1,2 @@
+2024-10-16 15:14:34.8154|INFO|MVVM_Platform.App|ConfigureAllServices
+2024-10-16 15:16:42.5581|INFO|MVVM_Platform.App|ConfigureAllServices

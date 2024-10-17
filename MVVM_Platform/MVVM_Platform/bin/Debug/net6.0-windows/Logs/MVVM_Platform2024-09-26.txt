@@ -1,0 +1,12 @@
+2024-09-26 07:52:06.7358|INFO|MVVM_Platform.App|ConfigureAllServices
+2024-09-26 09:13:29.5174|INFO|MVVM_Platform.App|ConfigureAllServices
+2024-09-26 09:13:55.3981|INFO|MVVM_Platform.App|ConfigureAllServices
+2024-09-26 09:15:10.1692|INFO|MVVM_Platform.App|ConfigureAllServices
+2024-09-26 09:15:57.5205|INFO|MVVM_Platform.App|ConfigureAllServices
+2024-09-26 09:17:10.2183|INFO|MVVM_Platform.App|ConfigureAllServices
+2024-09-26 09:18:09.0398|INFO|MVVM_Platform.App|ConfigureAllServices
+2024-09-26 09:18:24.0204|INFO|MVVM_Platform.App|ConfigureAllServices
+2024-09-26 09:21:44.2663|INFO|MVVM_Platform.App|ConfigureAllServices
+2024-09-26 09:23:07.2835|INFO|MVVM_Platform.App|ConfigureAllServices
+2024-09-26 10:04:43.9807|INFO|MVVM_Platform.App|ConfigureAllServices
+2024-09-26 10:07:24.0582|INFO|MVVM_Platform.App|ConfigureAllServices
