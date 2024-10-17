@@ -19,7 +19,6 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\PlatformViewModel.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\PlatformViewModel.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\PlatformView.pdb
-F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\MVVM_Platform.csproj.CopyComplete
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\PlatformModel.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\PlatformModel.pdb
@@ -91,3 +90,9 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\UIControl.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\NLog.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\nlog.config
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\MQTTnet.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\bin\Debug\net6.0-windows\MQTTnet.Extensions.ManagedClient.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\MQTTTestPage.g.cs
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\MQTTTestPage.baml
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\MVVM_Platform.sourcelink.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\MVVM_Pla.31202027.Up2Date

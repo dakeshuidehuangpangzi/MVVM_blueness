@@ -12,4 +12,5 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\obj\Debug\net6.0
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\obj\Debug\net6.0-windows\ref\PlatformModel.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\bin\Debug\net6.0-windows\Assets.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\bin\Debug\net6.0-windows\Assets.pdb
-F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\obj\Debug\net6.0-windows\PlatformModel.csproj.CopyComplete
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\obj\Debug\net6.0-windows\PlatformModel.sourcelink.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformModel\obj\Debug\net6.0-windows\Platform.DBB69E7E.Up2Date

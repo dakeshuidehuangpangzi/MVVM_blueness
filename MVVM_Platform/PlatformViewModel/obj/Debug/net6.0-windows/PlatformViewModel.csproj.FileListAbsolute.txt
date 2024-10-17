@@ -12,7 +12,6 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\obj\Debug\ne
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\obj\Debug\net6.0-windows\ref\PlatformViewModel.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\bin\Debug\net6.0-windows\PlatformModel.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\bin\Debug\net6.0-windows\PlatformModel.pdb
-F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\obj\Debug\net6.0-windows\PlatformViewModel.csproj.CopyComplete
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\bin\Debug\net6.0-windows\Assets.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\bin\Debug\net6.0-windows\Assets.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\bin\Debug\net6.0-windows\BLL.dll
@@ -29,3 +28,5 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\bin\Debug\ne
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\bin\Debug\net6.0-windows\Common.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\bin\Debug\net6.0-windows\CommunicationComponent.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\bin\Debug\net6.0-windows\CommunicationComponent.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\obj\Debug\net6.0-windows\PlatformViewModel.sourcelink.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformViewModel\obj\Debug\net6.0-windows\Platform.36627AF8.Up2Date

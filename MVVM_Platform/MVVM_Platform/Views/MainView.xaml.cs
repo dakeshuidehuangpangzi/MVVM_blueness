@@ -29,7 +29,7 @@ namespace MVVM_Platform
 
 
             InitializeComponent();
-            this.DataContext = App.Current.Services.GetService<MainViewModel>();
+            this.DataContext = App.Current.Services.GetRequiredService<MainViewModel>();
 
         }
 

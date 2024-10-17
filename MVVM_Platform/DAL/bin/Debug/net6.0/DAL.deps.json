@@ -164,17 +164,26 @@
           "Entity": "1.0.0"
         },
         "runtime": {
-          "Common.dll": {}
+          "Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Entity/1.0.0": {
         "runtime": {
-          "Entity.dll": {}
+          "Entity.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "IDAL/1.0.0": {
         "runtime": {
-          "IDAL.dll": {}
+          "IDAL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

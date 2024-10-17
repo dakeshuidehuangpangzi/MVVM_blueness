@@ -1,7 +1,6 @@
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\bin\Debug\net6.0-windows\PlatformView.deps.json
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\bin\Debug\net6.0-windows\PlatformView.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\bin\Debug\net6.0-windows\PlatformView.pdb
-F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\obj\Debug\net6.0-windows\PlatformView.csproj.AssemblyReference.cache
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\obj\Debug\net6.0-windows\PlatformView_MarkupCompile.cache
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\obj\Debug\net6.0-windows\PlatformView_MarkupCompile.lref
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\obj\Debug\net6.0-windows\PlatformView.g.resources
@@ -17,3 +16,4 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\obj\Debug\net6.0-
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\obj\Debug\net6.0-windows\MainView.baml
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\obj\Debug\net6.0-windows\LoginView.g.cs
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\obj\Debug\net6.0-windows\LoginView.baml
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\obj\Debug\net6.0-windows\PlatformView.sourcelink.json

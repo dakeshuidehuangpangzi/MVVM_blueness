@@ -25,9 +25,15 @@ namespace MVVM_Platform
         public IServiceProvider ConfigureAllServices()
         {
             //获取其他类库的注册
-            ServiceCollection Service = ViewModelLocator.ConfigureServices();
+            IServiceCollection Service = new ServiceCollection();
             //注册主线程调度
             Service.AddTransient(typeof(Dispatcher), obj => Application.Current.Dispatcher);
+            //dateConText注册方式   在创建的时候就赋予进去
+            //Service.AddSingleton(sp => new MainView() { DataContext = sp.GetService<MainViewModel>() });
+            Service.AddPlatformViewModelServices();//其他类库就在这里注册
+            Service.AddPlatformViewModelExtensions()
+                    .Build()
+                    .WithLoginModel("LoginModel");
             Logger.Info("ConfigureAllServices");
             //注册所有的依赖对象
             return Service.BuildServiceProvider();

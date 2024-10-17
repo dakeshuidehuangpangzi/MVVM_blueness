@@ -3,13 +3,14 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
-	  <LangVersion>10</LangVersion>  
+	<LangVersion>10</LangVersion>  
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Assets\Assets.csproj" />
+    <ProjectReference Include="..\CommunicationComponent\CommunicationComponent.csproj" />
     <ProjectReference Include="..\PlatformViewModel\PlatformViewModel.csproj" />
     <ProjectReference Include="..\PlatformView\PlatformView.csproj" />
     <ProjectReference Include="..\UIControl\UIControl.csproj" />

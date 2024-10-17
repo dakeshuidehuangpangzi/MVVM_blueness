@@ -70,6 +70,12 @@ namespace PlatformViewModel
                 MenuIcon = "\ue60f",
                 TargetView = "ManualOperationPage"
             });
+            Menus.Add(new MenuModel
+            {
+                MenuHeader = "MQTT测试",
+                MenuIcon = "\ue60f",
+                TargetView = "MQTTTestPage"
+            });
             #endregion
 
 
@@ -102,7 +108,7 @@ namespace PlatformViewModel
             //else
             //{
             if (ViewContent != null && ViewContent.GetType().Name == model.TargetView) return;
-
+            //需要创建一个DLL里面的绝对路径，不然会找不到具体的位置，容易报错
             Type type = Assembly.Load("MVVM_Platform")
                 .GetType("MVVM_Platform." + model.TargetView)!;
             ViewContent = Activator.CreateInstance(type)!;

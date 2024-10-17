@@ -9,6 +9,7 @@
       "MVVM_Platform/1.0.0": {
         "dependencies": {
           "Assets": "1.0.0",
+          "CommunicationComponent": "1.0.0",
           "CommunityToolkit.Mvvm": "8.2.2",
           "NLog": "5.3.3",
           "PlatformView": "1.0.0",
@@ -29,7 +30,7 @@
       },
       "Microsoft.Extensions.DependencyInjection/8.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1"
         },
         "runtime": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
@@ -38,11 +39,11 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
         "runtime": {
           "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "fileVersion": "8.0.324.11423"
           }
         }
       },
@@ -51,6 +52,25 @@
         "dependencies": {
           "System.Security.AccessControl": "4.7.0",
           "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "MQTTnet/4.3.7.1207": {
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "assemblyVersion": "4.3.7.1207",
+            "fileVersion": "4.3.7.1207"
+          }
+        }
+      },
+      "MQTTnet.Extensions.ManagedClient/4.3.7.1207": {
+        "dependencies": {
+          "MQTTnet": "4.3.7.1207"
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.Extensions.ManagedClient.dll": {
+            "assemblyVersion": "4.3.7.1207",
+            "fileVersion": "4.3.7.1207"
+          }
         }
       },
       "NLog/5.3.3": {
@@ -268,7 +288,10 @@
       "System.Security.Principal.Windows/4.7.0": {},
       "Assets/1.0.0": {
         "runtime": {
-          "Assets.dll": {}
+          "Assets.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "BLL/1.0.0": {
@@ -278,7 +301,10 @@
           "IDAL": "1.0.0"
         },
         "runtime": {
-          "BLL.dll": {}
+          "BLL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Common/1.0.0": {
@@ -286,16 +312,24 @@
           "Entity": "1.0.0"
         },
         "runtime": {
-          "Common.dll": {}
+          "Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CommunicationComponent/1.0.0": {
         "dependencies": {
+          "MQTTnet": "4.3.7.1207",
+          "MQTTnet.Extensions.ManagedClient": "4.3.7.1207",
           "NLog": "5.3.3",
           "System.IO.Ports": "6.0.0"
         },
         "runtime": {
-          "CommunicationComponent.dll": {}
+          "CommunicationComponent.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DAL/1.0.0": {
@@ -307,12 +341,18 @@
           "System.Data.SqlClient": "4.8.6"
         },
         "runtime": {
-          "DAL.dll": {}
+          "DAL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Entity/1.0.0": {
         "runtime": {
-          "Entity.dll": {}
+          "Entity.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "IBLL/1.0.0": {
@@ -320,12 +360,18 @@
           "Entity": "1.0.0"
         },
         "runtime": {
-          "IBLL.dll": {}
+          "IBLL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "IDAL/1.0.0": {
         "runtime": {
-          "IDAL.dll": {}
+          "IDAL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "PlatformModel/1.0.0": {
@@ -334,12 +380,18 @@
           "CommunityToolkit.Mvvm": "8.2.2"
         },
         "runtime": {
-          "PlatformModel.dll": {}
+          "PlatformModel.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "PlatformView/1.0.0": {
         "runtime": {
-          "PlatformView.dll": {}
+          "PlatformView.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "PlatformViewModel/1.0.0": {
@@ -350,15 +402,22 @@
           "DAL": "1.0.0",
           "IBLL": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
           "PlatformModel": "1.0.0"
         },
         "runtime": {
-          "PlatformViewModel.dll": {}
+          "PlatformViewModel.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "UIControl/1.0.0": {
         "runtime": {
-          "UIControl.dll": {}
+          "UIControl.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -383,12 +442,12 @@
       "path": "microsoft.extensions.dependencyinjection/8.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
-      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+      "sha512": "sha512-fGLiCRLMYd00JYpClraLjJTNKLmMJPnqxMaiRzEBIIvevlzxz33mXy39Lkd48hu1G+N21S7QpaO5ZzKsI6FRuA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
@@ -403,6 +462,20 @@
       "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
       "path": "microsoft.win32.registry/4.7.0",
       "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
+    },
+    "MQTTnet/4.3.7.1207": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ah7aHXoedWp5m5a4zy2u4phOEVj0QFYzOb5tFKQeV8RRBrxp+1QREF4ymZuG8D+hzB2dhtrrG81WxTFv0PzOeQ==",
+      "path": "mqttnet/4.3.7.1207",
+      "hashPath": "mqttnet.4.3.7.1207.nupkg.sha512"
+    },
+    "MQTTnet.Extensions.ManagedClient/4.3.7.1207": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i7T+4dsBqy3VVvuDuh9mmTbeZwF7eYP+8rHir4rdriM+k2dGwDNuXrScpz6xI3mEBfJZTVno8zy8+r0zzmFQuQ==",
+      "path": "mqttnet.extensions.managedclient/4.3.7.1207",
+      "hashPath": "mqttnet.extensions.managedclient.4.3.7.1207.nupkg.sha512"
     },
     "NLog/5.3.3": {
       "type": "package",

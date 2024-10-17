@@ -1,7 +1,6 @@
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\bin\Debug\net6.0-windows\UIControl.deps.json
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\bin\Debug\net6.0-windows\UIControl.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\bin\Debug\net6.0-windows\UIControl.pdb
-F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\obj\Debug\net6.0-windows\UIControl.csproj.AssemblyReference.cache
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\obj\Debug\net6.0-windows\UserControl1.g.cs
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\obj\Debug\net6.0-windows\UIControl_MarkupCompile.cache
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\obj\Debug\net6.0-windows\UIControl_MarkupCompile.lref
@@ -20,3 +19,4 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\obj\Debug\net6.0-win
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\obj\Debug\net6.0-windows\Style.baml
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\obj\Debug\net6.0-windows\Cylinder1.g.cs
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\obj\Debug\net6.0-windows\Cylinder1.baml
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\obj\Debug\net6.0-windows\UIControl.sourcelink.json

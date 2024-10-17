@@ -15,11 +15,13 @@ using BLL;
 using NLog;
 
 namespace PlatformViewModel
+
 {
     public partial class LoginModel:ObservableObject
     {
-        [ObservableProperty]
+        [ObservableProperty]    
         UserModel user=new UserModel();
+
         ILoginBLL _loginBLL;
 
         [ObservableProperty]
@@ -34,12 +36,12 @@ namespace PlatformViewModel
         Logger _Logger;
         public LoginModel(ILoginBLL loginBLL, Dispatcher dispatcher)
         {
+            TestDemo test =new ();
             _loginBLL=loginBLL;
             mainDisPacher = dispatcher;//实例线程调度
-            AbsUnit socket =new SocketUnit("127.0.0.1,502");
+            //AbsUnit socket =new SocketUnit("127.0.0.1,502");
+            //socket = new SerialUnit("10,19200,8,0,1");
             //socket.Connect();
-            socket = new SerialUnit("10,19200,8,0,1");
-            socket.Connect();
 
         }
 
@@ -78,8 +80,6 @@ namespace PlatformViewModel
                 }
 
             });
-
-
         }
     }
 }
