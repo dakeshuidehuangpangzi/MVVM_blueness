@@ -6,21 +6,236 @@
              xmlns:local="clr-namespace:MVVM_Platform"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Assets;component/Styles/ButtonStyles.xaml"/>
+                <ResourceDictionary>
+                    <ControlTemplate TargetType="ToggleButton" x:Key="ArrowButtonTemplate">
+                        <Grid Background="Transparent" Name="back">
+                            <TextBlock Text="&#xe81d;" FontFamily="{StaticResource Iconfont}" 
+                           VerticalAlignment="Center" HorizontalAlignment="Center"
+                           RenderTransformOrigin="0.5,0.5" Name="arrow" Foreground="White">
+                            </TextBlock>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter TargetName="arrow" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <RotateTransform Angle="90"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="back" Property="Background" Value="#11000000"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+
+
+                </ResourceDictionary>
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
     <DockPanel>
         <Grid Width="200" DockPanel.Dock="Left">
+            <Grid.Resources>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="KeyboardNavigation.AcceptsReturn" Value="True" />
+                    <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    <Setter Property="Padding" Value="8,5"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="FontSize" Value="12"/>
+                    <Setter Property="BorderThickness" Value="0"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate  TargetType="ListViewItem">
+                                <Grid Background="Transparent" Name="root">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition MaxWidth="30"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" MinHeight="36"/>
+                                        <RowDefinition  />
+                                    </Grid.RowDefinitions>
+                                    <Grid.InputBindings>
+                                        <MouseBinding MouseAction="LeftDoubleClick"
+                                                              Command="{Binding OpenViewCommand}"
+                                                              CommandParameter="{Binding}"/>
+                                    </Grid.InputBindings>
+
+                                    <Border x:Name="Bd" BorderBrush="{TemplateBinding BorderBrush}"
+                                                BorderThickness="{TemplateBinding BorderThickness}"
+                                                Background="{TemplateBinding Background}"
+                                                CornerRadius="10" Grid.ColumnSpan="2" Padding="{TemplateBinding Padding}"
+                                                SnapsToDevicePixels="true">
+                                        <!--<ContentPresenter x:Name="PART_Header" 
+                                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                                              SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}">
+                                        </ContentPresenter>-->
+                                    </Border>
+                                    <TextBlock Foreground="Black" x:Name="TB">
+                                        <TextBlock.Text>
+                                            <MultiBinding StringFormat=" {0}@{1}:{2}">
+                                                <Binding Path="Name" />
+                                                <Binding Path="Host" />
+                                                <Binding Path="Port" />
+                                            </MultiBinding>
+                                        </TextBlock.Text>
+
+                                    </TextBlock>
+
+                                    <!--<ToggleButton x:Name="Expander" Grid.ColumnSpan="2" 
+                                                  ClickMode="Press"
+                                                      IsChecked="{Binding IsExpanded, RelativeSource={RelativeSource TemplatedParent}}"
+                                                      Template="{StaticResource ArrowButtonTemplate}"/>-->
+                                    <ItemsPresenter x:Name="ItemsHost" Margin="8,0,8,0" Grid.ColumnSpan="2" Grid.Row="1" />
+                                </Grid>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsSelected" Value="true">
+                                        <Setter Property="Background" TargetName="Bd" Value="#FF9FF0FF"/>
+                                    </Trigger>
+                                    <DataTrigger Binding="{Binding MenuIcon}" Value="{x:Null}">
+                                        <Setter Property="Margin" Value="10,0,0,0" TargetName="root"/>
+                                    </DataTrigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+
+                </Style>
+            </Grid.Resources>
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
                 <RowDefinition />
             </Grid.RowDefinitions>
             <StackPanel Orientation="Horizontal" VerticalAlignment="Center" >
                 <Label Content="连接" FontSize="20" FontWeight="ExtraBlack"/>
+                <ToggleButton  Height="30" 
+                               Margin="5,3" 
+                               Style="{StaticResource  MqttToggleButtonStyle}"
+                               HorizontalContentAlignment="Stretch" Tag="5"
+                               Name="btnManual">
+                              <Grid Margin="0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="+" HorizontalAlignment="Left"/>
+                        <TextBlock Text="&#xe720;" FontFamily="{StaticResource Iconfont}" Grid.Column="1"  HorizontalAlignment="Right"/>
+                    </Grid>
+                </ToggleButton>
+                <Popup StaysOpen="False" IsOpen="{Binding ElementName=btnManual,Path=IsChecked}"
+               AllowsTransparency="True" PlacementTarget="{Binding ElementName=btnManual}"
+               Placement="Left">
+                </Popup>
             </StackPanel>
-            <ListView Grid.Row="1" BorderThickness="0">
-                
-            </ListView>
+            <ListView Grid.Row="1" BorderThickness="0" ItemsSource="{Binding Clients}" Name="Clientlist"/>
         </Grid>
-        <Grid DockPanel.Dock="Right">
-            
-        </Grid>
+        <DockPanel  DataContext="{Binding ElementName=Clientlist,Path=SelectedItem}">
+            <Grid DockPanel.Dock="Top" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Center">
+                    <TextBlock Text="{Binding Name}" d:Text="测试"/>
+                </StackPanel>
+                <Grid Grid.Row="1" Height="150">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="*" Foreground="Red" FontSize="15" VerticalAlignment="Center"/>
+                        <Label Content="名称" HorizontalAlignment="Left" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Column="1">
+                        <Label Content="*" Foreground="Red" FontSize="15" VerticalAlignment="Center"/>
+                        <Label Content="Client ID" HorizontalAlignment="Left" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Column="2">
+                        <Label Content="用户名" HorizontalAlignment="Left" />
+                    </StackPanel>
+                    <TextBox Grid.Row="1" Margin="5,5,30,5" Text="{Binding Name}" />
+                    <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding ClientID}" Margin="5,5,30,5"  />
+                    <TextBox Grid.Row="1" Grid.Column="2" Text="{Binding UserName}" Margin="5,5,30,5" />
+                    <StackPanel Orientation="Horizontal"  Grid.Row="2">
+                        <Label Content="密码" HorizontalAlignment="Left" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Column="1"  Grid.Row="2">
+                        <Label Content="Keep Alive" HorizontalAlignment="Left" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="2">
+                        <Label Content="Clean Start" HorizontalAlignment="Left" />
+                    </StackPanel>
+                    <TextBox Grid.Row="3" Margin="5,5,30,5" />
+                    <TextBox Grid.Row="3" Grid.Column="1" Margin="5,5,30,5" />
+                    <TextBox Grid.Row="3" Grid.Column="2" Margin="5,5,30,5" />
+                    <Button Grid.Row="4" Grid.Column="2" Content="连接" Command="{Binding ConnectCommand}"/>
+                </Grid>
+            </Grid>
+            <Grid DockPanel.Dock="Bottom">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Button Content=" +   添加订阅"/>
+                    <ListView Grid.Row="1" ItemsSource="{Binding listTopic}"/>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal">
+                        <ComboBox  Margin=" 10,2,0,2" Width="50" />
+                        <RadioButton  VerticalContentAlignment="Center"  Content="全部"/>
+                        <RadioButton  VerticalContentAlignment="Center"  Content="已接收"/>
+                        <RadioButton  VerticalContentAlignment="Center"  Content="已发送"/>
+
+                    </StackPanel>
+                    <ListView Grid.Row="1"/>
+                    <Grid  Grid.Row="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="20"/>
+                            <RowDefinition Height="20"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel  Orientation="Horizontal" Height="20">
+                            <ComboBox Width="50"/>
+                            <ComboBox Width="50"/>
+                            <RadioButton Content="Retain" VerticalContentAlignment="Center"/>
+                            <ToggleButton  Content="Meta"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="20" Grid.Row="1">
+                            <TextBlock/>
+                            <ComboBox />
+                        </StackPanel>
+                        <ListView Grid.Row="2"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </DockPanel>
+
     </DockPanel>
 </UserControl>

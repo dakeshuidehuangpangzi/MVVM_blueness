@@ -71,9 +71,11 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\MVVM_Web\obj\Debug\net6.0\staticweb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\MVVM_Web\obj\Debug\net6.0\staticwebassets.build.json
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\MVVM_Web\obj\Debug\net6.0\staticwebassets.development.json
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\MVVM_Web\obj\Debug\net6.0\scopedcss\bundle\MVVM_Web.styles.css
-F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\MVVM_Web\obj\Debug\net6.0\MVVM_Web.csproj.CopyComplete
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\MVVM_Web\obj\Debug\net6.0\MVVM_Web.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\MVVM_Web\obj\Debug\net6.0\refint\MVVM_Web.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\MVVM_Web\obj\Debug\net6.0\MVVM_Web.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\MVVM_Web\obj\Debug\net6.0\MVVM_Web.genruntimeconfig.cache
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\MVVM_Web\obj\Debug\net6.0\ref\MVVM_Web.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\MVVM_Web\obj\Debug\net6.0\MVVM_Web.MvcApplicationPartsAssemblyInfo.cs
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\MVVM_Web\obj\Debug\net6.0\MVVM_Web.sourcelink.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\MVVM_Web\obj\Debug\net6.0\MVVM_Web.csproj.Up2Date

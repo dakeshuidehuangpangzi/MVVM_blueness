@@ -68,6 +68,34 @@
           }
         }
       },
+      "InTheHand.Net.Bluetooth/4.1.44": {
+        "runtime": {
+          "lib/net6.0-windows7.0/InTheHand.Net.Bluetooth.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.44.0"
+          }
+        }
+      },
+      "InTheHand.Net.IrDA/4.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/InTheHand.Net.IrDA.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.0.4.0"
+          }
+        }
+      },
+      "InTheHand.Net.Obex/4.0.10": {
+        "dependencies": {
+          "InTheHand.Net.Bluetooth": "4.1.44",
+          "InTheHand.Net.IrDA": "4.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/InTheHand.Net.Obex.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.10.824"
+          }
+        }
+      },
       "Microsoft.Win32.SystemEvents/8.0.0": {
         "runtime": {
           "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
@@ -255,6 +283,27 @@
       "sha512": "sha512-W67USjczMau4R5g8aU9/knYpCqnFurZ/kmzXnSvqxhC9YR3KaUTT2L+95WWoL1u9qlQ48U6ORP9s6I6x9/yW4Q==",
       "path": "extended.wpf.toolkit/4.6.0",
       "hashPath": "extended.wpf.toolkit.4.6.0.nupkg.sha512"
+    },
+    "InTheHand.Net.Bluetooth/4.1.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gRPCmVpYklhn/JkiJpoV2ZExw740csai+o+IgsUn/4igeMOO848uUIXTaN8UDSMGj69T9ZeLYCTYF/dHaJnteg==",
+      "path": "inthehand.net.bluetooth/4.1.44",
+      "hashPath": "inthehand.net.bluetooth.4.1.44.nupkg.sha512"
+    },
+    "InTheHand.Net.IrDA/4.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zMWcSKNOI8WjybyvXtgY7nJEASK98ESLpmLpfguNtSMrWro80bJHDIyvB+7pXj2lW9FaDwyxbz7TMfQ8Gm2r+w==",
+      "path": "inthehand.net.irda/4.0.4",
+      "hashPath": "inthehand.net.irda.4.0.4.nupkg.sha512"
+    },
+    "InTheHand.Net.Obex/4.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZlKIRKjKO0oVS97B1e/aDsIhmVbxUI5Xg9LPwqhNA1EGMKjgdniZWDzsPtnERUIU4vmFqLv5BjlDjoff893aVw==",
+      "path": "inthehand.net.obex/4.0.10",
+      "hashPath": "inthehand.net.obex.4.0.10.nupkg.sha512"
     },
     "Microsoft.Win32.SystemEvents/8.0.0": {
       "type": "package",

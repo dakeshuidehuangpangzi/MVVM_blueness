@@ -3,199 +3,44 @@
   "WorkspaceRootPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\mqtttestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|solutionrelative:platformviewmodel\\mqtttestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|solutionrelative:platformviewmodel\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\page\\mqtttestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\page\\mqtttestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8B48F93-DD5F-4335-A9DF-A8EBBC5EFA0C}|CommunicationComponent\\CommunicationComponent.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\communicationcomponent\\mqtt\\mqttclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8B48F93-DD5F-4335-A9DF-A8EBBC5EFA0C}|CommunicationComponent\\CommunicationComponent.csproj|solutionrelative:communicationcomponent\\mqtt\\mqttclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\testdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|solutionrelative:platformviewmodel\\testdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\mvvm_platform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\mvvm_platform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\globaluseing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\globaluseing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\componentconfigview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\componentconfigview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\actionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\actionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\monitorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|solutionrelative:platformviewmodel\\monitorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\viewmodellocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|solutionrelative:platformviewmodel\\viewmodellocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\page\\mqtttestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\page\\mqtttestpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\page\\monitorpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\page\\monitorpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\page\\manualoperationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\page\\manualoperationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\page\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\page\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\page\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\page\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\page\\trendpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\page\\trendpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\dialog\\waringdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\dialog\\waringdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\page\\alarmpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\page\\alarmpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|solutionrelative:platformviewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\alarmviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|solutionrelative:platformviewmodel\\alarmviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|solutionrelative:platformviewmodel\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\views\\loginview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\views\\loginview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\page\\alarmpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\page\\alarmpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\page\\monitorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\page\\monitorpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\manualoperationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|solutionrelative:platformviewmodel\\manualoperationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\settingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|solutionrelative:platformviewmodel\\settingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\views\\mainview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\views\\mainview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\trendviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|solutionrelative:platformviewmodel\\trendviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8B48F93-DD5F-4335-A9DF-A8EBBC5EFA0C}|CommunicationComponent\\CommunicationComponent.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\communicationcomponent\\mobbus\\modbusrtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8B48F93-DD5F-4335-A9DF-A8EBBC5EFA0C}|CommunicationComponent\\CommunicationComponent.csproj|solutionrelative:communicationcomponent\\mobbus\\modbusrtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\page\\settingspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\page\\settingspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBDE7C60-5AA6-478E-BCED-A45D048664E7}|Entity\\Entity.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBDE7C60-5AA6-478E-BCED-A45D048664E7}|Entity\\Entity.csproj|solutionrelative:entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBDE7C60-5AA6-478E-BCED-A45D048664E7}|Entity\\Entity.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\entity\\entity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DBDE7C60-5AA6-478E-BCED-A45D048664E7}|Entity\\Entity.csproj|solutionrelative:entity\\entity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8B48F93-DD5F-4335-A9DF-A8EBBC5EFA0C}|CommunicationComponent\\CommunicationComponent.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\communicationcomponent\\communicationcomponent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B8B48F93-DD5F-4335-A9DF-A8EBBC5EFA0C}|CommunicationComponent\\CommunicationComponent.csproj|solutionrelative:communicationcomponent\\communicationcomponent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D943E9D2-4F49-4BE4-89A4-5103100AA71A}|Common\\Common.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\common\\globalvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D943E9D2-4F49-4BE4-89A4-5103100AA71A}|Common\\Common.csproj|solutionrelative:common\\globalvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D943E9D2-4F49-4BE4-89A4-5103100AA71A}|Common\\Common.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\common\\actionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D943E9D2-4F49-4BE4-89A4-5103100AA71A}|Common\\Common.csproj|solutionrelative:common\\actionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D943E9D2-4F49-4BE4-89A4-5103100AA71A}|Common\\Common.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D943E9D2-4F49-4BE4-89A4-5103100AA71A}|Common\\Common.csproj|solutionrelative:common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4B98CDE-654E-425C-ACCA-077CDFCEB4CF}|PlatformModel\\PlatformModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformmodel\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4B98CDE-654E-425C-ACCA-077CDFCEB4CF}|PlatformModel\\PlatformModel.csproj|solutionrelative:platformmodel\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4B98CDE-654E-425C-ACCA-077CDFCEB4CF}|PlatformModel\\PlatformModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformmodel\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4B98CDE-654E-425C-ACCA-077CDFCEB4CF}|PlatformModel\\PlatformModel.csproj|solutionrelative:platformmodel\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4B98CDE-654E-425C-ACCA-077CDFCEB4CF}|PlatformModel\\PlatformModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformmodel\\menumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4B98CDE-654E-425C-ACCA-077CDFCEB4CF}|PlatformModel\\PlatformModel.csproj|solutionrelative:platformmodel\\menumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\pageform\\mqttsendandconfigview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\pageform\\mqttsendandconfigview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8B48F93-DD5F-4335-A9DF-A8EBBC5EFA0C}|CommunicationComponent\\CommunicationComponent.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\communicationcomponent\\mqtt\\mqttthinking.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{B8B48F93-DD5F-4335-A9DF-A8EBBC5EFA0C}|CommunicationComponent\\CommunicationComponent.csproj|solutionrelative:communicationcomponent\\mqtt\\mqttthinking.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|solutionrelative:platformviewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8B48F93-DD5F-4335-A9DF-A8EBBC5EFA0C}|CommunicationComponent\\CommunicationComponent.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\communicationcomponent\\mobbus\\modbusascii.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8B48F93-DD5F-4335-A9DF-A8EBBC5EFA0C}|CommunicationComponent\\CommunicationComponent.csproj|solutionrelative:communicationcomponent\\mobbus\\modbusascii.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|solutionrelative:platformviewmodel\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0208DB8-EDE4-4344-8B31-6C8F17DD2BBD}|UIControl\\UIControl.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\uicontrol\\cylinder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B0208DB8-EDE4-4344-8B31-6C8F17DD2BBD}|UIControl\\UIControl.csproj|solutionrelative:uicontrol\\cylinder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|solutionrelative:platformviewmodel\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE6BBA2-AAEE-40AE-9D70-FD206A410909}|Assets\\Assets.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\assets\\styles\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1AE6BBA2-AAEE-40AE-9D70-FD206A410909}|Assets\\Assets.csproj|solutionrelative:assets\\styles\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B48F93-DD5F-4335-A9DF-A8EBBC5EFA0C}|CommunicationComponent\\CommunicationComponent.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\communicationcomponent\\mobbus\\modbusrtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B48F93-DD5F-4335-A9DF-A8EBBC5EFA0C}|CommunicationComponent\\CommunicationComponent.csproj|solutionrelative:communicationcomponent\\mobbus\\modbusrtu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -209,597 +54,140 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Cylinder.xaml",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\UIControl\\Cylinder.xaml",
-              "RelativeDocumentMoniker": "UIControl\\Cylinder.xaml",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\UIControl\\Cylinder.xaml",
-              "RelativeToolTip": "UIControl\\Cylinder.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-15T06:25:05.727Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 9,
               "Title": "ModbusRTU.cs",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\Mobbus\\ModbusRTU.cs",
               "RelativeDocumentMoniker": "CommunicationComponent\\Mobbus\\ModbusRTU.cs",
               "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\Mobbus\\ModbusRTU.cs",
               "RelativeToolTip": "CommunicationComponent\\Mobbus\\ModbusRTU.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T06:03:19.185Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MQTTClient.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\MQTT\\MQTTClient.cs",
-              "RelativeDocumentMoniker": "CommunicationComponent\\MQTT\\MQTTClient.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\MQTT\\MQTTClient.cs",
-              "RelativeToolTip": "CommunicationComponent\\MQTT\\MQTTClient.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAQwGYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T07:00:43.922Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\LoginModel.cs",
-              "RelativeDocumentMoniker": "PlatformViewModel\\LoginModel.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\LoginModel.cs*",
-              "RelativeToolTip": "PlatformViewModel\\LoginModel.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "MQTTClient.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\MQTT\\MQTTClient.cs",
+              "RelativeDocumentMoniker": "CommunicationComponent\\MQTT\\MQTTClient.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\MQTT\\MQTTClient.cs",
+              "RelativeToolTip": "CommunicationComponent\\MQTT\\MQTTClient.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T07:02:24.001Z",
+              "WhenOpened": "2024-10-21T07:37:07.253Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ActionManager.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\ActionManager.cs",
-              "RelativeDocumentMoniker": "MVVM_Platform\\ActionManager.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\ActionManager.cs",
-              "RelativeToolTip": "MVVM_Platform\\ActionManager.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T07:01:34.928Z",
+              "DocumentIndex": 4,
+              "Title": "MQTTThinking.txt",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\MQTT\\MQTTThinking.txt",
+              "RelativeDocumentMoniker": "CommunicationComponent\\MQTT\\MQTTThinking.txt",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\MQTT\\MQTTThinking.txt",
+              "RelativeToolTip": "CommunicationComponent\\MQTT\\MQTTThinking.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-23T09:20:49.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MQTTTestViewModel.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\MQTTTestViewModel.cs",
-              "RelativeDocumentMoniker": "PlatformViewModel\\MQTTTestViewModel.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\MQTTTestViewModel.cs*",
-              "RelativeToolTip": "PlatformViewModel\\MQTTTestViewModel.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswA4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T06:50:47.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TestDemo.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\TestDemo.cs",
-              "RelativeDocumentMoniker": "PlatformViewModel\\TestDemo.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\TestDemo.cs",
-              "RelativeToolTip": "PlatformViewModel\\TestDemo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswBAAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:15:55.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "MVVM_Platform\\AssemblyInfo.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\AssemblyInfo.cs",
-              "RelativeToolTip": "MVVM_Platform\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:10:07.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ComponentConfigView.xaml",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\ComponentConfigView.xaml",
-              "RelativeDocumentMoniker": "MVVM_Platform\\ComponentConfigView.xaml",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\ComponentConfigView.xaml",
-              "RelativeToolTip": "MVVM_Platform\\ComponentConfigView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-24T13:12:36.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GlobalUseing.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\GlobalUseing.cs",
-              "RelativeDocumentMoniker": "MVVM_Platform\\GlobalUseing.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\GlobalUseing.cs",
-              "RelativeToolTip": "MVVM_Platform\\GlobalUseing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:10:04.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MonitorViewModel.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\MonitorViewModel.cs",
-              "RelativeDocumentMoniker": "PlatformViewModel\\MonitorViewModel.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\MonitorViewModel.cs",
-              "RelativeToolTip": "PlatformViewModel\\MonitorViewModel.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:09:40.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ViewModelLocator.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\ViewModelLocator.cs",
-              "RelativeDocumentMoniker": "PlatformViewModel\\ViewModelLocator.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\ViewModelLocator.cs",
-              "RelativeToolTip": "PlatformViewModel\\ViewModelLocator.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAUwDEAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:09:34.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "MQTTTestPage.xaml",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\MQTTTestPage.xaml",
               "RelativeDocumentMoniker": "MVVM_Platform\\Page\\MQTTTestPage.xaml",
               "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\MQTTTestPage.xaml",
               "RelativeToolTip": "MVVM_Platform\\Page\\MQTTTestPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-16T07:52:55.216Z",
+              "WhenOpened": "2024-10-23T09:02:11.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ManualOperationPage.xaml",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\ManualOperationPage.xaml",
-              "RelativeDocumentMoniker": "MVVM_Platform\\Page\\ManualOperationPage.xaml",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\ManualOperationPage.xaml",
-              "RelativeToolTip": "MVVM_Platform\\Page\\ManualOperationPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-16T07:55:12.227Z"
+              "DocumentIndex": 2,
+              "Title": "MVVM_Platform",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\MVVM_Platform.csproj",
+              "RelativeDocumentMoniker": "MVVM_Platform\\MVVM_Platform.csproj",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\MVVM_Platform.csproj",
+              "RelativeToolTip": "MVVM_Platform\\MVVM_Platform.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-23T08:58:29.707Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MonitorPage.xaml",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\MonitorPage.xaml",
-              "RelativeDocumentMoniker": "MVVM_Platform\\Page\\MonitorPage.xaml",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\MonitorPage.xaml",
-              "RelativeToolTip": "MVVM_Platform\\Page\\MonitorPage.xaml",
+              "DocumentIndex": 3,
+              "Title": "MQTTSendAndConfigview.xaml",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\PageForm\\MQTTSendAndConfigview.xaml",
+              "RelativeDocumentMoniker": "MVVM_Platform\\PageForm\\MQTTSendAndConfigview.xaml",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\PageForm\\MQTTSendAndConfigview.xaml",
+              "RelativeToolTip": "MVVM_Platform\\PageForm\\MQTTSendAndConfigview.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-16T07:55:10.422Z"
+              "WhenOpened": "2024-10-23T06:10:52.732Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ReportPage.xaml",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\ReportPage.xaml",
-              "RelativeDocumentMoniker": "MVVM_Platform\\Page\\ReportPage.xaml",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\ReportPage.xaml",
-              "RelativeToolTip": "MVVM_Platform\\Page\\ReportPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-16T07:55:08.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "WaringDialog.xaml",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Dialog\\WaringDialog.xaml",
-              "RelativeDocumentMoniker": "MVVM_Platform\\Dialog\\WaringDialog.xaml",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Dialog\\WaringDialog.xaml",
-              "RelativeToolTip": "MVVM_Platform\\Dialog\\WaringDialog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-16T07:55:03.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TrendPage.xaml",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\TrendPage.xaml",
-              "RelativeDocumentMoniker": "MVVM_Platform\\Page\\TrendPage.xaml",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\TrendPage.xaml",
-              "RelativeToolTip": "MVVM_Platform\\Page\\TrendPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-16T07:45:14.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SettingsPage.xaml",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\SettingsPage.xaml",
-              "RelativeDocumentMoniker": "MVVM_Platform\\Page\\SettingsPage.xaml",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\SettingsPage.xaml",
-              "RelativeToolTip": "MVVM_Platform\\Page\\SettingsPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-07T03:03:52.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "LoginView.xaml",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Views\\LoginView.xaml",
-              "RelativeDocumentMoniker": "MVVM_Platform\\Views\\LoginView.xaml",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Views\\LoginView.xaml",
-              "RelativeToolTip": "MVVM_Platform\\Views\\LoginView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-24T13:11:16.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AlarmPage.xaml",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\AlarmPage.xaml",
-              "RelativeDocumentMoniker": "MVVM_Platform\\Page\\AlarmPage.xaml",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\AlarmPage.xaml",
-              "RelativeToolTip": "MVVM_Platform\\Page\\AlarmPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-10T07:17:59.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MainView.xaml",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Views\\MainView.xaml",
-              "RelativeDocumentMoniker": "MVVM_Platform\\Views\\MainView.xaml",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Views\\MainView.xaml",
-              "RelativeToolTip": "MVVM_Platform\\Views\\MainView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-24T13:12:39.612Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 5,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "PlatformViewModel\\MainViewModel.cs",
               "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\MainViewModel.cs",
               "RelativeToolTip": "PlatformViewModel\\MainViewModel.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAIwEwAAAAqAAAA",
+              "ViewState": "AgIAAAwAAAAAAAAAAAArwBEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T07:16:33.057Z"
+              "WhenOpened": "2024-10-23T08:58:42.107Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AlarmViewModel.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\AlarmViewModel.cs",
-              "RelativeDocumentMoniker": "PlatformViewModel\\AlarmViewModel.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\AlarmViewModel.cs",
-              "RelativeToolTip": "PlatformViewModel\\AlarmViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\LoginModel.cs",
+              "RelativeDocumentMoniker": "PlatformViewModel\\LoginModel.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\LoginModel.cs",
+              "RelativeToolTip": "PlatformViewModel\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:11:32.416Z"
+              "WhenOpened": "2024-10-23T07:34:55.689Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 7,
               "Title": "HistoryViewModel.cs",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\HistoryViewModel.cs",
               "RelativeDocumentMoniker": "PlatformViewModel\\HistoryViewModel.cs",
               "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\HistoryViewModel.cs",
               "RelativeToolTip": "PlatformViewModel\\HistoryViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:11:31.244Z"
+              "WhenOpened": "2024-10-23T07:34:48.076Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AlarmPage.xaml.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\AlarmPage.xaml.cs",
-              "RelativeDocumentMoniker": "MVVM_Platform\\Page\\AlarmPage.xaml.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\AlarmPage.xaml.cs",
-              "RelativeToolTip": "MVVM_Platform\\Page\\AlarmPage.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T07:18:05.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LoginView.xaml.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Views\\LoginView.xaml.cs",
-              "RelativeDocumentMoniker": "MVVM_Platform\\Views\\LoginView.xaml.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Views\\LoginView.xaml.cs",
-              "RelativeToolTip": "MVVM_Platform\\Views\\LoginView.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAASwBwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:11:17.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\App.xaml.cs",
-              "RelativeDocumentMoniker": "MVVM_Platform\\App.xaml.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\App.xaml.cs",
-              "RelativeToolTip": "MVVM_Platform\\App.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAswCAAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T07:10:36.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "MonitorPage.xaml.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\MonitorPage.xaml.cs",
-              "RelativeDocumentMoniker": "MVVM_Platform\\Page\\MonitorPage.xaml.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\MonitorPage.xaml.cs",
-              "RelativeToolTip": "MVVM_Platform\\Page\\MonitorPage.xaml.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAzwBsAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T12:16:04.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "SettingViewModel.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\SettingViewModel.cs",
-              "RelativeDocumentMoniker": "PlatformViewModel\\SettingViewModel.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\SettingViewModel.cs",
-              "RelativeToolTip": "PlatformViewModel\\SettingViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:09:40.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "MainView.xaml.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Views\\MainView.xaml.cs",
-              "RelativeDocumentMoniker": "MVVM_Platform\\Views\\MainView.xaml.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Views\\MainView.xaml.cs",
-              "RelativeToolTip": "MVVM_Platform\\Views\\MainView.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAuwB4AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:12:41.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ManualOperationViewModel.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\ManualOperationViewModel.cs",
-              "RelativeDocumentMoniker": "PlatformViewModel\\ManualOperationViewModel.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\ManualOperationViewModel.cs",
-              "RelativeToolTip": "PlatformViewModel\\ManualOperationViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:09:41.506Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "TrendViewModel.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\TrendViewModel.cs",
-              "RelativeDocumentMoniker": "PlatformViewModel\\TrendViewModel.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\TrendViewModel.cs",
-              "RelativeToolTip": "PlatformViewModel\\TrendViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:09:39.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "App.xaml",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\App.xaml",
-              "RelativeDocumentMoniker": "MVVM_Platform\\App.xaml",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\App.xaml",
-              "RelativeToolTip": "MVVM_Platform\\App.xaml",
+              "DocumentIndex": 8,
+              "Title": "ButtonStyles.xaml",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Assets\\Styles\\ButtonStyles.xaml",
+              "RelativeDocumentMoniker": "Assets\\Styles\\ButtonStyles.xaml",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Assets\\Styles\\ButtonStyles.xaml",
+              "RelativeToolTip": "Assets\\Styles\\ButtonStyles.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-24T13:10:49.385Z",
+              "WhenOpened": "2024-10-21T08:24:21.563Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "SettingsPage.xaml.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\SettingsPage.xaml.cs",
-              "RelativeDocumentMoniker": "MVVM_Platform\\Page\\SettingsPage.xaml.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Page\\SettingsPage.xaml.cs",
-              "RelativeToolTip": "MVVM_Platform\\Page\\SettingsPage.xaml.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAA8wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T03:03:55.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
-              "ViewState": "AQIAAE0AAAAAAAAAAAA0wFsAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-09-26T00:18:55.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Entity\\UserEntity.cs",
-              "RelativeDocumentMoniker": "Entity\\UserEntity.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Entity\\UserEntity.cs",
-              "RelativeToolTip": "Entity\\UserEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:12:28.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Entity.csproj",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Entity\\Entity.csproj",
-              "RelativeDocumentMoniker": "Entity\\Entity.csproj",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Entity\\Entity.csproj",
-              "RelativeToolTip": "Entity\\Entity.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-24T13:12:27.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "CommunicationComponent.csproj",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\CommunicationComponent.csproj",
-              "RelativeDocumentMoniker": "CommunicationComponent\\CommunicationComponent.csproj",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\CommunicationComponent.csproj",
-              "RelativeToolTip": "CommunicationComponent\\CommunicationComponent.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-24T13:12:20.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "GlobalValue.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Common\\GlobalValue.cs",
-              "RelativeDocumentMoniker": "Common\\GlobalValue.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Common\\GlobalValue.cs",
-              "RelativeToolTip": "Common\\GlobalValue.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:12:01.729Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ActionManager.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Common\\ActionManager.cs",
-              "RelativeDocumentMoniker": "Common\\ActionManager.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Common\\ActionManager.cs",
-              "RelativeToolTip": "Common\\ActionManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:11:57.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Common.csproj",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Common\\Common.csproj",
-              "RelativeDocumentMoniker": "Common\\Common.csproj",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Common\\Common.csproj",
-              "RelativeToolTip": "Common\\Common.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-24T13:11:54.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Messages.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformModel\\Messages.cs",
-              "RelativeDocumentMoniker": "PlatformModel\\Messages.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformModel\\Messages.cs",
-              "RelativeToolTip": "PlatformModel\\Messages.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:10:56.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformModel\\UserModel.cs",
-              "RelativeDocumentMoniker": "PlatformModel\\UserModel.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformModel\\UserModel.cs",
-              "RelativeToolTip": "PlatformModel\\UserModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:10:55.852Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "MenuModel.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformModel\\MenuModel.cs",
-              "RelativeDocumentMoniker": "PlatformModel\\MenuModel.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformModel\\MenuModel.cs",
-              "RelativeToolTip": "PlatformModel\\MenuModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:10:54.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "App.config",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\App.config",
-              "RelativeDocumentMoniker": "MVVM_Platform\\App.config",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\App.config",
-              "RelativeToolTip": "MVVM_Platform\\App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-24T13:08:37.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "nlog.config",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\nlog.config",
-              "RelativeDocumentMoniker": "MVVM_Platform\\nlog.config",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\nlog.config",
-              "RelativeToolTip": "MVVM_Platform\\nlog.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-24T13:00:55.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ModbusASCII.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\Mobbus\\ModbusASCII.cs",
-              "RelativeDocumentMoniker": "CommunicationComponent\\Mobbus\\ModbusASCII.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\Mobbus\\ModbusASCII.cs",
-              "RelativeToolTip": "CommunicationComponent\\Mobbus\\ModbusASCII.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAswBMAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T06:34:08.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "MQTTThinking.txt",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\MQTT\\MQTTThinking.txt",
-              "RelativeDocumentMoniker": "CommunicationComponent\\MQTT\\MQTTThinking.txt",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\MQTT\\MQTTThinking.txt",
-              "RelativeToolTip": "CommunicationComponent\\MQTT\\MQTTThinking.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-21T06:22:49.132Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

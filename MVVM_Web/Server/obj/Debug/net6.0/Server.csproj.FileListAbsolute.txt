@@ -14,8 +14,9 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\Server\bin\Debug\net6.0\IDAL.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\Server\bin\Debug\net6.0\IServer.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\Server\bin\Debug\net6.0\EFCore.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\Server\bin\Debug\net6.0\Models.pdb
-F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\Server\obj\Debug\net6.0\Server.csproj.CopyComplete
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\Server\obj\Debug\net6.0\Server.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\Server\obj\Debug\net6.0\refint\Server.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\Server\obj\Debug\net6.0\Server.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\Server\obj\Debug\net6.0\ref\Server.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\Server\obj\Debug\net6.0\Server.sourcelink.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\Server\obj\Debug\net6.0\Server.csproj.Up2Date

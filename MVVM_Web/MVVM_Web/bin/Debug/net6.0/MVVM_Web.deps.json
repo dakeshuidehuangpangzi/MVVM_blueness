@@ -1032,7 +1032,10 @@
           "Models": "1.0.0"
         },
         "runtime": {
-          "DAL.dll": {}
+          "DAL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "EFCore/1.0.0": {
@@ -1040,7 +1043,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
         "runtime": {
-          "EFCore.dll": {}
+          "EFCore.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "IDAL/1.0.0": {
@@ -1048,7 +1054,10 @@
           "EFCore": "1.0.0"
         },
         "runtime": {
-          "IDAL.dll": {}
+          "IDAL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "IServer/1.0.0": {
@@ -1056,12 +1065,18 @@
           "Models": "1.0.0"
         },
         "runtime": {
-          "IServer.dll": {}
+          "IServer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Models/1.0.0": {
         "runtime": {
-          "Models.dll": {}
+          "Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Server/1.0.0": {
@@ -1071,7 +1086,10 @@
           "Microsoft.EntityFrameworkCore.Analyzers": "5.0.17"
         },
         "runtime": {
-          "Server.dll": {}
+          "Server.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

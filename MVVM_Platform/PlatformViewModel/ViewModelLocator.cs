@@ -14,31 +14,6 @@ using System.Windows.Threading;
 
 namespace PlatformViewModel
 {
-    public class ViewModelLocator
-    {
-      
-        public  static ServiceCollection ConfigureServices()
-        {
-            var services = new ServiceCollection();
-
-            services.AddTransient<LoginModel>();
-            //services.AddKeyedTransient<LoginModel>("123");
-            services.AddTransient<MainViewModel>();
-            services.AddTransient<AlarmViewModel>();
-            services.AddTransient<HistoryViewModel>();
-            services.AddTransient<ManualOperationViewModel>();
-            services.AddTransient<MonitorViewModel>();
-            services.AddTransient<SettingViewModel>();
-            services.AddTransient<TrendViewModel>();
-            services.AddTransient<ILoginBLL,LoginBLL>();
-
-            services.AddTransient<ILoginDal, LoginDal>();
-
-            return services;
-        }
-
-    }
-
     public static class PlatformViewModelServiceCollectionExtension
     {
         public static void AddPlatformViewModelServices(this IServiceCollection services)
@@ -53,6 +28,8 @@ namespace PlatformViewModel
             services.AddTransient<TrendViewModel>();
             services.AddTransient<ILoginBLL, LoginBLL>();
             services.AddTransient<ILoginDal, LoginDal>();
+            services.AddSingleton<MQTTTestViewModel>();
+            services.AddScoped<MQTTSendAndConfigviewModel>();
         }
 
     }
@@ -83,6 +60,8 @@ namespace PlatformViewModel
             services.AddTransient<TrendViewModel>();
             services.AddTransient<ILoginBLL, LoginBLL>();
             services.AddTransient<ILoginDal, LoginDal>();
+            services.AddSingleton<MQTTTestViewModel>();
+
         }
 
 

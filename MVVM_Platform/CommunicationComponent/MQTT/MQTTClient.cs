@@ -5,9 +5,8 @@ using MQTTnet.Extensions.ManagedClient;
 
 public delegate void OrderEventHandler(MQTTClient sender, MessageReceivedArg e);
 
-public class MQTTClient
+public  class MQTTClient
 {
-
     #region 属性
     /// <summary>名称</summary>
     public string Name { get; set; }
@@ -24,9 +23,9 @@ public class MQTTClient
 
     public int Port { get; set; } = 1883;
     public string Host { get; set; } = "127.0.0.1";
-
     /// <summary>订阅主题集合</summary>
     public List<string> listTopic = new List<string>();
+    private IMqttClient mqttClient;
 
     #endregion
 
@@ -55,7 +54,6 @@ public class MQTTClient
     internal void InvokeErrmessage(ErrMessageArg args) => this.OneErrmessage?.Invoke(this, args);
     #endregion
 
-    private IMqttClient mqttClient;
     /// <summary>
     /// 连接服务器
     /// </summary>

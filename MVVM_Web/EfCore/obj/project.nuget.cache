@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "idwAzilaEiTjuY7lTdU7/+cfXaoBB154Wr4/hDQF5ouw+rJ+1aW2W1RfeAu3m9c9Fx3smSF8ru00SCj8WgU8QQ==",
+  "dgSpecHash": "ZVhrly7ACMw=",
   "success": true,
   "projectFilePath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\EfCoreTest.csproj",
   "expectedPackageFiles": [
@@ -132,7 +132,10 @@
     "C:\\Users\\黄胖子\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\黄胖子\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\黄胖子\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\黄胖子\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\黄胖子\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\黄胖子\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\黄胖子\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\黄胖子\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

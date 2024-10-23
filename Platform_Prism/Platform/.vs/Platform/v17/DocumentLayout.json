@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F059BC7B-573F-426E-BBA4-3F6504306A36}|PlcPlatform\\PlcPlatform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\plcplatform\\plcplatform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F059BC7B-573F-426E-BBA4-3F6504306A36}|PlcPlatform\\PlcPlatform.csproj|solutionrelative:plcplatform\\plcplatform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF3EF0E-5EA1-44C1-8F96-EBC0D35710C5}|Wireless\\Wireless.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\wireless\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AF3EF0E-5EA1-44C1-8F96-EBC0D35710C5}|Wireless\\Wireless.csproj|solutionrelative:wireless\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF3EF0E-5EA1-44C1-8F96-EBC0D35710C5}|Wireless\\Wireless.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\wireless\\bluetooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AF3EF0E-5EA1-44C1-8F96-EBC0D35710C5}|Wireless\\Wireless.csproj|solutionrelative:wireless\\bluetooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AF3EF0E-5EA1-44C1-8F96-EBC0D35710C5}|Wireless\\Wireless.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\wireless\\wireless.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3AF3EF0E-5EA1-44C1-8F96-EBC0D35710C5}|Wireless\\Wireless.csproj|solutionrelative:wireless\\wireless.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F059BC7B-573F-426E-BBA4-3F6504306A36}|PlcPlatform\\PlcPlatform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\plcplatform\\realize\\can\\candll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F059BC7B-573F-426E-BBA4-3F6504306A36}|PlcPlatform\\PlcPlatform.csproj|solutionrelative:plcplatform\\realize\\can\\candll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlcPlatform.csproj",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\PlcPlatform\\PlcPlatform.csproj",
+              "RelativeDocumentMoniker": "PlcPlatform\\PlcPlatform.csproj",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\PlcPlatform\\PlcPlatform.csproj",
+              "RelativeToolTip": "PlcPlatform\\PlcPlatform.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-08T05:44:10.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Wireless.csproj",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Wireless\\Wireless.csproj",
+              "RelativeDocumentMoniker": "Wireless\\Wireless.csproj",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Wireless\\Wireless.csproj",
+              "RelativeToolTip": "Wireless\\Wireless.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-08T05:44:04.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bluetooth.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Wireless\\Bluetooth.cs",
+              "RelativeDocumentMoniker": "Wireless\\Bluetooth.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Wireless\\Bluetooth.cs",
+              "RelativeToolTip": "Wireless\\Bluetooth.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAQwDYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T11:08:21.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Wireless\\Class1.cs",
+              "RelativeDocumentMoniker": "Wireless\\Class1.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Wireless\\Class1.cs",
+              "RelativeToolTip": "Wireless\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T11:07:19.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CANDLL.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\PlcPlatform\\Realize\\Can\\CANDLL.cs",
+              "RelativeDocumentMoniker": "PlcPlatform\\Realize\\Can\\CANDLL.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\PlcPlatform\\Realize\\Can\\CANDLL.cs",
+              "RelativeToolTip": "PlcPlatform\\Realize\\Can\\CANDLL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T11:05:34.269Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

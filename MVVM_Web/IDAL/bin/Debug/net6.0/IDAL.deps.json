@@ -1037,7 +1037,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
         },
         "runtime": {
-          "EFCore.dll": {}
+          "EFCore.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Models/1.0.0.0": {

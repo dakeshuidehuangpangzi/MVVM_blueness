@@ -1,0 +1,116 @@
+﻿<UserControl x:Class="MVVM_Platform.MQTTSendAndConfigview"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MVVM_Platform"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="600">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Assets;component/Styles/ButtonStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <DockPanel>
+        <Grid DockPanel.Dock="Top" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock Text="{Binding Name}" d:Text="测试"/>
+            </StackPanel>
+            <Grid Grid.Row="1" Height="150">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="*" Foreground="Red" FontSize="15" VerticalAlignment="Center"/>
+                    <Label Content="名称" HorizontalAlignment="Left" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Column="1">
+                    <Label Content="*" Foreground="Red" FontSize="15" VerticalAlignment="Center"/>
+                    <Label Content="Client ID" HorizontalAlignment="Left" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Column="2">
+                    <Label Content="用户名" HorizontalAlignment="Left" />
+                </StackPanel>
+                <TextBox Grid.Row="1" Margin="5,5,30,5" />
+                <TextBox Grid.Row="1" Grid.Column="1" Margin="5,5,30,5" />
+                <TextBox Grid.Row="1" Grid.Column="2" Margin="5,5,30,5" />
+                <StackPanel Orientation="Horizontal"  Grid.Row="2">
+                    <Label Content="密码" HorizontalAlignment="Left" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Column="1"  Grid.Row="2">
+                    <Label Content="Keep Alive" HorizontalAlignment="Left" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="2">
+                    <Label Content="Clean Start" HorizontalAlignment="Left" />
+                </StackPanel>
+                <TextBox Grid.Row="3" Margin="5,5,30,5" />
+                <TextBox Grid.Row="3" Grid.Column="1" Margin="5,5,30,5" />
+                <TextBox Grid.Row="3" Grid.Column="2" Margin="5,5,30,5" />
+                <Button Grid.Row="4" Grid.Column="2" Content="连接" Command="{Binding ConnectCommand}"/>
+            </Grid>
+        </Grid>
+        <Grid DockPanel.Dock="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Button Content=" +   添加订阅"/>
+                <ListView Grid.Row="1" ItemsSource="{Binding listTopic}"/>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Horizontal">
+                    <ComboBox  Margin=" 10,2,0,2" Width="50" />
+                    <RadioButton  VerticalContentAlignment="Center"  Content="全部"/>
+                    <RadioButton  VerticalContentAlignment="Center"  Content="已接收"/>
+                    <RadioButton  VerticalContentAlignment="Center"  Content="已发送"/>
+
+                </StackPanel>
+                <ListView Grid.Row="1"/>
+                <Grid  Grid.Row="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel  Orientation="Horizontal" Height="20">
+                        <ComboBox Width="50"/>
+                        <ComboBox Width="50"/>
+                        <RadioButton Content="Retain" VerticalContentAlignment="Center"/>
+                        <ToggleButton  Content="Meta"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Height="20" Grid.Row="1">
+                        <TextBlock/>
+                        <ComboBox />
+                    </StackPanel>
+                    <ListView Grid.Row="2"/>
+                </Grid>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</UserControl>

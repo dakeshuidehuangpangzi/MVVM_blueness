@@ -1,0 +1,538 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93DBCBF9-C230-4B25-A240-7890D3CD728B}|MVVM_Web\\MVVM_Web.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\mvvm_web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DBCBF9-C230-4B25-A240-7890D3CD728B}|MVVM_Web\\MVVM_Web.csproj|solutionrelative:mvvm_web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A499B97-6186-4DF7-AABD-63CBB8184746}|Server\\Server.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\server\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A499B97-6186-4DF7-AABD-63CBB8184746}|Server\\Server.csproj|solutionrelative:server\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A499B97-6186-4DF7-AABD-63CBB8184746}|Server\\Server.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\server\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A499B97-6186-4DF7-AABD-63CBB8184746}|Server\\Server.csproj|solutionrelative:server\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DBCBF9-C230-4B25-A240-7890D3CD728B}|MVVM_Web\\MVVM_Web.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\mvvm_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DBCBF9-C230-4B25-A240-7890D3CD728B}|MVVM_Web\\MVVM_Web.csproj|solutionrelative:mvvm_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AE930C-A4D7-44CD-BB64-84E305447FC1}|Server.EFCore\\EFCore.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\server.efcore\\efcorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13AE930C-A4D7-44CD-BB64-84E305447FC1}|Server.EFCore\\EFCore.csproj|solutionrelative:server.efcore\\efcorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\models\\typemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|solutionrelative:models\\typemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\models\\paymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|solutionrelative:models\\paymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|solutionrelative:models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\models\\orderdetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|solutionrelative:models\\orderdetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\models\\goodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|solutionrelative:models\\goodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|solutionrelative:models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|solutionrelative:models\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\efcore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|solutionrelative:efcore\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\efcore\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|solutionrelative:efcore\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\efcore\\models\\good.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|solutionrelative:efcore\\models\\good.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\efcore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|solutionrelative:efcore\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\efcore\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|solutionrelative:efcore\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\efcore\\models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|solutionrelative:efcore\\models\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\efcore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|solutionrelative:efcore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2AD6E2-6B4C-4E5C-B2E4-49701F65952B}|IServer\\IServer.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\iserver\\iserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FB2AD6E2-6B4C-4E5C-B2E4-49701F65952B}|IServer\\IServer.csproj|solutionrelative:iserver\\iserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C6FA4306-F0FA-49BC-AEF2-D9571D8F54E2}|Models\\Models.csproj|solutionrelative:models\\models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DBCBF9-C230-4B25-A240-7890D3CD728B}|MVVM_Web\\MVVM_Web.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\mvvm_web\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DBCBF9-C230-4B25-A240-7890D3CD728B}|MVVM_Web\\MVVM_Web.csproj|solutionrelative:mvvm_web\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20FDAA0A-0EBE-454B-94C8-1DA8A0CBD00B}|DAL\\DAL.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\dal\\efcoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20FDAA0A-0EBE-454B-94C8-1DA8A0CBD00B}|DAL\\DAL.csproj|solutionrelative:dal\\efcoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B997B563-A3F8-46D1-9744-44A1176F4146}|IDAL\\IDAL.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\idal\\idal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B997B563-A3F8-46D1-9744-44A1176F4146}|IDAL\\IDAL.csproj|solutionrelative:idal\\idal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AE930C-A4D7-44CD-BB64-84E305447FC1}|Server.EFCore\\EFCore.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\server.efcore\\efcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{13AE930C-A4D7-44CD-BB64-84E305447FC1}|Server.EFCore\\EFCore.csproj|solutionrelative:server.efcore\\efcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20FDAA0A-0EBE-454B-94C8-1DA8A0CBD00B}|DAL\\DAL.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{20FDAA0A-0EBE-454B-94C8-1DA8A0CBD00B}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A499B97-6186-4DF7-AABD-63CBB8184746}|Server\\Server.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7A499B97-6186-4DF7-AABD-63CBB8184746}|Server\\Server.csproj|solutionrelative:server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2AD6E2-6B4C-4E5C-B2E4-49701F65952B}|IServer\\IServer.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\iserver\\iserver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{FB2AD6E2-6B4C-4E5C-B2E4-49701F65952B}|IServer\\IServer.csproj|solutionrelative:iserver\\iserver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\efcore\\efcoretest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4622BD22-7019-4898-8F32-B5D760142D72}|EfCore\\EfCoreTest.csproj|solutionrelative:efcore\\efcoretest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DBCBF9-C230-4B25-A240-7890D3CD728B}|MVVM_Web\\MVVM_Web.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\mvvm_web\\mvvm_web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{93DBCBF9-C230-4B25-A240-7890D3CD728B}|MVVM_Web\\MVVM_Web.csproj|solutionrelative:mvvm_web\\mvvm_web.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A499B97-6186-4DF7-AABD-63CBB8184746}|Server\\Server.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_web\\server\\server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7A499B97-6186-4DF7-AABD-63CBB8184746}|Server\\Server.csproj|solutionrelative:server\\server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\MVVM_Web\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MVVM_Web\\Controllers\\UserController.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\MVVM_Web\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MVVM_Web\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T08:13:00.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderDetailModel.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\OrderDetailModel.cs",
+              "RelativeDocumentMoniker": "Models\\OrderDetailModel.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\OrderDetailModel.cs",
+              "RelativeToolTip": "Models\\OrderDetailModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:08:41.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\OrderModel.cs",
+              "RelativeDocumentMoniker": "Models\\OrderModel.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\OrderModel.cs",
+              "RelativeToolTip": "Models\\OrderModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:08:48.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserModel.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\UserModel.cs",
+              "RelativeToolTip": "Models\\UserModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwBYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T09:21:25.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server\\UsersService.cs",
+              "RelativeDocumentMoniker": "Server\\UsersService.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server\\UsersService.cs",
+              "RelativeToolTip": "Server\\UsersService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAEBBwBoAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T07:53:01.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GoodModel.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\GoodModel.cs",
+              "RelativeDocumentMoniker": "Models\\GoodModel.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\GoodModel.cs",
+              "RelativeToolTip": "Models\\GoodModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:08:32.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\MVVM_Web\\Program.cs",
+              "RelativeDocumentMoniker": "MVVM_Web\\Program.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\MVVM_Web\\Program.cs",
+              "RelativeToolTip": "MVVM_Web\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAawA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T08:13:02.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server\\BaseService.cs",
+              "RelativeDocumentMoniker": "Server\\BaseService.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server\\BaseService.cs",
+              "RelativeToolTip": "Server\\BaseService.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAUwAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T09:23:53.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerModel.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\CustomerModel.cs",
+              "RelativeDocumentMoniker": "Models\\CustomerModel.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\CustomerModel.cs",
+              "RelativeToolTip": "Models\\CustomerModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:08:14.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EFCoreContext.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server.EFCore\\EFCoreContext.cs",
+              "RelativeDocumentMoniker": "Server.EFCore\\EFCoreContext.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server.EFCore\\EFCoreContext.cs",
+              "RelativeToolTip": "Server.EFCore\\EFCoreContext.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAiwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T08:19:27.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "Models\\EmployeeModel.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\EmployeeModel.cs",
+              "RelativeToolTip": "Models\\EmployeeModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:08:23.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaymentModel.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\PaymentModel.cs",
+              "RelativeDocumentMoniker": "Models\\PaymentModel.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\PaymentModel.cs",
+              "RelativeToolTip": "Models\\PaymentModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:08:57.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TypeModel.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\TypeModel.cs",
+              "RelativeDocumentMoniker": "Models\\TypeModel.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\TypeModel.cs",
+              "RelativeToolTip": "Models\\TypeModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:09:06.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\Models\\User.cs",
+              "RelativeDocumentMoniker": "EfCore\\Models\\User.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\Models\\User.cs",
+              "RelativeToolTip": "EfCore\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:06:06.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Type.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\Models\\Type.cs",
+              "RelativeDocumentMoniker": "EfCore\\Models\\Type.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\Models\\Type.cs",
+              "RelativeToolTip": "EfCore\\Models\\Type.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T09:19:20.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "EfCore\\Models\\Payment.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\Models\\Payment.cs",
+              "RelativeToolTip": "EfCore\\Models\\Payment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T09:19:15.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Order.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "EfCore\\Models\\Order.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\Models\\Order.cs",
+              "RelativeToolTip": "EfCore\\Models\\Order.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:07:57.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Good.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\Models\\Good.cs",
+              "RelativeDocumentMoniker": "EfCore\\Models\\Good.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\Models\\Good.cs",
+              "RelativeToolTip": "EfCore\\Models\\Good.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:12:30.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EfCore\\Models\\Employee.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\Models\\Employee.cs",
+              "RelativeToolTip": "EfCore\\Models\\Employee.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:12:51.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "EfCore\\Models\\Customer.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\Models\\Customer.cs",
+              "RelativeToolTip": "EfCore\\Models\\Customer.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA1wCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:13:01.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IServer.csproj",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IServer\\IServer.csproj",
+              "RelativeDocumentMoniker": "IServer\\IServer.csproj",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IServer\\IServer.csproj",
+              "RelativeToolTip": "IServer\\IServer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-06T08:16:37.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\MVVM_Web\\Startup.cs",
+              "RelativeDocumentMoniker": "MVVM_Web\\Startup.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\MVVM_Web\\Startup.cs",
+              "RelativeToolTip": "MVVM_Web\\Startup.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T08:13:06.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EFCoreDbContext.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\DAL\\EFCoreDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\EFCoreDbContext.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\DAL\\EFCoreDbContext.cs",
+              "RelativeToolTip": "DAL\\EFCoreDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T08:16:40.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EFCore.csproj",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server.EFCore\\EFCore.csproj",
+              "RelativeDocumentMoniker": "Server.EFCore\\EFCore.csproj",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server.EFCore\\EFCore.csproj",
+              "RelativeToolTip": "Server.EFCore\\EFCore.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-06T08:16:41.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Models.csproj",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\Models.csproj",
+              "RelativeDocumentMoniker": "Models\\Models.csproj",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Models\\Models.csproj",
+              "RelativeToolTip": "Models\\Models.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-06T08:16:34.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DAL.csproj",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "DAL\\DAL.csproj",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\DAL\\DAL.csproj",
+              "RelativeToolTip": "DAL\\DAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-06T08:16:48.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IDAL.csproj",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IDAL\\IDAL.csproj",
+              "RelativeDocumentMoniker": "IDAL\\IDAL.csproj",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IDAL\\IDAL.csproj",
+              "RelativeToolTip": "IDAL\\IDAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-06T08:16:39.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Server.csproj",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server\\Server.csproj",
+              "RelativeDocumentMoniker": "Server\\Server.csproj",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server\\Server.csproj",
+              "RelativeToolTip": "Server\\Server.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-06T08:16:28.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IServer",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IServer\\IServer.csproj",
+              "RelativeDocumentMoniker": "IServer\\IServer.csproj",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\IServer\\IServer.csproj",
+              "RelativeToolTip": "IServer\\IServer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-06T08:16:18.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EfCoreTest.csproj",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\EfCoreTest.csproj",
+              "RelativeDocumentMoniker": "EfCore\\EfCoreTest.csproj",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\EfCore\\EfCoreTest.csproj",
+              "RelativeToolTip": "EfCore\\EfCoreTest.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-06T08:16:00.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MVVM_Web",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\MVVM_Web\\MVVM_Web.csproj",
+              "RelativeDocumentMoniker": "MVVM_Web\\MVVM_Web.csproj",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\MVVM_Web\\MVVM_Web.csproj",
+              "RelativeToolTip": "MVVM_Web\\MVVM_Web.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-06T08:15:52.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Server",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server\\Server.csproj",
+              "RelativeDocumentMoniker": "Server\\Server.csproj",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\Server\\Server.csproj",
+              "RelativeToolTip": "Server\\Server.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-06T08:15:37.183Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

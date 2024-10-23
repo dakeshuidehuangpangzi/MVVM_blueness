@@ -9,8 +9,9 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IDAL\bin\Debug\net6.0\IDAL.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IDAL\bin\Debug\net6.0\EFCore.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IDAL\bin\Debug\net6.0\Models.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IDAL\bin\Debug\net6.0\EFCore.pdb
-F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IDAL\obj\Debug\net6.0\IDAL.csproj.CopyComplete
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IDAL\obj\Debug\net6.0\IDAL.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IDAL\obj\Debug\net6.0\refint\IDAL.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IDAL\obj\Debug\net6.0\IDAL.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IDAL\obj\Debug\net6.0\ref\IDAL.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IDAL\obj\Debug\net6.0\IDAL.sourcelink.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Web\IDAL\obj\Debug\net6.0\IDAL.csproj.Up2Date

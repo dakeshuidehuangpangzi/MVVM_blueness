@@ -18,5 +18,9 @@
             </Setter.Value>
         </Setter>
     </Style>
-    
+    <Style TargetType="ToggleButton" x:Key="MqttToggleButtonStyle">
+        <Setter Property="FontStretch" Value="Expanded"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Background" Value="Transparent"/>
+    </Style>
 </ResourceDictionary>

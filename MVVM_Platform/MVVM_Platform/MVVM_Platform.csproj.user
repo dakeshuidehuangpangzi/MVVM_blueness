@@ -10,6 +10,9 @@
     <Compile Update="ComponentConfigView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="PageForm\MQTTSendAndConfigview.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Page\MQTTTestPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -40,6 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Page Update="ComponentConfigView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageForm\MQTTSendAndConfigview.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Page\MQTTTestPage.xaml">
