@@ -387,6 +387,9 @@
         }
       },
       "PlatformView/1.0.0": {
+        "dependencies": {
+          "PlatformViewModel": "1.0.0"
+        },
         "runtime": {
           "PlatformView.dll": {
             "assemblyVersion": "1.0.0",

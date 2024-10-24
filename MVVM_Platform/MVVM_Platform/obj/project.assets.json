@@ -537,6 +537,9 @@
       "PlatformView/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PlatformViewModel": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/PlatformView.dll": {}
         },

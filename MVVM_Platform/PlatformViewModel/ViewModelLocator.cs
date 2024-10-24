@@ -61,7 +61,7 @@ namespace PlatformViewModel
             services.AddTransient<ILoginBLL, LoginBLL>();
             services.AddTransient<ILoginDal, LoginDal>();
             services.AddSingleton<MQTTTestViewModel>();
-
+            services.AddScoped<MQTTSendAndConfigviewModel>();
         }
 
 

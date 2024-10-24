@@ -2,6 +2,7 @@
 using MQTTnet;
 using MQTTnet.Client;
 using MQTTnet.Extensions.ManagedClient;
+using System.Windows.Input;
 
 public delegate void OrderEventHandler(MQTTClient sender, MessageReceivedArg e);
 
@@ -20,13 +21,18 @@ public  class MQTTClient
     public uint KeepAlive { get; set; }
     /// <summary>清除状态</summary>
     public bool  CleanStart { get; set; }
+    public bool IsConnected { get; set; }
 
     public int Port { get; set; } = 1883;
     public string Host { get; set; } = "127.0.0.1";
     /// <summary>订阅主题集合</summary>
-    public List<string> listTopic = new List<string>();
+    public List<string> listTopic { get; set; } = new ();
     private IMqttClient mqttClient;
 
+    #endregion
+
+    #region 调用方法
+    public ICommand ShowAxisDialogCommand { get; set; }
     #endregion
 
     #region Public Events
@@ -59,6 +65,7 @@ public  class MQTTClient
     /// </summary>
     public  async void ConnectAsync()
     {
+        if (mqttClient!=null && mqttClient.IsConnected) return;
         // 创建MQTT客户端
          mqttClient = new MqttFactory().CreateMqttClient();
         // 创建连接选项
@@ -169,7 +176,7 @@ public  class MQTTClient
 
     private  Task DisconnectedHandle(MqttClientDisconnectedEventArgs args)
     {
-        InvokeDisConnected(args.ClientWasConnected);
+        InvokeDisConnected(IsConnected =args.ClientWasConnected);
         return new Task(() => { });
     }
 

@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using CommunicationComponent;
 using CommunityToolkit.Mvvm.Input;
 using System.Reflection;
+using Common;
+using System.Windows.Media.Media3D;
 namespace PlatformViewModel
 {
     public partial class MQTTTestViewModel: ObservableObject
@@ -30,51 +32,52 @@ namespace PlatformViewModel
             });
             Clients.Add(new()
             {
-                ClientID = "Test1",
+                ClientID = "Test2",
                 CleanStart = false,
                 KeepAlive = 30,
                 Name = "测试添加"
             });
             Clients.Add(new()
             {
-                ClientID = "Test1",
+                ClientID = "Test3",
                 CleanStart = false,
                 KeepAlive = 30,
                 Name = "测试添加"
             });
             Clients.Add(new()
             {
-                ClientID = "Test1",
+                ClientID = "Test4",
                 CleanStart = false,
                 KeepAlive = 30,
                 Name = "测试添加"
             });
             Clients.Add(new()
             {
-                ClientID = "Test1",
+                ClientID = "Test5",
                 CleanStart = false,
                 KeepAlive = 30,
                 Name = "测试添加"
             });
             Clients.Add(new()
             {
-                ClientID = "Test1",
+                ClientID = "Test6",
                 CleanStart = false,
                 KeepAlive = 30,
                 Name = "测试添加"
             });
             Clients.Add(new()
             {
-                ClientID = "Test1",
+                ClientID = "Test7",
                 CleanStart = false,
                 KeepAlive = 30,
                 Name = "测试添加"
             });
         }
-
         [RelayCommand]
-        public void AddSubscribe(MQTTClient clent)
+        public void AddSubscribe(object clent)
         {
+            ActionManager.ExecuteAndResult("AddSubscription", clent);
+            
             //clent.
         }
         [RelayCommand]
@@ -90,7 +93,10 @@ namespace PlatformViewModel
         [RelayCommand]
         public void OpenView(object obj)
         {
-
+            //需要创建一个DLL里面的绝对路径，不然会找不到具体的位置，容易报错
+            Type type = Assembly.Load("MVVM_Platform")
+                .GetType("MVVM_Platform." + "MQTTSendAndConfigview")!;
+            ViewContent = Activator.CreateInstance(type,obj)!;
         }
     }
 }

@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PlatformViewModel\PlatformViewModel.csproj" />
+  </ItemGroup>
+
 </Project>

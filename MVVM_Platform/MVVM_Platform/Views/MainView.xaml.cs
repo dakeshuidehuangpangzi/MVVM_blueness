@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Common;
+using Microsoft.Extensions.DependencyInjection;
 using PlatformViewModel;
 using System;
 using System.Collections.Generic;
@@ -11,6 +12,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Effects;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -28,9 +30,14 @@ namespace MVVM_Platform
                 Application.Current.Shutdown();
 
 
+
+
+
             InitializeComponent();
             this.DataContext = App.Current.Services.GetRequiredService<MainViewModel>();
 
+            ActionManager.Register<object>("AddSubscription",
+             new Func<object, bool>(ShowTrendDeviceVars));
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -38,7 +45,18 @@ namespace MVVM_Platform
             this.Close();
         }
 
+        private bool ShowTrendDeviceVars(object obj)
+        {
+            return ShowDialog(new AddSubscriptionDialog() { Owner = this, DataContext = obj });
+        }
 
+        private bool ShowDialog(Window dialog)
+        {
+            this.Effect = new BlurEffect() { Radius = 5 };
+            bool state = dialog.ShowDialog() == true;
+            this.Effect = null;
+            return state;
+        }
         private void Hidden_Click(object sender, RoutedEventArgs e)
         {
         }

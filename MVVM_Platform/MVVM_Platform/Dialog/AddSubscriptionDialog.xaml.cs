@@ -1,5 +1,4 @@
-﻿using Common;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,29 +9,24 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Effects;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PlatformView
+namespace MVVM_Platform
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// AddSubscriptionDialog.xaml 的交互逻辑
     /// </summary>
-    public partial class MainView : Window
+    public partial class AddSubscriptionDialog : Window
     {
-        public MainView()
+        public AddSubscriptionDialog()
         {
-            if (new LoginView().ShowDialog()!=true)
-            {
-                return;
-            }
-
             InitializeComponent();
         }
 
-
-
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

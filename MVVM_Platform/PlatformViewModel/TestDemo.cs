@@ -13,8 +13,6 @@ namespace PlatformViewModel
             //Thread.Sleep(1000);
             //MQTTClient.Subscribe();
             //Thread.Sleep(1000);
-
-            //MQTTClient.Publish("测试", "hello112    " + DateTime.Now.ToString("HH :mm :ss"));
         }
     }
 }

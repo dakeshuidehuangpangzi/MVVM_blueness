@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PlatformViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,16 @@ namespace MVVM_Platform
     /// </summary>
     public partial class MQTTSendAndConfigview : UserControl
     {
-        public MQTTSendAndConfigview()
+        public MQTTSendAndConfigview(object abc)
         {
+            var data = abc as MQTTClient;
             InitializeComponent();
+            var Context = App.Current.Services.GetService<MQTTSendAndConfigviewModel>();
+            if (Context!=null)
+            {
+                Context.Client = data;
+            }
+            this.DataContext = Context;
         }
     }
 }

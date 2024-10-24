@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlatformViewModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10b5e0e9fce48ed84ecb20ea4657ac6f84f4cb55")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7563735113a405df92c27745376c06cd53341a68")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlatformViewModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlatformViewModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

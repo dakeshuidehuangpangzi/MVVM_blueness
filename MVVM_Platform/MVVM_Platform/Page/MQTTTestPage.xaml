@@ -62,8 +62,8 @@
                                         <RowDefinition  />
                                     </Grid.RowDefinitions>
                                     <Grid.InputBindings>
-                                        <MouseBinding MouseAction="LeftDoubleClick"
-                                                              Command="{Binding OpenViewCommand}"
+                                        <MouseBinding MouseAction="LeftClick"
+                            Command="{Binding DataContext.OpenViewCommand,RelativeSource={RelativeSource AncestorType=UserControl}}"    
                                                               CommandParameter="{Binding}"/>
                                     </Grid.InputBindings>
 
@@ -81,7 +81,7 @@
                                     <TextBlock Foreground="Black" x:Name="TB">
                                         <TextBlock.Text>
                                             <MultiBinding StringFormat=" {0}@{1}:{2}">
-                                                <Binding Path="Name" />
+                                                <Binding Path="ClientID" />
                                                 <Binding Path="Host" />
                                                 <Binding Path="Port" />
                                             </MultiBinding>
@@ -117,6 +117,7 @@
                 <Label Content="连接" FontSize="20" FontWeight="ExtraBlack"/>
                 <ToggleButton  Height="30" 
                                Margin="5,3" 
+                               Command="{Binding AddSubscribeCommand}"
                                Style="{StaticResource  MqttToggleButtonStyle}"
                                HorizontalContentAlignment="Stretch" Tag="5"
                                Name="btnManual">
@@ -136,7 +137,8 @@
             </StackPanel>
             <ListView Grid.Row="1" BorderThickness="0" ItemsSource="{Binding Clients}" Name="Clientlist"/>
         </Grid>
-        <DockPanel  DataContext="{Binding ElementName=Clientlist,Path=SelectedItem}">
+            <ContentControl Content="{Binding ViewContent}" Margin="0,5" DockPanel.Dock="Top"/>
+        <!--<DockPanel  DataContext="{Binding ElementName=Clientlist,Path=SelectedItem}">
             <Grid DockPanel.Dock="Top" >
                 <Grid.RowDefinitions>
                     <RowDefinition Height="30"/>
@@ -197,7 +199,9 @@
                         <RowDefinition Height="30"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
-                    <Button Content=" +   添加订阅"/>
+                    <Button Content=" +  添加订阅" 
+                            Command="{Binding DataContext.OpenViewCommand,RelativeSource={RelativeSource AncestorType=UserControl}}"    
+                            CommandParameter="{Binding}"/>
                     <ListView Grid.Row="1" ItemsSource="{Binding listTopic}"/>
                 </Grid>
                 <Grid Grid.Column="1">
@@ -235,7 +239,7 @@
                     </Grid>
                 </Grid>
             </Grid>
-        </DockPanel>
+        </DockPanel>-->
 
     </DockPanel>
 </UserControl>

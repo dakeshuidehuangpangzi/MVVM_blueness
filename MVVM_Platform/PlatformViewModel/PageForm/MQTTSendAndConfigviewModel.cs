@@ -1,4 +1,5 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+﻿using Common;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,13 @@ namespace PlatformViewModel
         [RelayCommand]
         public void Connect()
         {
-
+            Client.ConnectAsync();
+        }
+        [RelayCommand]
+        public void AddSubscribe()
+        {
+            ActionManager.ExecuteAndResult("AddSubscription", Client);
+            //clent.
         }
         #endregion
     }

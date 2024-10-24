@@ -21,4 +21,8 @@
     <ProjectReference Include="..\PlatformModel\PlatformModel.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ShowDiglog\" />
+  </ItemGroup>
+
 </Project>
