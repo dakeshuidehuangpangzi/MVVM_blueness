@@ -1,7 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using IBLL;
-using PlatformModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +12,7 @@ using System.Windows.Threading;
 using CommunicationComponent;
 using BLL;
 using NLog;
+using Models;
 
 namespace PlatformViewModel
 

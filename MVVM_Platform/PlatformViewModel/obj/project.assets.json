@@ -118,6 +118,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "NLog/5.3.3": {
         "type": "package",
         "compile": {
@@ -410,19 +423,6 @@
           }
         }
       },
-      "Assets/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Assets.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Assets.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
-      },
       "BLL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -457,6 +457,7 @@
         "dependencies": {
           "MQTTnet": "4.3.7.1207",
           "MQTTnet.Extensions.ManagedClient": "4.3.7.1207",
+          "Models": "1.0.0",
           "NLog": "5.3.3",
           "System.IO.Ports": "6.0.0"
         },
@@ -517,22 +518,31 @@
           "bin/placeholder/IDAL.dll": {}
         }
       },
-      "PlatformModel/1.0.0": {
+      "Models/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Assets": "1.0.0",
-          "CommunityToolkit.Mvvm": "8.2.2"
+          "CommunityToolkit.Mvvm": "8.2.2",
+          "MQTTnet": "4.3.7.1207",
+          "Newtonsoft.Json": "13.0.3",
+          "SystemConfig": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/PlatformModel.dll": {}
+          "bin/placeholder/Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/PlatformModel.dll": {}
+          "bin/placeholder/Models.dll": {}
+        }
+      },
+      "SystemConfig/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/SystemConfig.dll": {}
         },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WPF"
-        ]
+        "runtime": {
+          "bin/placeholder/SystemConfig.dll": {}
+        }
       }
     }
   },
@@ -764,6 +774,36 @@
         "mqttnet.extensions.managedclient.4.3.7.1207.nupkg.sha512",
         "mqttnet.extensions.managedclient.nuspec",
         "nuget.png"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "NLog/5.3.3": {
@@ -1305,11 +1345,6 @@
         "version.txt"
       ]
     },
-    "Assets/1.0.0": {
-      "type": "project",
-      "path": "../Assets/Assets.csproj",
-      "msbuildProject": "../Assets/Assets.csproj"
-    },
     "BLL/1.0.0": {
       "type": "project",
       "path": "../BLL/BLL.csproj",
@@ -1345,10 +1380,15 @@
       "path": "../IDAL/IDAL.csproj",
       "msbuildProject": "../IDAL/IDAL.csproj"
     },
-    "PlatformModel/1.0.0": {
+    "Models/1.0.0": {
       "type": "project",
-      "path": "../PlatformModel/PlatformModel.csproj",
-      "msbuildProject": "../PlatformModel/PlatformModel.csproj"
+      "path": "../Modelss/Models.csproj",
+      "msbuildProject": "../Modelss/Models.csproj"
+    },
+    "SystemConfig/1.0.0": {
+      "type": "project",
+      "path": "../SystemConfig/SystemConfig.csproj",
+      "msbuildProject": "../SystemConfig/SystemConfig.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1360,7 +1400,7 @@
       "IBLL >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 8.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.1",
-      "PlatformModel >= 1.0.0"
+      "NLog >= 5.3.3"
     ]
   },
   "packageFolders": {
@@ -1408,9 +1448,6 @@
             },
             "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\IBLL\\IBLL.csproj": {
               "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\IBLL\\IBLL.csproj"
-            },
-            "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformModel\\PlatformModel.csproj": {
-              "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformModel\\PlatformModel.csproj"
             }
           }
         }
@@ -1441,6 +1478,10 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": {
             "target": "Package",
             "version": "[8.0.1, )"
+          },
+          "NLog": {
+            "target": "Package",
+            "version": "[5.3.3, )"
           }
         },
         "imports": [

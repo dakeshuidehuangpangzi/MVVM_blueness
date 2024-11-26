@@ -18,4 +18,8 @@
     <Folder Include="Enum\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Modelss\Models.csproj" />
+  </ItemGroup>
+
 </Project>

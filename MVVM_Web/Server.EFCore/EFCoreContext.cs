@@ -34,8 +34,5 @@ namespace EFCore
         public DbSet<PaymentModel> PaymentModels { get; set; }
 
 
-
-
-
     }
 }

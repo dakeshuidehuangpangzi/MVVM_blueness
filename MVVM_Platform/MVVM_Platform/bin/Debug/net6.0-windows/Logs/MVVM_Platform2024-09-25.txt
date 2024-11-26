@@ -1,8 +1,0 @@
-2024-09-25 14:43:42.7646|INFO|MVVM_Platform.App|ConfigureAllServices
-2024-09-25 21:13:35.4029|INFO|MVVM_Platform.App|ConfigureAllServices
-2024-09-25 21:19:08.1509|INFO|MVVM_Platform.App|ConfigureAllServices
-2024-09-25 21:19:39.4789|INFO|MVVM_Platform.App|ConfigureAllServices
-2024-09-25 21:19:56.2854|INFO|MVVM_Platform.App|ConfigureAllServices
-2024-09-25 21:22:01.3751|INFO|MVVM_Platform.App|ConfigureAllServices
-2024-09-25 21:22:40.8182|INFO|MVVM_Platform.App|ConfigureAllServices
-2024-09-25 21:24:11.6682|INFO|MVVM_Platform.App|ConfigureAllServices

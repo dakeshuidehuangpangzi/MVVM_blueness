@@ -11,6 +11,7 @@
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+    <PackageReference Include="NLog" Version="5.3.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,11 +19,6 @@
     <ProjectReference Include="..\CommunicationComponent\CommunicationComponent.csproj" />
     <ProjectReference Include="..\DAL\DAL.csproj" />
     <ProjectReference Include="..\IBLL\IBLL.csproj" />
-    <ProjectReference Include="..\PlatformModel\PlatformModel.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="ShowDiglog\" />
   </ItemGroup>
 
 </Project>

@@ -1,66 +1,78 @@
-﻿<Window x:Class="MVVM_Platform.LoginView"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:ui="clr-namespace:UIControl;assembly=UIControl"
-        xmlns:local="clr-namespace:MVVM_Platform"
-        mc:Ignorable="d"
-        d:DataContext="{d:DesignInstance Type= local:LoginView}"
-        WindowStartupLocation="CenterScreen"
-        ResizeMode="NoResize"
-        Name="win"
-        Title="登录界面" Height="450" Width="250">
+﻿<Window
+    x:Class="MVVM_Platform.LoginView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MVVM_Platform"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ui="clr-namespace:UIControl;assembly=UIControl"
+    Name="win"
+    Title="登录界面"
+    Width="250"
+    Height="450"
+    d:DataContext="{d:DesignInstance Type=local:LoginView}"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
     <WindowChrome.WindowChrome>
-        <WindowChrome GlassFrameThickness="1"/>
+        <WindowChrome GlassFrameThickness="1" />
     </WindowChrome.WindowChrome>
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary>
-                    <Style TargetType="Button" x:Key="NormalButtonStyle">
+                    <Style x:Key="NormalButtonStyle" TargetType="Button">
                         <Setter Property="Effect">
                             <Setter.Value>
-                                <DropShadowEffect BlurRadius="10" Color="#333" ShadowDepth="0" Opacity="0.1"/>
+                                <DropShadowEffect
+                                    BlurRadius="10"
+                                    Opacity="0.1"
+                                    ShadowDepth="0"
+                                    Color="#333" />
                             </Setter.Value>
                         </Setter>
-                        <Setter Property="Background" Value="Transparent"/>
-                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="Background" Value="Transparent" />
+                        <Setter Property="Foreground" Value="White" />
                         <Setter Property="Template">
                             <Setter.Value>
                                 <ControlTemplate TargetType="Button">
-                                    <Border BorderBrush="#16a1ff" CornerRadius="9" 
-                                            BorderThickness="1"
-                                            ClipToBounds="True"
-                                            x:Name="bor">
+                                    <Border
+                                        x:Name="bor"
+                                        BorderBrush="#16a1ff"
+                                        BorderThickness="1"
+                                        ClipToBounds="True"
+                                        CornerRadius="9">
                                         <Border.Background>
                                             <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
-                                                <GradientStop Color="#16a1ff" Offset="0.3"/>
-                                                <GradientStop Color="#01c8fe" Offset="1"/>
+                                                <GradientStop Offset="0.3" Color="#16a1ff" />
+                                                <GradientStop Offset="1" Color="#01c8fe" />
                                             </LinearGradientBrush>
                                         </Border.Background>
                                         <Grid>
                                             <Border CornerRadius="5">
                                                 <Border.Background>
                                                     <RadialGradientBrush Center="0,1" GradientOrigin="0,1" RadiusX="0.4" RadiusY="0.8">
-                                                        <GradientStop Color="#88b4fee7" Offset="0.2"/>
-                                                        <GradientStop Color="Transparent" Offset="1"/>
+                                                        <GradientStop Offset="0.2" Color="#88b4fee7" />
+                                                        <GradientStop Offset="1" Color="Transparent" />
                                                     </RadialGradientBrush>
                                                 </Border.Background>
                                             </Border>
-                                            <Border CornerRadius="4" Background="{TemplateBinding Background}"/>
-                                            <Border Background="#11000000" CornerRadius="5" Visibility="Collapsed" Name="mask"/>
+                                            <Border Background="{TemplateBinding Background}" CornerRadius="4" />
+                                            <Border
+                                                Name="mask"
+                                                Background="#11000000"
+                                                CornerRadius="5"
+                                                Visibility="Collapsed" />
 
-                                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
-                                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
                                         </Grid>
                                     </Border>
                                     <ControlTemplate.Triggers>
                                         <Trigger Property="IsMouseOver" Value="True">
-                                            <Setter TargetName="mask" Property="Visibility" Value="Visible"/>
+                                            <Setter TargetName="mask" Property="Visibility" Value="Visible" />
                                         </Trigger>
                                         <Trigger Property="IsEnabled" Value="False">
-                                            <Setter TargetName="bor" Property="Visibility" Value="Collapsed"/>
+                                            <Setter TargetName="bor" Property="Visibility" Value="Collapsed" />
                                         </Trigger>
                                     </ControlTemplate.Triggers>
 
@@ -68,72 +80,93 @@
                             </Setter.Value>
                         </Setter>
                     </Style>
-                    <Style TargetType="TextBlock" x:Key="TextBlockStyle">
-                        <Setter Property="Foreground" Value="Red"/>
-                        <Setter Property="HorizontalAlignment" Value="Center"/>
-                        <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+                        <Setter Property="Foreground" Value="Red" />
+                        <Setter Property="HorizontalAlignment" Value="Center" />
+                        <Setter Property="VerticalAlignment" Value="Center" />
                         <Style.Triggers>
-                            <DataTrigger Binding="{Binding Path= Text , RelativeSource={RelativeSource Mode=Self}}" Value="">
-                                <Setter Property="Visibility" Value="Collapsed"/>
+                            <DataTrigger Binding="{Binding Path=Text, RelativeSource={RelativeSource Mode=Self}}" Value="">
+                                <Setter Property="Visibility" Value="Collapsed" />
                             </DataTrigger>
                         </Style.Triggers>
                     </Style>
                 </ResourceDictionary>
-                <ResourceDictionary Source="pack://application:,,,/UIControl;component/Style.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/UIControl;component/Style.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
     <Grid ClipToBounds="True">
-        <Ellipse Width="300" Height="600" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,-200,-200,0">
+        <Ellipse
+            Width="300"
+            Height="600"
+            Margin="0,-200,-200,0"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top">
             <Ellipse.Fill>
                 <RadialGradientBrush>
-                    <GradientStop Color="#c2e0fa" Offset="0"/>
-                    <GradientStop Color="#f1f5fd" Offset="1"/>
+                    <GradientStop Offset="0" Color="#c2e0fa" />
+                    <GradientStop Offset="1" Color="#f1f5fd" />
                 </RadialGradientBrush>
             </Ellipse.Fill>
         </Ellipse>
-        <Ellipse Width="300" Height="600" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="-180,-180,0,0">
+        <Ellipse
+            Width="300"
+            Height="600"
+            Margin="-180,-180,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top">
             <Ellipse.Fill>
                 <RadialGradientBrush>
-                    <GradientStop Color="#b4fee7" Offset="0"/>
-                    <GradientStop Color="Transparent" Offset="1"/>
+                    <GradientStop Offset="0" Color="#b4fee7" />
+                    <GradientStop Offset="1" Color="Transparent" />
                 </RadialGradientBrush>
             </Ellipse.Fill>
         </Ellipse>
         <Grid Margin="35,0">
             <Grid.RowDefinitions>
-                <RowDefinition Height="50"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height=" 30"/>
-                <RowDefinition Height="30"/>
-                <RowDefinition Height="30"/>
-                <RowDefinition Height="40"/>
-                <RowDefinition Height="50"/>
-                <RowDefinition Height="50"/>
-                <RowDefinition Height="50"/>
-                <RowDefinition Height="50"/>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height=" 30" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="40" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
 
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <TextBox Text="{Binding User.UserName}" d:Text="Administator" Grid.Row="3"
-                    VerticalContentAlignment="Center"/>
-            <TextBox Text="{Binding User.Password}" Grid.Row="4" 
-                     VerticalContentAlignment="Center"/>
-            <TextBlock Text="{Binding ErrorMessage}" Style="{StaticResource TextBlockStyle}"  Grid.Row="5"/>
-            <ui:Cylinder Content="登   录"
-                         Grid.Row="7"   
-                         FontSize="20"
-                         Foreground="Gray"/>
-            <Button Content="登   录" Grid.Row="6" 
-                    Command="{Binding LoginCommand}"
-                    CommandParameter="{Binding ElementName=win}"
-                    Style="{StaticResource NormalButtonStyle}"
-                    IsEnabled="{Binding IsLogin}"/>
+            <TextBox
+                Grid.Row="3"
+                VerticalContentAlignment="Center"
+                d:Text="Administator"
+                Text="{Binding User.UserName}" />
+            <TextBox
+                Grid.Row="4"
+                VerticalContentAlignment="Center"
+                Text="{Binding User.Password}" />
+            <TextBlock
+                Grid.Row="5"
+                Style="{StaticResource TextBlockStyle}"
+                Text="{Binding ErrorMessage}" />
+            <ui:Cylinder
+                Grid.Row="7"
+                Content="登   录"
+                FontSize="20"
+                Foreground="Gray" />
+            <Button
+                Grid.Row="6"
+                Command="{Binding LoginCommand}"
+                CommandParameter="{Binding ElementName=win}"
+                Content="登   录"
+                IsEnabled="{Binding IsLogin}"
+                Style="{StaticResource NormalButtonStyle}" />
 
-            <Button Content="登 录"
-                    Grid.Row="8"
-                    Style="{StaticResource ButtonStyle}"
-                    />
+            <Button
+                Grid.Row="8"
+                Content="登 录"
+                Style="{StaticResource ButtonStyle}" />
         </Grid>
     </Grid>
 </Window>

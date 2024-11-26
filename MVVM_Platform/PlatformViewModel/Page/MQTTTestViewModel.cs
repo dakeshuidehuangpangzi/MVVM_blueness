@@ -10,9 +10,12 @@ using CommunityToolkit.Mvvm.Input;
 using System.Reflection;
 using Common;
 using System.Windows.Media.Media3D;
+using CommunityToolkit.Mvvm.Messaging;
+using CommunityToolkit.Mvvm.Messaging.Messages;
+using Models;
 namespace PlatformViewModel
 {
-    public partial class MQTTTestViewModel: ObservableObject
+    public partial class MQTTTestViewModel: ObservableRecipient, IRecipient<PropertyChangedMessage<string>>
     {
         //MQTT集合对象
         [ObservableProperty]
@@ -23,55 +26,9 @@ namespace PlatformViewModel
         object _viewContent;
         public MQTTTestViewModel()
         {
-            Clients.Add(new()
-            {
-                ClientID = "Test1",
-                CleanStart = false,
-                KeepAlive=30,
-                Name="测试添加"
-            });
-            Clients.Add(new()
-            {
-                ClientID = "Test2",
-                CleanStart = false,
-                KeepAlive = 30,
-                Name = "测试添加"
-            });
-            Clients.Add(new()
-            {
-                ClientID = "Test3",
-                CleanStart = false,
-                KeepAlive = 30,
-                Name = "测试添加"
-            });
-            Clients.Add(new()
-            {
-                ClientID = "Test4",
-                CleanStart = false,
-                KeepAlive = 30,
-                Name = "测试添加"
-            });
-            Clients.Add(new()
-            {
-                ClientID = "Test5",
-                CleanStart = false,
-                KeepAlive = 30,
-                Name = "测试添加"
-            });
-            Clients.Add(new()
-            {
-                ClientID = "Test6",
-                CleanStart = false,
-                KeepAlive = 30,
-                Name = "测试添加"
-            });
-            Clients.Add(new()
-            {
-                ClientID = "Test7",
-                CleanStart = false,
-                KeepAlive = 30,
-                Name = "测试添加"
-            });
+            IsActive = true;
+            //全局Clients参数添加
+            GlobalConfig.Instance.Clients.ForEach(x => Clients.Add(new MQTTClient() { model =x }));
         }
         [RelayCommand]
         public void AddSubscribe(object clent)
@@ -97,6 +54,11 @@ namespace PlatformViewModel
             Type type = Assembly.Load("MVVM_Platform")
                 .GetType("MVVM_Platform." + "MQTTSendAndConfigview")!;
             ViewContent = Activator.CreateInstance(type,obj)!;
+        }
+
+        public void Receive(PropertyChangedMessage<string> message)
+        {
+            throw new NotImplementedException();
         }
     }
 }

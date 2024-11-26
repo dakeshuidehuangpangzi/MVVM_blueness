@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Assets\Assets.csproj" />
     <ProjectReference Include="..\CommunicationComponent\CommunicationComponent.csproj" />
+    <ProjectReference Include="..\Modelss\Models.csproj" />
     <ProjectReference Include="..\PlatformViewModel\PlatformViewModel.csproj" />
     <ProjectReference Include="..\PlatformView\PlatformView.csproj" />
     <ProjectReference Include="..\UIControl\UIControl.csproj" />
@@ -24,6 +25,7 @@
 
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="HanumanInstitute.MvvmDialogs" Version="2.1.0" />
     <PackageReference Include="NLog" Version="5.3.3" />
   </ItemGroup>
 

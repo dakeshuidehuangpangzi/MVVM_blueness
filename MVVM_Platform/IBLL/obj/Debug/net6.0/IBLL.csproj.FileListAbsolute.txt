@@ -8,9 +8,9 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IBLL\obj\Debug\net6.0\IBLL.Gen
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IBLL\obj\Debug\net6.0\IBLL.AssemblyInfoInputs.cache
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IBLL\obj\Debug\net6.0\IBLL.AssemblyInfo.cs
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IBLL\obj\Debug\net6.0\IBLL.csproj.CoreCompileInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IBLL\obj\Debug\net6.0\IBLL.sourcelink.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IBLL\obj\Debug\net6.0\IBLL.csproj.Up2Date
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IBLL\obj\Debug\net6.0\IBLL.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IBLL\obj\Debug\net6.0\refint\IBLL.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IBLL\obj\Debug\net6.0\IBLL.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IBLL\obj\Debug\net6.0\ref\IBLL.dll
-F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IBLL\obj\Debug\net6.0\IBLL.sourcelink.json
-F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\IBLL\obj\Debug\net6.0\IBLL.csproj.Up2Date

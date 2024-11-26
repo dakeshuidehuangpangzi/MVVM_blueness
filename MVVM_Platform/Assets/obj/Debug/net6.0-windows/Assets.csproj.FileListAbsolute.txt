@@ -13,3 +13,4 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Assets\obj\Debug\net6.0-window
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Assets\obj\Debug\net6.0-windows\Styles\ButtonStyles.baml
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Assets\obj\Debug\net6.0-windows\Assets_MarkupCompile.cache
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Assets\obj\Debug\net6.0-windows\Assets.sourcelink.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Assets\obj\Debug\net6.0-windows\Assets_MarkupCompile.lref

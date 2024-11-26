@@ -20,3 +20,7 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\obj\Debug\net6.0-win
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\obj\Debug\net6.0-windows\Cylinder1.g.cs
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\obj\Debug\net6.0-windows\Cylinder1.baml
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\obj\Debug\net6.0-windows\UIControl.sourcelink.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\bin\Debug\net6.0-windows\Assets.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\bin\Debug\net6.0-windows\Assets.pdb
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\obj\Debug\net6.0-windows\UIControl.csproj.AssemblyReference.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\obj\Debug\net6.0-windows\UIControl.csproj.Up2Date

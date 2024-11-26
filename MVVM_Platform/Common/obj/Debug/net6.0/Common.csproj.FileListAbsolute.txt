@@ -8,9 +8,9 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Common\obj\Debug\net6.0\Common
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Common\obj\Debug\net6.0\Common.AssemblyInfoInputs.cache
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Common\obj\Debug\net6.0\Common.AssemblyInfo.cs
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Common\obj\Debug\net6.0\Common.csproj.CoreCompileInputs.cache
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Common\obj\Debug\net6.0\Common.sourcelink.json
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Common\obj\Debug\net6.0\Common.csproj.Up2Date
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Common\obj\Debug\net6.0\Common.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Common\obj\Debug\net6.0\refint\Common.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Common\obj\Debug\net6.0\Common.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Common\obj\Debug\net6.0\ref\Common.dll
-F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Common\obj\Debug\net6.0\Common.sourcelink.json
-F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\Common\obj\Debug\net6.0\Common.csproj.Up2Date

@@ -19,6 +19,7 @@ namespace MVVM_Platform
     /// </summary>
     public partial class AddSubscriptionDialog : Window
     {
+
         public AddSubscriptionDialog()
         {
             InitializeComponent();

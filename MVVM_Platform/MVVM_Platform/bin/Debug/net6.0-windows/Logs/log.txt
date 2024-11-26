@@ -1,1 +1,0 @@
-2024-09-09 07:32:45.2684|ERROR|MVVM_Platform.App|ConfigureAllServices

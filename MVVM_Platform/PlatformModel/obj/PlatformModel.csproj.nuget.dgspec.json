@@ -126,7 +126,11 @@
           "dependencies": {
             "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[8.2.2, )"
+              "version": "[7.1.2, )"
+            },
+            "MQTTnet": {
+              "target": "Package",
+              "version": "[4.3.7.1207, )"
             }
           },
           "imports": [

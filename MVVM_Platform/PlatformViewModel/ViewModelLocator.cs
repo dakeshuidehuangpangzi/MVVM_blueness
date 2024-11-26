@@ -24,7 +24,7 @@ namespace PlatformViewModel
             services.AddTransient<HistoryViewModel>();
             services.AddTransient<ManualOperationViewModel>();
             services.AddTransient<MonitorViewModel>();
-            services.AddTransient<SettingViewModel>();
+            services.AddSingleton<SettingViewModel>();
             services.AddTransient<TrendViewModel>();
             services.AddTransient<ILoginBLL, LoginBLL>();
             services.AddTransient<ILoginDal, LoginDal>();
@@ -56,7 +56,7 @@ namespace PlatformViewModel
             services.AddTransient<HistoryViewModel>();
             services.AddTransient<ManualOperationViewModel>();
             services.AddTransient<MonitorViewModel>();
-            services.AddTransient<SettingViewModel>();
+            services.AddSingleton<SettingViewModel>();
             services.AddTransient<TrendViewModel>();
             services.AddTransient<ILoginBLL, LoginBLL>();
             services.AddTransient<ILoginDal, LoginDal>();

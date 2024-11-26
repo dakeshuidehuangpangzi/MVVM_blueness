@@ -1,4 +1,5 @@
-﻿using PlatformViewModel;
+﻿using Models;
+using PlatformViewModel;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -19,6 +20,7 @@ namespace MVVM_Platform
         public App()
         {
             Logger = NLog.LogManager.GetCurrentClassLogger();
+            GlobalConfig.Instance.Init();
             Services = ConfigureAllServices();
         }
 
@@ -27,7 +29,7 @@ namespace MVVM_Platform
             //获取其他类库的注册
             IServiceCollection Service = new ServiceCollection();
             //注册主线程调度
-            Service.AddTransient(typeof(Dispatcher), obj => Application.Current.Dispatcher);
+            Service.AddSingleton(typeof(Dispatcher), obj => Application.Current.Dispatcher);
             //dateConText注册方式   在创建的时候就赋予进去
             //Service.AddSingleton(sp => new MainView() { DataContext = sp.GetService<MainViewModel>() });
             Service.AddPlatformViewModelServices();//其他类库就在这里注册
