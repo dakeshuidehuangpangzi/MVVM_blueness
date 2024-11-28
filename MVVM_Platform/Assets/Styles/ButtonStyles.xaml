@@ -1,6 +1,7 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
-                    xmlns:local="clr-namespace:Assets"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Assets">
     <Style x:Key="WindowControlButtonStyle" TargetType="Button">
         <Setter Property="Template">
             <Setter.Value>
@@ -29,6 +30,55 @@
         <Setter Property="BorderThickness" Value="1" />
         <Setter Property="Background" Value="Transparent" />
     </Style>
+
+    <Style x:Key="RoundCheckBox" TargetType="CheckBox">
+        <Setter Property="Width" Value=" 50" />
+        <Setter Property="Height" Value="25" />
+        <Setter Property="HorizontalContentAlignment" Value="Left" />
+        <Setter Property="Margin" Value="15,0,0,0" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="CheckBox">
+                    <Border
+                        x:Name="bor"
+                        Background="Gray"
+                        CornerRadius="13"
+                        TextBlock.Foreground="LightGray">
+                        <Grid TextBlock.FontSize="11">
+                            <TextBlock
+                                Margin="10,0"
+                                HorizontalAlignment="Left"
+                                VerticalAlignment="Center"
+                                Text="开" />
+                            <TextBlock
+                                Margin="10,0"
+                                HorizontalAlignment="Right"
+                                VerticalAlignment="Center"
+                                Text="关" />
+                            <Border
+                                x:Name="bors"
+                                Width="22"
+                                Height="22"
+                                Margin="2,0"
+                                HorizontalAlignment="Left"
+                                Background="#FFAACA22"
+                                CornerRadius="11" />
+                        </Grid>
+
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="bors" Property="HorizontalAlignment" Value="Right" />
+                            <Setter TargetName="bors" Property="Background" Value="White" />
+                            <Setter TargetName="bor" Property="Background" Value="#FFAACA22" />
+                            <Setter TargetName="bor" Property="TextBlock.Foreground" Value="White" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
 
     <Style x:Key="CheckBoxSwitchStyle" TargetType="CheckBox">
         <Setter Property="IsChecked" Value="False" />

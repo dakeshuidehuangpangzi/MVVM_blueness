@@ -52,6 +52,7 @@
         <StackPanel>
             <Label Content="添加订阅" />
             <Button
+                Width="40"
                 Margin="200,0,0,0"
                 Click="Button_Click"
                 Content="X"

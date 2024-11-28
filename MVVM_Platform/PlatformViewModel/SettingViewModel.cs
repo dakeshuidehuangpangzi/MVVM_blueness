@@ -14,14 +14,16 @@ namespace PlatformViewModel
 {
     public partial class SettingViewModel : ObservableObject
     {
+        readonly Logger log=LogManager.GetCurrentClassLogger();
         [ObservableProperty]
         BaseConfig config=new();
+        
+
 
         //ILoginBLL _loginBLL;
 
         public SettingViewModel()
         {
-
             this.config =GlobalConfig.Instance.BaseConfig;
         }
 
@@ -30,6 +32,7 @@ namespace PlatformViewModel
         public void SaveConfig()
         {
             GlobalConfig.Instance.Save(PathConfig.SystemConfig);
+            log.Info("参数保存成功");
         }
     }
 }

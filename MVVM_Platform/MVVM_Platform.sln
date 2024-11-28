@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommunicationComponent", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Modelss\Models.csproj", "{D71FE1DB-B0DA-4840-A97B-6AC05779AC8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemConfig", "SystemConfig\SystemConfig.csproj", "{0A145F98-FA8E-4F18-95AC-FDECB7917EF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemConfig", "SystemConfig\SystemConfig.csproj", "{0A145F98-FA8E-4F18-95AC-FDECB7917EF8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.other", "6.other", "{5A211334-1390-42B3-BEE7-8AFF6E5CD5F5}"
 EndProject

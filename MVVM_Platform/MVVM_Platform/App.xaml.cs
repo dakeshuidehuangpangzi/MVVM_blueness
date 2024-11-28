@@ -1,4 +1,5 @@
 ﻿using Models;
+using NLog;
 using PlatformViewModel;
 using System;
 using System.Collections.Generic;
@@ -16,10 +17,10 @@ namespace MVVM_Platform
     /// </summary>
     public partial class App : Application
     {
-        public  readonly NLog.Logger Logger ;
+        public  readonly Logger Logger ;
         public App()
         {
-            Logger = NLog.LogManager.GetCurrentClassLogger();
+            Logger = LogManager.GetCurrentClassLogger();
             GlobalConfig.Instance.Init();
             Services = ConfigureAllServices();
         }
@@ -33,6 +34,7 @@ namespace MVVM_Platform
             //dateConText注册方式   在创建的时候就赋予进去
             //Service.AddSingleton(sp => new MainView() { DataContext = sp.GetService<MainViewModel>() });
             Service.AddPlatformViewModelServices();//其他类库就在这里注册
+            //Service.AddSingleton<Logger>();
             Service.AddPlatformViewModelExtensions()
                     .Build()
                     .WithLoginModel("LoginModel");

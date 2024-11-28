@@ -33,9 +33,12 @@ namespace PlatformViewModel
         [RelayCommand]
         public void AddSubscribe(object clent)
         {
-            ActionManager.ExecuteAndResult("AddSubscription", clent);
-            
+            //ActionManager.ExecuteAndResult("AddSubscription", clent);
+
             //clent.
+            Type type = Assembly.Load("MVVM_Platform")
+    .GetType("MVVM_Platform." + "MQTTSendAndConfigview")!;
+            ViewContent = Activator.CreateInstance(type)!;
         }
         [RelayCommand]
         public void PublishMessage()

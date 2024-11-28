@@ -28,11 +28,6 @@ namespace MVVM_Platform
         {
             if (new LoginView().ShowDialog()!=true)
                 Application.Current.Shutdown();
-
-
-
-
-
             InitializeComponent();
             this.DataContext = App.Current.Services.GetRequiredService<MainViewModel>();
 

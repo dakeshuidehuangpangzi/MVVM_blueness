@@ -132,7 +132,7 @@
               "RelativeDocumentMoniker": "MVVM_Web\\Program.cs",
               "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\MVVM_Web\\Program.cs",
               "RelativeToolTip": "MVVM_Web\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIAywA8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T05:57:17.128Z",
               "IsPinned": true,
@@ -177,8 +177,7 @@
               "RelativeToolTip": "Server.EFCore\\EFCoreContext.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAcwBcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T05:56:08.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T05:56:08.036Z"
             },
             {
               "$type": "Document",

@@ -13,10 +13,13 @@
     <Compile Update="Dialog\AddSubscriptionDialog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="PageForm\MqttNewConnect.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="PageForm\MQTTSendAndConfigview.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Page\MQTTTestPage.xaml.cs">
+    <Compile Update="Page\Mqtt\MQTTTestPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Page\MonitorPage.xaml.cs">
@@ -51,10 +54,13 @@
     <Page Update="Dialog\AddSubscriptionDialog.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="PageForm\MqttNewConnect.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="PageForm\MQTTSendAndConfigview.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Page\MQTTTestPage.xaml">
+    <Page Update="Page\Mqtt\MQTTTestPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Page\MonitorPage.xaml">

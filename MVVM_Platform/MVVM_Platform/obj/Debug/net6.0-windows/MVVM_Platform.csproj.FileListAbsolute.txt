@@ -70,7 +70,6 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\HistoryPage.g.cs
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\ManualOperationPage.g.cs
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\MonitorPage.g.cs
-F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\MQTTTestPage.g.cs
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\ReportPage.g.cs
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\SettingsPage.g.cs
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\TrendPage.g.cs
@@ -88,7 +87,6 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\HistoryPage.baml
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\ManualOperationPage.baml
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\MonitorPage.baml
-F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\MQTTTestPage.baml
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\ReportPage.baml
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\SettingsPage.baml
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\TrendPage.baml
@@ -106,3 +104,7 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\MVVM_Platform.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\MVVM_Platform.genruntimeconfig.cache
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\ref\MVVM_Platform.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\PageForm\MqttNewConnect.g.cs
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\Mqtt\MQTTTestPage.g.cs
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\PageForm\MqttNewConnect.baml
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\MVVM_Platform\obj\Debug\net6.0-windows\Page\Mqtt\MQTTTestPage.baml

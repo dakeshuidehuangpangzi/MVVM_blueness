@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PlatformViewModel;
+using PlatformViewModel.ShowDiglog;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,7 @@ namespace MVVM_Platform
         public AddSubscriptionDialog()
         {
             InitializeComponent();
+            this.DataContext = App.Current.Services.GetRequiredService<AddSubscriptionDialogViewModel>();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
