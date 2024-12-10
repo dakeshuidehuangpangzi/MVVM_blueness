@@ -13,9 +13,10 @@ using System.Windows.Media.Media3D;
 using CommunityToolkit.Mvvm.Messaging;
 using CommunityToolkit.Mvvm.Messaging.Messages;
 using Models;
+using SystemConfig;
 namespace PlatformViewModel
 {
-    public partial class MQTTTestViewModel: ObservableRecipient, IRecipient<PropertyChangedMessage<string>>
+    public partial class MQTTTestViewModel: ObservableRecipient, IRecipient<string>
     {
         //MQTT集合对象
         [ObservableProperty]
@@ -28,7 +29,7 @@ namespace PlatformViewModel
         {
             IsActive = true;
             //全局Clients参数添加
-            GlobalConfig.Instance.Clients.ForEach(x => Clients.Add(new MQTTClient() { model =x }));
+            GlobalConfig.Instance.Clients.ForEach(x => Clients.Add(new MQTTClient() { Model =x }));
         }
         [RelayCommand]
         public void AddSubscribe(object clent)
@@ -37,13 +38,18 @@ namespace PlatformViewModel
 
             //clent.
             Type type = Assembly.Load("MVVM_Platform")
-    .GetType("MVVM_Platform." + "MQTTSendAndConfigview")!;
+    .GetType("MVVM_Platform." + "MqttNewConnectview")!;
             ViewContent = Activator.CreateInstance(type)!;
         }
         [RelayCommand]
         public void PublishMessage()
         {
 
+        }
+        [RelayCommand]
+        public void SaveConfig()
+        {
+            GlobalConfig.Instance.Save(PathConfig.SystemConfig);
         }
         [RelayCommand]
         public void AddClient(MQTTClient client)
@@ -59,9 +65,25 @@ namespace PlatformViewModel
             ViewContent = Activator.CreateInstance(type,obj)!;
         }
 
-        public void Receive(PropertyChangedMessage<string> message)
+        //public void Receive(PropertyChangedMessage<string> message)
+        //{
+
+        //}
+
+        public void Receive(string message)
         {
-            throw new NotImplementedException();
+            var res =  message.Split(';');
+            if (res.Length!=0||res!=null)
+            {       
+                //返回打开界面
+
+                if (res.Any(x => x.Contains(value: "OK")))
+                {
+                    Clients = new ();
+                    GlobalConfig.Instance.Clients.ForEach(x =>  Clients.Add(new MQTTClient() { Model = x }));
+                    OpenView(GlobalConfig.Instance.Clients.FirstOrDefault());
+                }
+            }
         }
     }
 }

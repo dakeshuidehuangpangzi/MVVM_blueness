@@ -6,8 +6,16 @@
 	<LangVersion>10</LangVersion>  
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<SelfContained>false</SelfContained>
+	 <Version>1.0.0.1</Version>
   </PropertyGroup>
-
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<OutputPath>..\..\exe\MVVM_Platform</OutputPath>
+	</PropertyGroup>	
+	
+	
   <ItemGroup>
     <ProjectReference Include="..\Assets\Assets.csproj" />
     <ProjectReference Include="..\CommunicationComponent\CommunicationComponent.csproj" />

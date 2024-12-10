@@ -1,4 +1,5 @@
 ﻿using CommunicationComponent;
+using CommunityToolkit.Mvvm.ComponentModel;
 using Models;
 using MQTTnet;
 using MQTTnet.Client;
@@ -7,11 +8,12 @@ using System.Windows.Input;
 
 public delegate void OrderEventHandler(MQTTClient sender, MessageReceivedArg e);
 
-public  class MQTTClient
+public partial class MQTTClient : ObservableRecipient
 {
     #region 属性
+    [ObservableProperty]
     /// <summary>名称</summary>
-    public MQTTClientModel model=new ();
+    MQTTClientModel model=new ();
     private IMqttClient mqttClient;
 
     #endregion

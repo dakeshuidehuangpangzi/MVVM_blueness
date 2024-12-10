@@ -25,7 +25,7 @@
                 Grid.Row="0"
                 VerticalAlignment="Center"
                 Orientation="Horizontal">
-                <TextBlock d:Text="测试" Text="{Binding Client.Name}" />
+                <TextBlock d:Text="测试" Text="{Binding Client.Model.Name}" />
             </StackPanel>
             <Grid Grid.Row="1" Height="150">
                 <Grid.RowDefinitions>
@@ -62,17 +62,17 @@
                 <TextBox
                     Grid.Row="1"
                     Margin="5,5,30,5"
-                    Text="{Binding Client.Name}" />
+                    Text="{Binding Client.Model.Name}" />
                 <TextBox
                     Grid.Row="1"
                     Grid.Column="1"
                     Margin="5,5,30,5"
-                    Text="{Binding Client.ClientID}" />
+                    Text="{Binding Client.Model.ClientID}" />
                 <TextBox
                     Grid.Row="1"
                     Grid.Column="2"
                     Margin="5,5,30,5"
-                    Text="{Binding Client.UserName}" />
+                    Text="{Binding Client.Model.UserName}" />
                 <StackPanel Grid.Row="2" Orientation="Horizontal">
                     <Label HorizontalAlignment="Left" Content="密码" />
                 </StackPanel>
@@ -88,15 +88,20 @@
                     Orientation="Horizontal">
                     <Label HorizontalAlignment="Left" Content="Clean Start" />
                 </StackPanel>
-                <TextBox Grid.Row="3" Margin="5,5,30,5" />
+                <TextBox
+                    Grid.Row="3"
+                    Margin="5,5,30,5"
+                    Text="{Binding Client.Model.UserPassWord}" />
                 <TextBox
                     Grid.Row="3"
                     Grid.Column="1"
-                    Margin="5,5,30,5" />
-                <TextBox
+                    Margin="5,5,30,5"
+                    Text="{Binding Client.Model.KeepAlive}" />
+                <CheckBox
                     Grid.Row="3"
                     Grid.Column="2"
-                    Margin="5,5,30,5" />
+                    Margin="5,5,30,5"
+                    IsChecked="{Binding Client.Model.CleanStart}" />
                 <Button
                     Grid.Row="4"
                     Grid.Column="2"
@@ -118,7 +123,7 @@
                     Command="{Binding AddSubscribeCommand}"
                     CommandParameter="{Binding}"
                     Content=" +  添加订阅" />
-                <ListView Grid.Row="1" ItemsSource="{Binding Client.listTopic}" />
+                <ListView Grid.Row="1" ItemsSource="{Binding Client.Model.listTopic}" />
             </Grid>
             <Grid Grid.Column="1">
                 <Grid.RowDefinitions>

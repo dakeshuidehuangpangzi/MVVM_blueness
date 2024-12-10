@@ -53,7 +53,7 @@ namespace MVVM_Platform {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MVVM_Platform;component/page/trendpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MVVM_Platform;V1.0.0.0;component/page/trendpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Page\TrendPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

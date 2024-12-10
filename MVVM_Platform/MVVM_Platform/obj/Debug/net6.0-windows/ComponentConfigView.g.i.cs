@@ -53,7 +53,7 @@ namespace MVVM_Platform {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MVVM_Platform;component/componentconfigview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MVVM_Platform;V1.0.0.0;component/componentconfigview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ComponentConfigView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

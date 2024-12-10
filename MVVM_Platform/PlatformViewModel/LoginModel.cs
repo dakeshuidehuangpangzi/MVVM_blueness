@@ -33,7 +33,6 @@ namespace PlatformViewModel
         [ObservableProperty]
         public Dispatcher mainDisPacher;
 
-        Logger _Logger;
         public LoginModel(ILoginBLL loginBLL, Dispatcher dispatcher)
         {
             TestDemo test =new ();

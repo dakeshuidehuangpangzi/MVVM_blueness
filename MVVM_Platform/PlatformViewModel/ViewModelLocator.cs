@@ -32,6 +32,7 @@ namespace PlatformViewModel
             services.AddSingleton<MQTTTestViewModel>();
             services.AddScoped<MQTTSendAndConfigviewModel>();
             services.AddScoped<AddSubscriptionDialogViewModel>();
+            services.AddTransient<MqttNewConnectViewModel>();
 
         }
 
@@ -65,7 +66,7 @@ namespace PlatformViewModel
             services.AddTransient<ILoginDal, LoginDal>();
             services.AddSingleton<MQTTTestViewModel>();
             services.AddScoped<MQTTSendAndConfigviewModel>();
-            services.AddScoped<AddSubscriptionDialogViewModel>();
+            services.AddTransient<AddSubscriptionDialogViewModel>();
 
             
         }

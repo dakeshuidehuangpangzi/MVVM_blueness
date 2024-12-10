@@ -25,12 +25,17 @@ namespace MVVM_Platform
         public AddSubscriptionDialog()
         {
             InitializeComponent();
-            this.DataContext = App.Current.Services.GetRequiredService<AddSubscriptionDialogViewModel>();
+            //this.DataContext = App.Current.Services.GetRequiredService<AddSubscriptionDialogViewModel>();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

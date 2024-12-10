@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Models
 {
-    public class MQTTClientModel: BaseConfig
+    public class MQTTClientModel
     {
         public string Name { get; set; }
         /// <summary>名称</summary>
@@ -14,14 +14,26 @@ namespace Models
         /// <summary>密码</summary>
         public string UserPassWord { get; set; } = "123456";
         /// <summary>生存确认</summary>
-        public uint KeepAlive { get; set; }
+        public uint KeepAlive { get; set; } = 60;
         /// <summary>清除状态</summary>
         public bool CleanStart { get; set; }
         public bool IsConnected { get; set; }
-
         public int Port { get; set; } = 1883;
         public string Host { get; set; } = "127.0.0.1";
+        public uint MqttVersions { get; set; } = 0;
+
+        public bool IsSSL { get; set; } = false;
+        public ServerAddress ServerAddress { get; set; } = ServerAddress.mqtt;
+        public int ConnectTimeOut { get; set; } = 10;
+
         /// <summary>订阅主题集合</summary>
         public List<MqttSubscriptionModel> listTopic { get; set; } = new();
+    }
+    public enum ServerAddress
+    {
+        mqtt,
+        mqtts,
+        ws,
+        wss
     }
 }
