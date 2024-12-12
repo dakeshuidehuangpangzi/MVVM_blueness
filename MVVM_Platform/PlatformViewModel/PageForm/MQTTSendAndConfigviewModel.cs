@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using CommunityToolkit.Mvvm.Messaging;
 using CommunityToolkit.Mvvm.Messaging.Messages;
+using Models;
 using PlatformViewModel.ShowDiglog;
 using System;
 using System.Collections.Generic;
@@ -22,7 +23,8 @@ namespace PlatformViewModel
         MQTTClient client;
         [ObservableProperty]
         bool isConnected;
-
+        [ObservableProperty]
+        int accept=0;
 
         //绑定事件委托
         /// <summary>
@@ -61,7 +63,14 @@ namespace PlatformViewModel
             Client.ConnectAsync();
             Client.Connected += Client_Connected;
         }
-
+        [RelayCommand]
+        public void Delate(object parm)
+        {
+            if (parm is MqttSubscriptionModel)
+            {
+                Client.Model.listTopic.Remove(Client.Model.listTopic.FirstOrDefault(x => x.Topic == ((MqttSubscriptionModel)parm).Topic));
+            }
+        }
         private void Client_Connected(object? sender, bool e)
         {
             isConnected = e;

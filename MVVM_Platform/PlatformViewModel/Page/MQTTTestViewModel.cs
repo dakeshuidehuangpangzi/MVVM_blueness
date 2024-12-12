@@ -83,6 +83,10 @@ namespace PlatformViewModel
                     GlobalConfig.Instance.Clients.ForEach(x =>  Clients.Add(new MQTTClient() { Model = x }));
                     OpenView(GlobalConfig.Instance.Clients.FirstOrDefault());
                 }
+                if (res.Any(x=>x.Contains("Return")))
+                {
+                    OpenView(GlobalConfig.Instance.Clients.FirstOrDefault());
+                }
             }
         }
     }

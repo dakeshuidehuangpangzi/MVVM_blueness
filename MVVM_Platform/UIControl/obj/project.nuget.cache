@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "XBoSMQP2ok0=",
+  "dgSpecHash": "/yK4GR1IFIU=",
   "success": true,
   "projectFilePath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\UIControl\\UIControl.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\黄胖子\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512"
+    "C:\\Users\\黄胖子\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+    "C:\\Users\\黄胖子\\.nuget\\packages\\mqttnet\\4.3.7.1207\\mqttnet.4.3.7.1207.nupkg.sha512"
   ],
   "logs": []
 }

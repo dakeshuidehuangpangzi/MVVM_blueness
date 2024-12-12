@@ -6,7 +6,7 @@ namespace SystemConfig
 {
     public class PathConfig
     {
-        public static string FolderSysConfig = AppDomain.CurrentDomain.BaseDirectory + @"Config\";
+        public static string FolderSysConfig = AppDomain.CurrentDomain.BaseDirectory + @"Configs\";
 
         public static string SystemConfig = FolderSysConfig + "SystemConfig.json";
 

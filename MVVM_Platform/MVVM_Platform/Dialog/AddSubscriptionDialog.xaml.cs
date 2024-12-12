@@ -1,4 +1,7 @@
-﻿using PlatformViewModel;
+﻿using CommunityToolkit.Mvvm.Messaging;
+using CommunityToolkit.Mvvm.Messaging.Messages;
+using Models;
+using PlatformViewModel;
 using PlatformViewModel.ShowDiglog;
 using System;
 using System.Collections.Generic;
@@ -26,6 +29,13 @@ namespace MVVM_Platform
         {
             InitializeComponent();
             //this.DataContext = App.Current.Services.GetRequiredService<AddSubscriptionDialogViewModel>();
+            WeakReferenceMessenger.Default.Register<CloseDialogWindowMessage>(this, (_, m) =>
+            {
+                if (m.Sender?.Target == this.DataContext)
+                {
+                    this.Close();
+                }
+            });
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -33,9 +43,11 @@ namespace MVVM_Platform
             this.Close();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            //var response = WeakReferenceMessenger.Default.Send(new RequestMessage<bool>());
+            //if (response.Response) this.Close();
         }
     }
 }

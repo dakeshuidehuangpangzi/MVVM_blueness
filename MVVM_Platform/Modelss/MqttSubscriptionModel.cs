@@ -14,32 +14,42 @@ namespace Models
         /// <summary>
         /// 订阅信息
         /// </summary>
-        public string Topic { get; set; } = "te";
+        [ObservableProperty]
+        string topic  = "te";
+        [ObservableProperty]
 
-        public MqttQualityOfServiceLevel Qos { get; set; } = MqttQualityOfServiceLevel.AtMostOnce;
+        MqttQualityOfServiceLevel qos  = MqttQualityOfServiceLevel.AtMostOnce;
         /// <summary>
         /// 标记
         /// </summary>
-        public string Sign { get; set; } = "Sign";
+        [ObservableProperty]
+        string sign = "Sign";
         /// <summary>
         /// 别名
         /// </summary>
-        public string OtherName { get; set; } = "test";
+        [ObservableProperty]
+        string otherName = "test";
         /// <summary>
         /// 订阅标识符
         /// </summary>
-        public int SubscriptionID { get; set; }
+        [ObservableProperty]
+        int subscriptionID;
         /// <summary>
         /// 禁止本地转发
         /// </summary>
-        public bool DisableLocalForwarding { get; set; } = false;
+        [ObservableProperty]
+        bool disableLocalForwarding  = false;
         /// <summary>
         /// 发布时保留状态
         /// </summary>
-        public bool StateRetention { get; set; } = false;
+        [ObservableProperty]
 
-        public uint KeepMessageHandling { get; set; }
+        bool stateRetention = false;
+        [ObservableProperty]
+
+        uint keepMessageHandling;
         [JsonIgnore]//不会存储到log内
-        public List<string> ReceiveMessages { get; set; }
+        [ObservableProperty]
+        List<string> receiveMessages;
     }
 }

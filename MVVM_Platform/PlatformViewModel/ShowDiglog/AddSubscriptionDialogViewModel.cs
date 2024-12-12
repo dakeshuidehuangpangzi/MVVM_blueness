@@ -1,5 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using CommunityToolkit.Mvvm.Messaging;
+using CommunityToolkit.Mvvm.Messaging.Messages;
 using Models;
 using MQTTnet.Protocol;
 using System;
@@ -33,6 +35,8 @@ namespace PlatformViewModel.ShowDiglog
             {
                 enumlist.Add(item);
             }
+
+           // WeakReferenceMessenger.Default.Register<RequestMessage<bool>>(this, (_, m) => m.Reply(SaveData()));
         }
 
         [RelayCommand]
@@ -43,6 +47,19 @@ namespace PlatformViewModel.ShowDiglog
             {
                 MQTT.Model.listTopic.Add(pa);
             }
+            CloseWindow();
+        }
+        public bool SaveData()
+        {
+            return false;
+        }
+        [RelayCommand]
+        public void CloseWindow()
+        {
+            //if (SaveData())
+            //{
+                WeakReferenceMessenger.Default.Send(new CloseDialogWindowMessage { Sender = new WeakReference(this) });
+            //}
         }
         #endregion
 

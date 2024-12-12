@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 
 namespace Models
@@ -27,7 +28,7 @@ namespace Models
         public int ConnectTimeOut { get; set; } = 10;
 
         /// <summary>订阅主题集合</summary>
-        public List<MqttSubscriptionModel> listTopic { get; set; } = new();
+        public ObservableCollection<MqttSubscriptionModel> listTopic { get; set; } = new();
     }
     public enum ServerAddress
     {

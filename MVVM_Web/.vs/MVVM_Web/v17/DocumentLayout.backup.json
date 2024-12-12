@@ -132,7 +132,7 @@
               "RelativeDocumentMoniker": "MVVM_Web\\Program.cs",
               "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Web\\MVVM_Web\\Program.cs",
               "RelativeToolTip": "MVVM_Web\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T05:57:17.128Z",
               "IsPinned": true,
@@ -152,7 +152,8 @@
               "RelativeToolTip": "EfCore\\Models\\WPFCustomerDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T05:53:20.818Z"
+              "WhenOpened": "2024-11-19T05:53:20.818Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -344,7 +345,8 @@
               "RelativeToolTip": "MVVM_Web\\Controllers\\UserController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAIA0wDYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T05:57:19.906Z"
+              "WhenOpened": "2024-11-19T05:57:19.906Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -56,13 +56,13 @@ namespace Models
         }
 
         public  void Save(string path)
-        {
+        { 
             if (!File.Exists(path))
             {
                 File.Create(path).Close();
             }
             string data = JsonConvert.SerializeObject(this);
-            System.IO.File.WriteAllText(path, data);
+            File.WriteAllText(path, data);
         }
     }
 }

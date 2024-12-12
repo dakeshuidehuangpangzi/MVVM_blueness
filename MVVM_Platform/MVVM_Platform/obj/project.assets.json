@@ -594,6 +594,9 @@
       "Assets/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MQTTnet": "4.3.7.1207"
+        },
         "compile": {
           "bin/placeholder/Assets.dll": {}
         },
