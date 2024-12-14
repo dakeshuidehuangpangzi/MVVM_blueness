@@ -163,6 +163,46 @@
                     </Style>
                 </ResourceDictionary>
                 <ResourceDictionary>
+                    <ControlTemplate x:Key="roundbutton" TargetType="Button">
+                        <Grid>
+                            <Ellipse
+                                x:Name="ep"
+                                Fill="{TemplateBinding Background}"
+                                Stroke="{Binding Foreground}"
+                                StrokeThickness="-1" />
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <Storyboard>
+                                            <ColorAnimation
+                                                Storyboard.TargetName="ep"
+                                                Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)"
+                                                To="{TemplateBinding Background}"
+                                                Duration="0:0:0.2" />
+                                        </Storyboard>
+                                    </VisualState>
+
+                                    <VisualState x:Name="MouseOver">
+                                        <Storyboard>
+                                            <ColorAnimation
+                                                Storyboard.TargetName="ep"
+                                                Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)"
+                                                To="OrangeRed"
+                                                Duration="0:0:0.2" />
+                                        </Storyboard>
+                                    </VisualState>
+
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </Grid>
+                        <!--<ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter TargetName="ep" Property="Fill" Value="Yellow" />
+                </Trigger>
+            </ControlTemplate.Triggers>-->
+                    </ControlTemplate>
+
                     <Style x:Key="rubtionStyle" TargetType="Button">
                         <Setter Property="Template">
                             <Setter.Value>
@@ -317,8 +357,8 @@
                                             Background="Red"
                                             Command="{Binding DataContext.DelateCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
                                             CommandParameter="{Binding}"
-                                            Content="x"
-                                            Style="{StaticResource rubtionStyle}"
+                                            Content="X"
+                                            Template="{StaticResource roundbutton}"
                                             Visibility="Collapsed" />
 
                                         <ItemsPresenter

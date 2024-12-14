@@ -11,10 +11,7 @@
                             x:Name="bor"
                             Background="#11000000"
                             Visibility="Collapsed" />
-                        <ContentPresenter
-                            Margin="8"
-                            HorizontalAlignment="{TemplateBinding VerticalContentAlignment}"
-                            VerticalAlignment="{TemplateBinding HorizontalContentAlignment}" />
+                        <ContentPresenter HorizontalAlignment="{TemplateBinding VerticalContentAlignment}" VerticalAlignment="{TemplateBinding HorizontalContentAlignment}" />
                     </Grid>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">

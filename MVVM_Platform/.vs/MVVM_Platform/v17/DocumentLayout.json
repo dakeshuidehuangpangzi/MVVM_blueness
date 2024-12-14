@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\pageform\\mqttsendandconfigview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\pageform\\mqttsendandconfigview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\pageform\\mqttsendandconfigviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|solutionrelative:platformviewmodel\\pageform\\mqttsendandconfigviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AE6BBA2-AAEE-40AE-9D70-FD206A410909}|Assets\\Assets.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\assets\\styles\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1AE6BBA2-AAEE-40AE-9D70-FD206A410909}|Assets\\Assets.csproj|solutionrelative:assets\\styles\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AE6BBA2-AAEE-40AE-9D70-FD206A410909}|Assets\\Assets.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\assets\\converters\\invalueconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +31,8 @@
       "RelativeMoniker": "D:0:0:{B8B48F93-DD5F-4335-A9DF-A8EBBC5EFA0C}|CommunicationComponent\\CommunicationComponent.csproj|solutionrelative:communicationcomponent\\mqtt\\mqttclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\pageform\\mqttsendandconfigview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\pageform\\mqttsendandconfigview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\mvvm_platform\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{35BB3A82-BE16-4033-800F-59C6819A388A}|MVVM_Platform\\MVVM_Platform.csproj|solutionrelative:mvvm_platform\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AE6BBA2-AAEE-40AE-9D70-FD206A410909}|Assets\\Assets.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\assets\\styles\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1AE6BBA2-AAEE-40AE-9D70-FD206A410909}|Assets\\Assets.csproj|solutionrelative:assets\\styles\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{199784F4-5B10-44E1-A7EF-48B92B58D5FB}|PlatformViewModel\\PlatformViewModel.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\mvvm_platform\\platformviewmodel\\pageform\\mqttnewconnectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,7 +65,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -77,12 +77,11 @@
               "RelativeToolTip": "MVVM_Platform\\Page\\Mqtt\\MQTTTestPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-10T07:30:39.686Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MQTTSendAndConfigview.xaml",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\PageForm\\MQTTSendAndConfigview.xaml",
               "RelativeDocumentMoniker": "MVVM_Platform\\PageForm\\MQTTSendAndConfigview.xaml",
@@ -100,45 +99,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InValueConverter.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Assets\\Converters\\InValueConverter.cs",
-              "RelativeDocumentMoniker": "Assets\\Converters\\InValueConverter.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Assets\\Converters\\InValueConverter.cs",
-              "RelativeToolTip": "Assets\\Converters\\InValueConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:18:04.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "MQTTSendAndConfigviewModel.cs",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\PageForm\\MQTTSendAndConfigviewModel.cs",
               "RelativeDocumentMoniker": "PlatformViewModel\\PageForm\\MQTTSendAndConfigviewModel.cs",
               "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\PageForm\\MQTTSendAndConfigviewModel.cs",
               "RelativeToolTip": "PlatformViewModel\\PageForm\\MQTTSendAndConfigviewModel.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwEIAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T07:40:02.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MQTTClientModel.cs",
-              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Modelss\\MQTTClientModel.cs",
-              "RelativeDocumentMoniker": "Modelss\\MQTTClientModel.cs",
-              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Modelss\\MQTTClientModel.cs",
-              "RelativeToolTip": "Modelss\\MQTTClientModel.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAswBUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:19:07.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MqttSubscriptionModel.cs",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Modelss\\MqttSubscriptionModel.cs",
               "RelativeDocumentMoniker": "Modelss\\MqttSubscriptionModel.cs",
@@ -146,12 +119,11 @@
               "RelativeToolTip": "Modelss\\MqttSubscriptionModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswAsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T07:27:42.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T07:27:42.373Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MQTTClient.cs",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\CommunicationComponent\\MQTT\\MQTTClient.cs",
               "RelativeDocumentMoniker": "CommunicationComponent\\MQTT\\MQTTClient.cs",
@@ -159,24 +131,22 @@
               "RelativeToolTip": "CommunicationComponent\\MQTT\\MQTTClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswA8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T07:50:52.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T07:50:52.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Views\\LoginView.xaml",
               "RelativeDocumentMoniker": "MVVM_Platform\\Views\\LoginView.xaml",
               "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\MVVM_Platform\\Views\\LoginView.xaml",
               "RelativeToolTip": "MVVM_Platform\\Views\\LoginView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-12T08:53:10.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T08:53:10.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "ButtonStyles.xaml",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Assets\\Styles\\ButtonStyles.xaml",
               "RelativeDocumentMoniker": "Assets\\Styles\\ButtonStyles.xaml",
@@ -188,6 +158,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MQTTClientModel.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Modelss\\MQTTClientModel.cs",
+              "RelativeDocumentMoniker": "Modelss\\MQTTClientModel.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Modelss\\MQTTClientModel.cs",
+              "RelativeToolTip": "Modelss\\MQTTClientModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T09:19:07.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InValueConverter.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Assets\\Converters\\InValueConverter.cs",
+              "RelativeDocumentMoniker": "Assets\\Converters\\InValueConverter.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Assets\\Converters\\InValueConverter.cs",
+              "RelativeToolTip": "Assets\\Converters\\InValueConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T09:18:04.928Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "MqttNewConnectViewModel.cs",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\PlatformViewModel\\PageForm\\MqttNewConnectViewModel.cs",
@@ -196,8 +190,7 @@
               "RelativeToolTip": "PlatformViewModel\\PageForm\\MqttNewConnectViewModel.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T03:05:53.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T03:05:53.325Z"
             },
             {
               "$type": "Document",
@@ -209,8 +202,7 @@
               "RelativeToolTip": "PlatformViewModel\\ShowDiglog\\AddSubscriptionDialogViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T08:39:08.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T08:39:08.7Z"
             },
             {
               "$type": "Document",
@@ -233,8 +225,7 @@
               "RelativeToolTip": "PlatformViewModel\\HistoryViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T03:05:51.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T03:05:51.059Z"
             },
             {
               "$type": "Document",
@@ -246,8 +237,7 @@
               "RelativeToolTip": "MVVM_Platform\\Dialog\\AddSubscriptionDialog.xaml.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAswCEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T03:21:17.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T03:21:17.846Z"
             }
           ]
         }
