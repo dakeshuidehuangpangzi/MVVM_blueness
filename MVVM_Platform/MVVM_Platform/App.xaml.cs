@@ -1,5 +1,9 @@
-﻿using Models;
+﻿using ConfigurationServices;
+using Models;
+using MVVM_Platform.ViewModels;
+using MvvmDialoging;
 using NLog;
+using Platform.Extensions.Enum;
 using PlatformViewModel;
 using System;
 using System.Collections.Generic;
@@ -23,6 +27,7 @@ namespace MVVM_Platform
             Logger = LogManager.GetCurrentClassLogger();
             GlobalConfig.Instance.Init();
             Services = ConfigureAllServices();
+            Services.GetConfiguration().LoadConfigs();
         }
 
         public IServiceProvider ConfigureAllServices()
@@ -38,6 +43,10 @@ namespace MVVM_Platform
             Service.AddPlatformViewModelExtensions()
                     .Build()
                     .WithLoginModel("LoginModel");
+            Service.AddTransient<AddSubscriptionDialogViewModel>();
+            Service.AddScoped<MQTTSendAndConfigviewModel>();
+            Service.ConfigureDialogServiceSingleton();
+            Service.ConfigurationServiceSingleton();
             Logger.Info("ConfigureAllServices");
             //注册所有的依赖对象
             return Service.BuildServiceProvider();
@@ -47,5 +56,9 @@ namespace MVVM_Platform
         public IServiceProvider Services { get; }
         public new static App Current => (App)Application.Current;
 
+        public EDialogResult ShowDialog(ViewModelBaseDialog viewModel)
+        {
+            return Services.GetDialogService().ShowDialog(viewModel, Services.GetService<MainViewModel>());
+        }
     }
 }

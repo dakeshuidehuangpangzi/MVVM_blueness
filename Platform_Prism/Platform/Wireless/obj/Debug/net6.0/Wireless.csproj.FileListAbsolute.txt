@@ -10,3 +10,4 @@ F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\obj\Debug\n
 F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\obj\Debug\net6.0\refint\Wireless.dll
 F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\obj\Debug\net6.0\Wireless.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\obj\Debug\net6.0\ref\Wireless.dll
+F:\GitWorkerCode\2024\MVVM_blueness\Platform_Prism\Platform\Wireless\obj\Debug\net6.0\Wireless.sourcelink.json

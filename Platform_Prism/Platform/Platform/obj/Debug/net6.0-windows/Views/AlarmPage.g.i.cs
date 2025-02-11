@@ -53,7 +53,7 @@ namespace Platform.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Platform;V1.0.0.0;component/views/alarmpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Platform;component/views/alarmpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\AlarmPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

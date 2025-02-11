@@ -22,20 +22,19 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "D:\\NetGit": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Modelss\\Models.csproj": {
-                "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Modelss\\Models.csproj"
+              "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Models\\Models.csproj": {
+                "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Models\\Models.csproj"
               }
             }
           }
@@ -49,11 +48,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "dependencies": {
             "MQTTnet": {
               "target": "Package",
@@ -88,18 +88,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Modelss\\Models.csproj": {
+    "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Modelss\\Models.csproj",
+        "projectUniqueName": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Modelss\\Models.csproj",
+        "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\黄胖子\\.nuget\\packages\\",
-        "outputPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Modelss\\obj\\",
+        "outputPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -110,20 +110,19 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "net8.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "D:\\NetGit": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\SystemConfig\\SystemConfig.csproj": {
-                "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\SystemConfig\\SystemConfig.csproj"
+              "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Platform.Extensions\\Platform.Extensions.csproj": {
+                "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Platform.Extensions\\Platform.Extensions.csproj"
               }
             }
           }
@@ -137,25 +136,20 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "dependencies": {
             "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[8.2.2, )"
+              "version": "[8.2.0, )"
             },
             "MQTTnet": {
               "target": "Package",
-              "version": "[4.3.7.1207, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[4.3.0.858, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -173,18 +167,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\SystemConfig\\SystemConfig.csproj": {
+    "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Platform.Extensions\\Platform.Extensions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\SystemConfig\\SystemConfig.csproj",
-        "projectName": "SystemConfig",
-        "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\SystemConfig\\SystemConfig.csproj",
+        "projectUniqueName": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Platform.Extensions\\Platform.Extensions.csproj",
+        "projectName": "Platform.Extensions",
+        "projectPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Platform.Extensions\\Platform.Extensions.csproj",
         "packagesPath": "C:\\Users\\黄胖子\\.nuget\\packages\\",
-        "outputPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\SystemConfig\\obj\\",
+        "outputPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\MVVM_Platform\\Platform.Extensions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -195,17 +194,16 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "net8.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "D:\\NetGit": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows7.0",
             "projectReferences": {}
           }
         },
@@ -218,17 +216,20 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows7.0",
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
+            "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[8.2.0, )"
+            },
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.135, )"
             }
           },
           "imports": [
@@ -242,7 +243,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,18 +5,15 @@
     <Compile Update="Cylinder.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Cylinder1.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Cylinder.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Cylinder1.xaml">
+    <Page Update="Style.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Style.xaml">
+    <Page Update="Themes\Generic.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControl1.xaml">

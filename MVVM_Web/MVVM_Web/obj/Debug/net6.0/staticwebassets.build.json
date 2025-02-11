@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "rhvE/RWBDsJh380bFR21gm9KsfaC6cY+c6rxDEeXR68=",
+  "Hash": "SPRKxQ+GK90yffMpBm9UBYsp13XSMmhovOdbulhSYv0=",
   "Source": "MVVM_Web",
   "BasePath": "_content/MVVM_Web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

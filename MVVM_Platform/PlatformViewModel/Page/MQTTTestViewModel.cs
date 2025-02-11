@@ -5,7 +5,6 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CommunicationComponent;
 using CommunityToolkit.Mvvm.Input;
 using System.Reflection;
 using Common;
@@ -13,7 +12,9 @@ using System.Windows.Media.Media3D;
 using CommunityToolkit.Mvvm.Messaging;
 using CommunityToolkit.Mvvm.Messaging.Messages;
 using Models;
-using SystemConfig;
+using CommunicationComponent;
+using Platform.Extensions;
+using ConfigurationServices;
 namespace PlatformViewModel
 {
     public partial class MQTTTestViewModel: ObservableRecipient, IRecipient<string>
@@ -21,15 +22,17 @@ namespace PlatformViewModel
         //MQTT集合对象
         [ObservableProperty]
         private ObservableCollection<MQTTClient> clients=new();
+        private ConfigurationService config;
         //[ObservableProperty]
         //List<string> istClient;
         [ObservableProperty]
         object _viewContent;
-        public MQTTTestViewModel()
+        public MQTTTestViewModel(IConfigurationService configuration)
         {
             IsActive = true;
+            config = (ConfigurationService)configuration;
             //全局Clients参数添加
-            GlobalConfig.Instance.Clients.ForEach(x => Clients.Add(new MQTTClient() { Model =x }));
+            config.Clients.ForEach(x => Clients.Add(new MQTTClient() { Model =x }));
         }
         [RelayCommand]
         public void AddSubscribe(object clent)
@@ -49,7 +52,7 @@ namespace PlatformViewModel
         [RelayCommand]
         public void SaveConfig()
         {
-            GlobalConfig.Instance.Save(PathConfig.SystemConfig);
+            config.SaveConfigs();
         }
         [RelayCommand]
         public void AddClient(MQTTClient client)
@@ -80,12 +83,12 @@ namespace PlatformViewModel
                 if (res.Any(x => x.Contains(value: "OK")))
                 {
                     Clients = new ();
-                    GlobalConfig.Instance.Clients.ForEach(x =>  Clients.Add(new MQTTClient() { Model = x }));
-                    OpenView(GlobalConfig.Instance.Clients.FirstOrDefault());
+                    config.Clients.ForEach(x =>  Clients.Add(new MQTTClient() { Model = x }));
+                    OpenView(config.Clients.FirstOrDefault());
                 }
                 if (res.Any(x=>x.Contains("Return")))
                 {
-                    OpenView(GlobalConfig.Instance.Clients.FirstOrDefault());
+                    OpenView(config.Clients.FirstOrDefault());
                 }
             }
         }

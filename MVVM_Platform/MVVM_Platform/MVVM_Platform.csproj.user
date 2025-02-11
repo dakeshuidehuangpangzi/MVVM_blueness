@@ -10,7 +10,10 @@
     <Compile Update="ComponentConfigView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Dialog\AddSubscriptionDialog.xaml.cs">
+    <Compile Update="Views\AddSubscriptionDialogView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Page\HalconViewPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="PageForm\MqttNewConnectview.xaml.cs">
@@ -51,7 +54,10 @@
     <Page Update="ComponentConfigView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Dialog\AddSubscriptionDialog.xaml">
+    <Page Update="Views\AddSubscriptionDialogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Page\HalconViewPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="PageForm\MqttNewConnectview.xaml">

@@ -31,8 +31,8 @@ namespace MVVM_Platform
             InitializeComponent();
             this.DataContext = App.Current.Services.GetRequiredService<MainViewModel>();
 
-            ActionManager.Register<object>("AddSubscription",
-             new Func<object, bool>(ShowTrendDeviceVars));
+            //ActionManager.Register<object>("AddSubscription",
+            // new Func<object, bool>(ShowTrendDeviceVars));
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -40,10 +40,10 @@ namespace MVVM_Platform
             this.Close();
         }
 
-        private bool ShowTrendDeviceVars(object obj)
-        {
-            return ShowDialog(new AddSubscriptionDialog() { Owner = this, DataContext = obj });
-        }
+        //private bool ShowTrendDeviceVars(object obj)
+        //{
+        //    return ShowDialog(new AddSubscriptionDialog() { Owner = this, DataContext = obj });
+        //}
 
         private bool ShowDialog(Window dialog)
         {

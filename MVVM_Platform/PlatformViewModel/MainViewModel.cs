@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Models;
+using Platform.Extensions.Enum;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +11,14 @@ using System.Threading.Tasks;
 
 namespace PlatformViewModel
 {
-    public partial class MainViewModel: ObservableObject
+    public partial class MainViewModel: ObservableObject,IviewModel
     {
         public List<MenuModel> Menus { get; set; }
+        EDialogResult dialogResult = EDialogResult.None;
+        public EDialogResult DialogResult { get => dialogResult; set => SetProperty(ref dialogResult, value); }
+
+        string title = string.Empty;
+        public string Title { get => title; set => SetProperty(ref title, value); }
 
         [ObservableProperty]
         public object viewContent;
@@ -46,12 +52,12 @@ namespace PlatformViewModel
                 MenuIcon = "\ue703",
                 TargetView = "ReportPage"
             });
-            Menus.Add(new MenuModel
-            {
-                MenuHeader = "配置",
-                MenuIcon = "\ue60f",
-                TargetView = "SettingsPage"
-            });
+            //Menus.Add(new MenuModel
+            //{
+            //    MenuHeader = "配置",
+            //    MenuIcon = "\ue60f",
+            //    TargetView = "SettingsPage"
+            //});
             Menus.Add(new MenuModel
             {
                 MenuHeader = "报警曲线",
@@ -75,6 +81,12 @@ namespace PlatformViewModel
                 MenuHeader = "MQTT测试",
                 MenuIcon = "\ue60f",
                 TargetView = "MQTTTestPage"
+            }); 
+            Menus.Add(new MenuModel
+            {
+                MenuHeader = "Halcon视觉",
+                MenuIcon = "\ue60f",
+                TargetView = "HalconViewPage"
             });
             #endregion
 

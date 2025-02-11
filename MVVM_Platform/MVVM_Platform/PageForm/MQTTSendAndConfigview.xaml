@@ -4,10 +4,13 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:cov="clr-namespace:Assets;assembly=Assets"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
     xmlns:local="clr-namespace:MVVM_Platform"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Name="UC"
     d:DesignHeight="450"
     d:DesignWidth="600"
+    Loaded="UserControl_Loaded"
     mc:Ignorable="d">
     <UserControl.Resources>
         <ResourceDictionary>
@@ -188,7 +191,7 @@
                                             <ColorAnimation
                                                 Storyboard.TargetName="ep"
                                                 Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)"
-                                                To="OrangeRed"
+                                                To="Yellow"
                                                 Duration="0:0:0.2" />
                                         </Storyboard>
                                     </VisualState>
@@ -201,6 +204,42 @@
                     <Setter TargetName="ep" Property="Fill" Value="Yellow" />
                 </Trigger>
             </ControlTemplate.Triggers>-->
+                    </ControlTemplate>
+
+                    <ControlTemplate x:Key="radioStyle" TargetType="RadioButton">
+                        <Grid>
+                            <ContentPresenter
+                                x:Name="CP"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                TextBlock.Foreground="Black" />
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="true">
+                                <Setter TargetName="CP" Property="TextBlock.Foreground" Value="Green" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+
+                    <ControlTemplate x:Key="sendButtonStyle" TargetType="Button">
+                        <Grid>
+                            <Ellipse
+                                x:Name="sendep"
+                                Fill="{TemplateBinding Background}"
+                                Stroke="{Binding Foreground}"
+                                StrokeThickness="-1" />
+                            <Polygon
+                                Fill="White"
+                                Points="10,12 25,9 19,25  17,15"
+                                Stroke="White"
+                                StrokeThickness="1" />
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter TargetName="sendep" Property="Fill" Value="lightgreen" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
                     </ControlTemplate>
 
                     <Style x:Key="rubtionStyle" TargetType="Button">
@@ -272,17 +311,246 @@
                             </Setter.Value>
                         </Setter>
                     </Style>
-                    <Style x:Key="ada" TargetType="{x:Type ListViewItem}">
-                        <Setter Property="Margin" Value="10,0,10,0" />
+
+                    <Style x:Key="ControlButtonStyle" TargetType="Button">
+                        <Setter Property="Foreground" Value="#888" />
                         <Setter Property="Template">
                             <Setter.Value>
-                                <ControlTemplate TargetType="{x:Type ListViewItem}">
-                                    <Border Background="Aqua" CornerRadius="5" />
+                                <ControlTemplate TargetType="Button">
+                                    <Border Name="back" Background="Transparent">
+                                        <Border Name="bor" CornerRadius="{Binding Tag, RelativeSource={RelativeSource Mode=TemplatedParent}}">
+                                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="Center" />
+                                        </Border>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter TargetName="bor" Property="Background" Value="#09000000" />
+                                        </Trigger>
+                                        <Trigger Property="IsPressed" Value="True">
+                                            <Setter TargetName="bor" Property="Background" Value="#11000000" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
                                 </ControlTemplate>
                             </Setter.Value>
                         </Setter>
                     </Style>
+                    <ControlTemplate x:Key="ComboBoxToggleButton" TargetType="{x:Type ToggleButton}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="20" />
+                            </Grid.ColumnDefinitions>
+                            <Border
+                                x:Name="Border"
+                                Grid.ColumnSpan="2"
+                                Background="#FFF"
+                                BorderBrush="#EEE"
+                                BorderThickness="1"
+                                CornerRadius="3" />
+                            <Path
+                                x:Name="Arrow"
+                                Grid.Column="1"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Data="M 0 0 L 4 4 L 8 0 Z"
+                                Fill="#888" />
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Border" Property="Background" Value="#EEE" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
 
+                    <Style x:Key="PropComboBoxStyle" TargetType="ComboBox">
+                        <Setter Property="SnapsToDevicePixels" Value="true" />
+                        <Setter Property="OverridesDefaultStyle" Value="true" />
+                        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto" />
+                        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto" />
+                        <Setter Property="ScrollViewer.CanContentScroll" Value="true" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type ComboBox}">
+                                    <Grid>
+                                        <ToggleButton
+                                            x:Name="ToggleButton"
+                                            ClickMode="Press"
+                                            Focusable="false"
+                                            IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
+                                            Template="{StaticResource ComboBoxToggleButton}" />
+                                        <ContentPresenter
+                                            x:Name="ContentSite"
+                                            Margin="5,3"
+                                            HorizontalAlignment="Left"
+                                            VerticalAlignment="Center"
+                                            Content="{TemplateBinding SelectionBoxItem}"
+                                            ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
+                                            ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
+                                            IsHitTestVisible="False" />
+                                        <Popup
+                                            x:Name="Popup"
+                                            AllowsTransparency="True"
+                                            Focusable="False"
+                                            IsOpen="{TemplateBinding IsDropDownOpen}"
+                                            Placement="Bottom"
+                                            PopupAnimation="Slide">
+                                            <Grid
+                                                x:Name="DropDown"
+                                                MinWidth="{TemplateBinding ActualWidth}"
+                                                MaxHeight="{TemplateBinding MaxDropDownHeight}"
+                                                SnapsToDevicePixels="True">
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="30" />
+                                                    <RowDefinition />
+                                                </Grid.RowDefinitions>
+                                                <Border Background="White" />
+                                                <Label Content="使用以下格式编码接收的Payload" />
+                                                <Border
+                                                    x:Name="DropDownBorder"
+                                                    Grid.Row="1"
+                                                    Background="White"
+                                                    BorderBrush="#FF888888"
+                                                    BorderThickness="0" />
+                                                <ScrollViewer
+                                                    Grid.Row="1"
+                                                    Margin="4,6,4,6"
+                                                    SnapsToDevicePixels="True">
+                                                    <StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Contained" />
+                                                </ScrollViewer>
+                                            </Grid>
+                                        </Popup>
+                                    </Grid>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="HasItems" Value="false">
+                                            <Setter TargetName="DropDownBorder" Property="MinHeight" Value="95" />
+                                        </Trigger>
+                                        <Trigger Property="IsGrouping" Value="true">
+                                            <Setter Property="ScrollViewer.CanContentScroll" Value="false" />
+                                        </Trigger>
+                                        <Trigger SourceName="Popup" Property="AllowsTransparency" Value="true">
+                                            <Setter TargetName="DropDownBorder" Property="CornerRadius" Value="4" />
+                                            <Setter TargetName="DropDownBorder" Property="Margin" Value="0,2,0,0" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ResourceDictionary>
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <!--<i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loading">
+            <i:InvokeCommandAction
+        </i:EventTrigger>
+    </i:Interaction.Triggers>-->
+    <Grid>
+
+        <DockPanel>
+            <Grid DockPanel.Dock="Top">
+                <!--<Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <StackPanel
+                Grid.Row="0"
+                VerticalAlignment="Center"
+                Orientation="Horizontal">
+                <TextBlock d:Text="测试" Text="{Binding Client.Model.Name}" />
+            </StackPanel>-->
+                <Expander
+                    Header="{Binding Client.Model.Name}"
+                    IsExpanded="True"
+                    Style="{StaticResource ExpanderStyle2}">
+                    <Grid Grid.Row="1" Height="150">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Orientation="Horizontal">
+                            <Label
+                                VerticalAlignment="Center"
+                                Content="*"
+                                FontSize="15"
+                                Foreground="Red" />
+                            <Label HorizontalAlignment="Left" Content="名称" />
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Orientation="Horizontal">
+                            <Label
+                                VerticalAlignment="Center"
+                                Content="*"
+                                FontSize="15"
+                                Foreground="Red" />
+                            <Label HorizontalAlignment="Left" Content="Client ID" />
+                        </StackPanel>
+                        <StackPanel Grid.Column="2" Orientation="Horizontal">
+                            <Label HorizontalAlignment="Left" Content="用户名" />
+                        </StackPanel>
+                        <TextBox
+                            Grid.Row="1"
+                            Margin="5,5,30,5"
+                            Text="{Binding Client.Model.Name}" />
+                        <TextBox
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            Margin="5,5,30,5"
+                            Text="{Binding Client.Model.ClientID}" />
+                        <TextBox
+                            Grid.Row="1"
+                            Grid.Column="2"
+                            Margin="5,5,30,5"
+                            Text="{Binding Client.Model.UserName}" />
+                        <StackPanel Grid.Row="2" Orientation="Horizontal">
+                            <Label HorizontalAlignment="Left" Content="密码" />
+                        </StackPanel>
+                        <StackPanel
+                            Grid.Row="2"
+                            Grid.Column="1"
+                            Orientation="Horizontal">
+                            <Label HorizontalAlignment="Left" Content="Keep Alive" />
+                        </StackPanel>
+                        <StackPanel
+                            Grid.Row="2"
+                            Grid.Column="2"
+                            Orientation="Horizontal">
+                            <Label HorizontalAlignment="Left" Content="Clean Start" />
+                        </StackPanel>
+                        <TextBox
+                            Grid.Row="3"
+                            Margin="5,5,30,5"
+                            Text="{Binding Client.Model.UserPassWord}" />
+                        <TextBox
+                            Grid.Row="3"
+                            Grid.Column="1"
+                            Margin="5,5,30,5"
+                            Text="{Binding Client.Model.KeepAlive}" />
+                        <CheckBox
+                            Grid.Row="3"
+                            Grid.Column="2"
+                            Margin="5,5,30,5"
+                            IsChecked="{Binding Client.Model.CleanStart}" />
+                        <Button
+                            Grid.Row="4"
+                            Grid.Column="2"
+                            Command="{Binding ConnectCommand}"
+                            CommandParameter="{Binding ElementName=UC}"
+                            Content="连接" />
+                    </Grid>
+                </Expander>
+            </Grid>
+
+            <Grid DockPanel.Dock="Bottom">
+                <Grid.Resources>
                     <Style TargetType="ListViewItem">
                         <Setter Property="KeyboardNavigation.AcceptsReturn" Value="True" />
                         <Setter Property="HorizontalContentAlignment" Value="Left" />
@@ -386,179 +654,268 @@
 
                     </Style>
 
-                </ResourceDictionary>
+                </Grid.Resources>
 
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-    </UserControl.Resources>
-    <DockPanel>
-
-
-        <Grid DockPanel.Dock="Top">
-            <!--<Grid.RowDefinitions>
-                <RowDefinition Height="30" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <StackPanel
-                Grid.Row="0"
-                VerticalAlignment="Center"
-                Orientation="Horizontal">
-                <TextBlock d:Text="测试" Text="{Binding Client.Model.Name}" />
-            </StackPanel>-->
-            <Expander
-                Header="{Binding Client.Model.Name}"
-                IsExpanded="True"
-                Style="{StaticResource ExpanderStyle2}">
-                <Grid Grid.Row="1" Height="150">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="220" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="30" />
-                        <RowDefinition Height="30" />
-                        <RowDefinition Height="30" />
-                        <RowDefinition Height="30" />
-                        <RowDefinition Height="30" />
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="*" />
-                    </Grid.ColumnDefinitions>
-                    <StackPanel Orientation="Horizontal">
-                        <Label
-                            VerticalAlignment="Center"
-                            Content="*"
-                            FontSize="15"
-                            Foreground="Red" />
-                        <Label HorizontalAlignment="Left" Content="名称" />
-                    </StackPanel>
-                    <StackPanel Grid.Column="1" Orientation="Horizontal">
-                        <Label
-                            VerticalAlignment="Center"
-                            Content="*"
-                            FontSize="15"
-                            Foreground="Red" />
-                        <Label HorizontalAlignment="Left" Content="Client ID" />
-                    </StackPanel>
-                    <StackPanel Grid.Column="2" Orientation="Horizontal">
-                        <Label HorizontalAlignment="Left" Content="用户名" />
-                    </StackPanel>
-                    <TextBox
-                        Grid.Row="1"
-                        Margin="5,5,30,5"
-                        Text="{Binding Client.Model.Name}" />
-                    <TextBox
-                        Grid.Row="1"
-                        Grid.Column="1"
-                        Margin="5,5,30,5"
-                        Text="{Binding Client.Model.ClientID}" />
-                    <TextBox
-                        Grid.Row="1"
-                        Grid.Column="2"
-                        Margin="5,5,30,5"
-                        Text="{Binding Client.Model.UserName}" />
-                    <StackPanel Grid.Row="2" Orientation="Horizontal">
-                        <Label HorizontalAlignment="Left" Content="密码" />
-                    </StackPanel>
-                    <StackPanel
-                        Grid.Row="2"
-                        Grid.Column="1"
-                        Orientation="Horizontal">
-                        <Label HorizontalAlignment="Left" Content="Keep Alive" />
-                    </StackPanel>
-                    <StackPanel
-                        Grid.Row="2"
-                        Grid.Column="2"
-                        Orientation="Horizontal">
-                        <Label HorizontalAlignment="Left" Content="Clean Start" />
-                    </StackPanel>
-                    <TextBox
-                        Grid.Row="3"
-                        Margin="5,5,30,5"
-                        Text="{Binding Client.Model.UserPassWord}" />
-                    <TextBox
-                        Grid.Row="3"
-                        Grid.Column="1"
-                        Margin="5,5,30,5"
-                        Text="{Binding Client.Model.KeepAlive}" />
-                    <CheckBox
-                        Grid.Row="3"
-                        Grid.Column="2"
-                        Margin="5,5,30,5"
-                        IsChecked="{Binding Client.Model.CleanStart}" />
-                    <Button
-                        Grid.Row="4"
-                        Grid.Column="2"
-                        Command="{Binding ConnectCommand}"
-                        Content="连接"
-                        Style="{StaticResource ButtonStyle}" />
-                </Grid>
-            </Expander>
-        </Grid>
-
-        <Grid DockPanel.Dock="Bottom">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="220" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-            <Grid Grid.Column="0">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="50" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
-                <Button
-                    Margin="0,10,0,10"
-                    Command="{Binding AddSubscribeCommand}"
-                    CommandParameter="{Binding}"
-                    Content=" +  添加订阅"
-                    Style="{StaticResource ButtonStyle}" />
-                <ListView Grid.Row="1" ItemsSource="{Binding Client.Model.listTopic}" />
-            </Grid>
-            <Grid Grid.Column="1">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="20" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
-                <StackPanel Orientation="Horizontal">
-                    <ComboBox Width="50" Margin="10,2,0,2" />
-                    <RadioButton
-                        VerticalContentAlignment="Center"
-                        Content="全部"
-                        IsChecked="{Binding Accept, Converter={StaticResource InValueConverter}, ConverterParameter=0}" />
-                    <RadioButton
-                        VerticalContentAlignment="Center"
-                        Content="已接收"
-                        IsChecked="{Binding Accept, Converter={StaticResource InValueConverter}, ConverterParameter=1}" />
-                    <RadioButton
-                        VerticalContentAlignment="Center"
-                        Content="已发送"
-                        IsChecked="{Binding Accept, Converter={StaticResource InValueConverter}, ConverterParameter=2}" />
-
-                </StackPanel>
-                <ListView Grid.Row="1" />
-
-                <Grid Grid.Row="2">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="20" />
-                        <RowDefinition Height="20" />
+                        <RowDefinition Height="50" />
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-
-                    <StackPanel Height="20" Orientation="Horizontal">
-                        <ComboBox Width="50" />
-                        <ComboBox Width="50" />
-                        <RadioButton VerticalContentAlignment="Center" Content="Retain" />
-                        <ToggleButton Content="Meta" />
-                    </StackPanel>
-                    <StackPanel
+                    <Button
+                        Margin="0,10,0,10"
+                        Command="{Binding AddSubscribeCommand}"
+                        CommandParameter="{Binding}"
+                        Content=" +  添加订阅"
+                        Style="{StaticResource ButtonStyle}" />
+                    <ListView
+                        x:Name="ListTopic"
                         Grid.Row="1"
-                        Height="20"
-                        Orientation="Horizontal">
-                        <TextBlock />
-                        <ComboBox />
-                    </StackPanel>
-                    <TextBox Grid.Row="2" />
+                        ItemsSource="{Binding Client.Model.listTopic}"
+                        ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                        ScrollViewer.VerticalScrollBarVisibility="Disabled" />
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid>
+                        <ComboBox
+                            Width="80"
+                            Margin="10,2,0,2"
+                            HorizontalAlignment="Left"
+                            Style="{StaticResource PropComboBoxStyle}" />
+                        <Grid HorizontalAlignment="Right">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="50" />
+                                <ColumnDefinition Width="50" />
+                                <ColumnDefinition Width="50" />
+                            </Grid.ColumnDefinitions>
+                            <Border
+                                Width="1"
+                                HorizontalAlignment="Right"
+                                BorderBrush="DarkGray"
+                                BorderThickness="1" />
+                            <Border
+                                Grid.Column="1"
+                                Width="1"
+                                HorizontalAlignment="Right"
+                                BorderBrush="DarkGray"
+                                BorderThickness="1" />
+                            <RadioButton
+                                VerticalContentAlignment="Center"
+                                Content="全部"
+                                IsChecked="{Binding Accept, Converter={StaticResource InValueConverter}, ConverterParameter=0}"
+                                Template="{StaticResource radioStyle}" />
+                            <RadioButton
+                                Grid.Column="1"
+                                VerticalContentAlignment="Center"
+                                Content="已接收"
+                                IsChecked="{Binding Accept, Converter={StaticResource InValueConverter}, ConverterParameter=1}"
+                                Template="{StaticResource radioStyle}" />
+                            <RadioButton
+                                Grid.Column="2"
+                                VerticalContentAlignment="Center"
+                                Content="已发送"
+                                IsChecked="{Binding Accept, Converter={StaticResource InValueConverter}, ConverterParameter=2}"
+                                Template="{StaticResource radioStyle}" />
+                        </Grid>
+
+                    </Grid>
+                    <ListView Grid.Row="1" ItemsSource="{Binding ElementName=ListTopic}" />
+
+                    <Grid Grid.Row="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="20" />
+                            <RowDefinition Height="20" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Height="20" Orientation="Horizontal">
+                            <ComboBox Width="50" Style="{StaticResource PropComboBoxStyle}" />
+                            <ComboBox Width="50" Style="{StaticResource PropComboBoxStyle}" />
+                            <RadioButton VerticalContentAlignment="Center" Content="Retain" />
+                            <ToggleButton Content="Meta" />
+                        </StackPanel>
+                        <StackPanel
+                            Grid.Row="1"
+                            Height="20"
+                            Orientation="Horizontal">
+                            <TextBlock />
+                            <ComboBox />
+
+                        </StackPanel>
+
+                        <TextBox Grid.Row="2" />
+                        <Button
+                            Grid.Row="2"
+                            Width="35"
+                            Height="35"
+                            Margin="0,100,20,10"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Bottom"
+                            Background="Green"
+                            Command="{Binding SendMessageCommand}"
+                            CommandParameter="{Binding ElementName=UC}"
+                            Template="{StaticResource sendButtonStyle}" />
+                    </Grid>
                 </Grid>
             </Grid>
-        </Grid>
-    </DockPanel>
+        </DockPanel>
+        <Border
+            Name="failedbox"
+            MinWidth="200"
+            MinHeight="45"
+            MaxWidth="350"
+            Margin="1200,50,0,0"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Background="#EEFFFFFF"
+            CornerRadius="10">
+            <Border.Effect>
+                <DropShadowEffect
+                    BlurRadius="10"
+                    Opacity="0.3"
+                    ShadowDepth="0"
+                    Color="#DDD" />
+            </Border.Effect>
+            <Grid Margin="10,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="30" />
+                </Grid.ColumnDefinitions>
+                <TextBlock
+                    Margin="10,13"
+                    VerticalAlignment="Top"
+                    FontFamily="{StaticResource Iconfont}"
+                    FontSize="26"
+                    Foreground="OrangeRed"
+                    Text="&#xe663;" />
+                <TextBox
+                    Grid.Column="1"
+                    Margin="0,10"
+                    VerticalAlignment="Stretch"
+                    VerticalContentAlignment="Center"
+                    Background="Transparent"
+                    BorderBrush="Transparent"
+                    BorderThickness="0"
+                    Effect="{x:Null}"
+                    FontSize="12"
+                    FontWeight="Normal"
+                    Foreground="#555"
+                    IsReadOnly="True"
+                    MaxLength="10"
+                    Style="{x:Null}"
+                    Text="客户端未连接"
+                    TextWrapping="Wrap" />
+                <!--  Text="{Binding SaveFailedMessage, StringFormat=组态数据保存失败！异常原因：{0}}"  -->
+                <Button
+                    Grid.Column="2"
+                    Width="20"
+                    Height="20"
+                    Margin="0,15"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Command="{Binding CloseSaveFailedCommand}"
+                    CommandParameter="{Binding ElementName=UC}"
+                    Content="&#xe653;"
+                    FontFamily="{StaticResource Iconfont}"
+                    Style="{StaticResource ControlButtonStyle}" />
+            </Grid>
+        </Border>
+        <Border
+            Name="successbox"
+            Width="200"
+            Height="45"
+            Margin="1200,70,0,0"
+            VerticalAlignment="Top"
+            Background="#EEFFFFFF"
+            CornerRadius="10">
+            <Border.Effect>
+                <DropShadowEffect
+                    BlurRadius="10"
+                    Opacity="0.3"
+                    ShadowDepth="0"
+                    Color="#DDD" />
+            </Border.Effect>
+            <StackPanel
+                Margin="10,0"
+                VerticalAlignment="Center"
+                Orientation="Horizontal">
+                <TextBlock
+                    Margin="10,0"
+                    VerticalAlignment="Center"
+                    FontFamily="{StaticResource Iconfont}"
+                    FontSize="26"
+                    Foreground="LightGreen"
+                    Text="&#xe60d;" />
+                <TextBlock
+                    VerticalAlignment="Center"
+                    FontSize="12"
+                    FontWeight="Normal"
+                    Foreground="ForestGreen"
+                    Text="连接成功" />
+            </StackPanel>
+        </Border>
+
+    </Grid>
+    <VisualStateManager.VisualStateGroups>
+        <VisualStateGroup>
+            <VisualState Name="SaveFailedNormal" />
+            <VisualState Name="SaveFailedShow">
+                <Storyboard>
+                    <ThicknessAnimationUsingKeyFrames Storyboard.TargetName="failedbox" Storyboard.TargetProperty="Margin">
+                        <LinearThicknessKeyFrame KeyTime="0:0:0" Value="1200,70,0,0" />
+                        <LinearThicknessKeyFrame KeyTime="0:0:0.2" Value="1000,70,0,0" />
+                        <LinearThicknessKeyFrame KeyTime="0:0:0.4" Value="800,70,0,0" />
+                        <LinearThicknessKeyFrame KeyTime="0:0:0.6" Value="600,70,0,0" />
+                    </ThicknessAnimationUsingKeyFrames>
+                    <DoubleAnimationUsingKeyFrames Storyboard.TargetName="failedbox" Storyboard.TargetProperty="Opacity">
+                        <LinearDoubleKeyFrame KeyTime="0:0:0" Value="0" />
+                        <LinearDoubleKeyFrame KeyTime="0:0:0.8" Value="1" />
+                    </DoubleAnimationUsingKeyFrames>
+                </Storyboard>
+            </VisualState>
+            <VisualState Name="SaveFailedClose">
+                <Storyboard>
+                    <ThicknessAnimationUsingKeyFrames Storyboard.TargetName="failedbox" Storyboard.TargetProperty="Margin">
+                        <LinearThicknessKeyFrame KeyTime="0:0:0" Value="600,70,0,0" />
+                        <LinearThicknessKeyFrame KeyTime="0:0:0.3" Value="1200,70,0,0" />
+                    </ThicknessAnimationUsingKeyFrames>
+                    <DoubleAnimationUsingKeyFrames Storyboard.TargetName="failedbox" Storyboard.TargetProperty="Opacity">
+                        <LinearDoubleKeyFrame KeyTime="0:0:0" Value="1" />
+                        <LinearDoubleKeyFrame KeyTime="0:0:0.3" Value="0" />
+                    </DoubleAnimationUsingKeyFrames>
+                </Storyboard>
+            </VisualState>
+        </VisualStateGroup>
+        <VisualStateGroup>
+            <VisualState Name="SaveSuccess">
+                <Storyboard>
+                    <!--  处理位置  -->
+                    <ThicknessAnimationUsingKeyFrames Storyboard.TargetName="successbox" Storyboard.TargetProperty="Margin">
+                        <LinearThicknessKeyFrame KeyTime="0:0:0" Value="1200,70,0,0" />
+                        <LinearThicknessKeyFrame KeyTime="0:0:0.3" Value="600,70,0,0" />
+                        <LinearThicknessKeyFrame KeyTime="0:0:3.3" Value="600,70,0,0" />
+                        <LinearThicknessKeyFrame KeyTime="0:0:4" Value="1200,70,0,0" />
+                    </ThicknessAnimationUsingKeyFrames>
+
+                    <DoubleAnimationUsingKeyFrames Storyboard.TargetName="successbox" Storyboard.TargetProperty="Opacity">
+                        <LinearDoubleKeyFrame KeyTime="0:0:0" Value="0" />
+                        <LinearDoubleKeyFrame KeyTime="0:0:0.5" Value="1" />
+                        <LinearDoubleKeyFrame KeyTime="0:0:3.5" Value="1" />
+                        <LinearDoubleKeyFrame KeyTime="0:0:4" Value="0" />
+                    </DoubleAnimationUsingKeyFrames>
+                </Storyboard>
+            </VisualState>
+            <VisualState x:Name="NormalSuccess" />
+        </VisualStateGroup>
+
+    </VisualStateManager.VisualStateGroups>
 </UserControl>

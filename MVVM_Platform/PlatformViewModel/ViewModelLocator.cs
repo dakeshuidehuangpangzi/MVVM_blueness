@@ -4,13 +4,13 @@ using IBLL;
 using IDAL;
 using Microsoft.Extensions.DependencyInjection;
 using NLog;
-using PlatformViewModel.ShowDiglog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Threading;
 
 namespace PlatformViewModel
@@ -30,9 +30,10 @@ namespace PlatformViewModel
             services.AddTransient<ILoginBLL, LoginBLL>();
             services.AddTransient<ILoginDal, LoginDal>();
             services.AddSingleton<MQTTTestViewModel>();
-            services.AddScoped<MQTTSendAndConfigviewModel>();
-            services.AddScoped<AddSubscriptionDialogViewModel>();
+            //services.AddScoped<MQTTSendAndConfigviewModel>();
+            //services.AddScoped<AddSubscriptionDialogViewModel>();
             services.AddTransient<MqttNewConnectViewModel>();
+            services.AddSingleton<HalconViewModel>();
 
         }
 
@@ -65,10 +66,7 @@ namespace PlatformViewModel
             services.AddTransient<ILoginBLL, LoginBLL>();
             services.AddTransient<ILoginDal, LoginDal>();
             services.AddSingleton<MQTTTestViewModel>();
-            services.AddScoped<MQTTSendAndConfigviewModel>();
-            services.AddTransient<AddSubscriptionDialogViewModel>();
-
-            
+           // services.AddScoped<MQTTSendAndConfigviewModel>();
         }
 
 

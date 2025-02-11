@@ -11,6 +11,7 @@ F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\bin\Debug\net6.0-
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\bin\Debug\net6.0-windows\Models.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\bin\Debug\net6.0-windows\PlatformViewModel.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\bin\Debug\net6.0-windows\SystemConfig.dll
+F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\bin\Debug\net6.0-windows\halcondotnet.dll
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\bin\Debug\net6.0-windows\PlatformViewModel.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\bin\Debug\net6.0-windows\BLL.pdb
 F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\PlatformView\bin\Debug\net6.0-windows\Common.pdb

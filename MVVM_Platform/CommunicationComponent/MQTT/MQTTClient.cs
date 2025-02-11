@@ -8,13 +8,15 @@ using System.Windows.Input;
 
 public delegate void OrderEventHandler(MQTTClient sender, MessageReceivedArg e);
 
-public partial class MQTTClient : ObservableRecipient
+public  class MQTTClient : ObservableObject
 {
     #region 属性
-    [ObservableProperty]
     /// <summary>名称</summary>
     MQTTClientModel model=new ();
+    public MQTTClientModel Model { get => model; set { SetProperty(ref model, value); } }
     private IMqttClient mqttClient;
+    bool isConnect = false;
+    public bool IsConnect { get => isConnect; set { SetProperty(ref isConnect, value); } }
 
     #endregion
 
@@ -76,6 +78,28 @@ public partial class MQTTClient : ObservableRecipient
             mqttClient.ApplicationMessageReceivedAsync += ApplicationMessageReceivedHandle;
             //连接MQTT服务器
             await mqttClient.ConnectAsync(options);
+            if (mqttClient.IsConnected && Model.listTopic.Count != 0)
+            {
+                foreach (var item in Model.listTopic)
+                {
+                   Subscribe(item.Topic);
+                }
+            }
+
+
+            Task.Run(async () =>
+            {
+                while (true)
+                {
+                    Thread.Sleep(2000);
+                    // 发布消息
+                    await mqttClient.PublishAsync(new MqttApplicationMessageBuilder()
+                        .WithTopic("xunz") // 主题
+                        .WithPayload("Hello, MQTT ! " + DateTime.Now.ToString("HH :mm :ss"))
+                        .WithRetainFlag()
+                        .Build());
+                }
+            });
         }
         catch (Exception ex)
         {
@@ -152,7 +176,7 @@ public partial class MQTTClient : ObservableRecipient
         var Receive = model.listTopic.FirstOrDefault(x => x.Topic == args.ApplicationMessage.Topic);
         if (Receive!=null)
         {
-            Receive.ReceiveMessages.Add(Encoding.UTF8.GetString(args.ApplicationMessage.PayloadSegment));
+            Receive.ReceiveMessages.Add(new MqttMessageInfo { Lever=1, Message= Encoding.UTF8.GetString(args.ApplicationMessage.PayloadSegment) });
         }
         InvokeMessageReceived(
                 new MessageReceivedArg
@@ -172,7 +196,8 @@ public partial class MQTTClient : ObservableRecipient
     private  Task ConnectedHandle(MqttClientConnectedEventArgs args)
     {
         //InvokeConnected(IsConnected =  args.ConnectResult.IsSessionPresent);
-        InvokeConnected(model.IsConnected = args.ConnectResult.IsSessionPresent);
+        InvokeConnected(IsConnect=model.IsConnected = args.ConnectResult.ResultCode ==0);
+        IsConnect = args.ConnectResult.ResultCode == 0;
         return Task.CompletedTask;
         //throw new NotImplementedException();
     }

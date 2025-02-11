@@ -11,3 +11,6 @@ build_property.RootNamespace = UIControl
 build_property.ProjectDir = F:\GitWorkerCode\2024\MVVM_blueness\MVVM_Platform\UIControl\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 

@@ -69,7 +69,7 @@ namespace Platform.Views.Dialog {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Platform;V1.0.0.0;component/views/dialog/mitsubishiconfigdialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Platform;component/views/dialog/mitsubishiconfigdialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Dialog\MitsubishiConfigDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

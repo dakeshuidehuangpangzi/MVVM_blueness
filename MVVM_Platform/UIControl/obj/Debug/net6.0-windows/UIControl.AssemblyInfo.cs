@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UIControl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+733625cf45e161bda292d3ec15e477ea9768b75e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+998cfe137d18faf574f55015a056becee04ba55d")]
 [assembly: System.Reflection.AssemblyProductAttribute("UIControl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UIControl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

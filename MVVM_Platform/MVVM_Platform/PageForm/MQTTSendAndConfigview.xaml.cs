@@ -9,6 +9,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
+using System.Windows.Markup;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
@@ -21,16 +22,24 @@ namespace MVVM_Platform
     /// </summary>
     public partial class MQTTSendAndConfigview : UserControl
     {
+        MQTTClient mQTT = null;
         public MQTTSendAndConfigview(object abc)
         {
-            var data = abc as MQTTClient;
             InitializeComponent();
+            mQTT = abc as MQTTClient;
             var Context = App.Current.Services.GetService<MQTTSendAndConfigviewModel>();
-            if (Context!=null)
+            if (Context != null)
             {
-                Context.Client = data;
+                Context.Client = mQTT;
             }
             this.DataContext = Context;
+        }
+
+        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        {
+
+            //ListTopic.ItemsSource = ((MQTTSendAndConfigviewModel)DataContext).Client.Model.listTopic;
+
         }
     }
 }

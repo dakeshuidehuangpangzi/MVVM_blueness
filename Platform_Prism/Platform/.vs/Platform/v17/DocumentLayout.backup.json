@@ -3,6 +3,50 @@
   "WorkspaceRootPath": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\obj\\Debug\\net6.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Platform\\obj\\Debug\\net6.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\platform\\viewmodels\\monitorpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|solutionrelative:platform\\viewmodels\\monitorpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\platform\\views\\monitorpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|solutionrelative:platform\\views\\monitorpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\platform\\views\\monitorpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|solutionrelative:platform\\views\\monitorpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\platform\\views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|solutionrelative:platform\\views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\platform\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|solutionrelative:platform\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\platform\\views\\historypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|solutionrelative:platform\\views\\historypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\platform\\views\\dialogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|solutionrelative:platform\\views\\dialogwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\platform\\views\\alarmpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|solutionrelative:platform\\views\\alarmpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\platform\\views\\dialog\\mitsubishiconfigdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|solutionrelative:platform\\views\\dialog\\mitsubishiconfigdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\platform\\views\\dialog\\meterconfigdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{88C1FD90-D73D-46F4-94F6-44E9C95ADE35}|Platform\\Platform.csproj|solutionrelative:platform\\views\\dialog\\meterconfigdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F059BC7B-573F-426E-BBA4-3F6504306A36}|PlcPlatform\\PlcPlatform.csproj|f:\\gitworkercode\\2024\\mvvm_blueness\\platform_prism\\platform\\plcplatform\\plcplatform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F059BC7B-573F-426E-BBA4-3F6504306A36}|PlcPlatform\\PlcPlatform.csproj|solutionrelative:plcplatform\\plcplatform.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -30,16 +74,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -47,6 +83,141 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "App.g.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\obj\\Debug\\net6.0-windows\\App.g.cs",
+              "RelativeDocumentMoniker": "Platform\\obj\\Debug\\net6.0-windows\\App.g.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\obj\\Debug\\net6.0-windows\\App.g.cs",
+              "RelativeToolTip": "Platform\\obj\\Debug\\net6.0-windows\\App.g.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAqwDIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:16:31.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MonitorPageViewModel.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\ViewModels\\MonitorPageViewModel.cs",
+              "RelativeDocumentMoniker": "Platform\\ViewModels\\MonitorPageViewModel.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\ViewModels\\MonitorPageViewModel.cs",
+              "RelativeToolTip": "Platform\\ViewModels\\MonitorPageViewModel.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAqwJcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:15:58.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MonitorPage.xaml.cs",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\MonitorPage.xaml.cs",
+              "RelativeDocumentMoniker": "Platform\\Views\\MonitorPage.xaml.cs",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\MonitorPage.xaml.cs",
+              "RelativeToolTip": "Platform\\Views\\MonitorPage.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T06:58:47.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReportPage.xaml",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\ReportPage.xaml",
+              "RelativeDocumentMoniker": "Platform\\Views\\ReportPage.xaml",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\ReportPage.xaml",
+              "RelativeToolTip": "Platform\\Views\\ReportPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T06:58:39.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MonitorPage.xaml",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\MonitorPage.xaml",
+              "RelativeDocumentMoniker": "Platform\\Views\\MonitorPage.xaml",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\MonitorPage.xaml",
+              "RelativeToolTip": "Platform\\Views\\MonitorPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T06:58:38.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Platform\\Views\\MainWindow.xaml",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Platform\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T06:58:36.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HistoryPage.xaml",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\HistoryPage.xaml",
+              "RelativeDocumentMoniker": "Platform\\Views\\HistoryPage.xaml",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\HistoryPage.xaml",
+              "RelativeToolTip": "Platform\\Views\\HistoryPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T06:58:36.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DialogWindow.xaml",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\DialogWindow.xaml",
+              "RelativeDocumentMoniker": "Platform\\Views\\DialogWindow.xaml",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\DialogWindow.xaml",
+              "RelativeToolTip": "Platform\\Views\\DialogWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T06:58:34.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AlarmPage.xaml",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\AlarmPage.xaml",
+              "RelativeDocumentMoniker": "Platform\\Views\\AlarmPage.xaml",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\AlarmPage.xaml",
+              "RelativeToolTip": "Platform\\Views\\AlarmPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T06:58:33.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MitsubishiConfigDialog.xaml",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\Dialog\\MitsubishiConfigDialog.xaml",
+              "RelativeDocumentMoniker": "Platform\\Views\\Dialog\\MitsubishiConfigDialog.xaml",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\Dialog\\MitsubishiConfigDialog.xaml",
+              "RelativeToolTip": "Platform\\Views\\Dialog\\MitsubishiConfigDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T06:58:21.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MeterConfigDialog.xaml",
+              "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\Dialog\\MeterConfigDialog.xaml",
+              "RelativeDocumentMoniker": "Platform\\Views\\Dialog\\MeterConfigDialog.xaml",
+              "ToolTip": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Platform\\Views\\Dialog\\MeterConfigDialog.xaml",
+              "RelativeToolTip": "Platform\\Views\\Dialog\\MeterConfigDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-19T06:58:12.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "PlcPlatform.csproj",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\PlcPlatform\\PlcPlatform.csproj",
               "RelativeDocumentMoniker": "PlcPlatform\\PlcPlatform.csproj",
@@ -59,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "Wireless.csproj",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Wireless\\Wireless.csproj",
               "RelativeDocumentMoniker": "Wireless\\Wireless.csproj",
@@ -72,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "Bluetooth.cs",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Wireless\\Bluetooth.cs",
               "RelativeDocumentMoniker": "Wireless\\Bluetooth.cs",
@@ -80,11 +251,12 @@
               "RelativeToolTip": "Wireless\\Bluetooth.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAQwDYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T11:08:21.222Z"
+              "WhenOpened": "2024-08-27T11:08:21.222Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "Class1.cs",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\Wireless\\Class1.cs",
               "RelativeDocumentMoniker": "Wireless\\Class1.cs",
@@ -96,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "CANDLL.cs",
               "DocumentMoniker": "F:\\GitWorkerCode\\2024\\MVVM_blueness\\Platform_Prism\\Platform\\PlcPlatform\\Realize\\Can\\CANDLL.cs",
               "RelativeDocumentMoniker": "PlcPlatform\\Realize\\Can\\CANDLL.cs",
